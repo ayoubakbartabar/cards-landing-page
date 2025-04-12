@@ -34,7 +34,7 @@
 }
 
 .getYourCard-btn:hover .arrow-icon {
-   
+
     animation: moveArrow 0.6s infinite ease-in-out;
 }
 
@@ -56,10 +56,10 @@
     filter: invert(94%) sepia(5%) saturate(402%) hue-rotate(180deg) brightness(105%) contrast(101%);
 }
 
-.header-left-side-title{
-color: var(--text-white-color);
+.header-left-side-title {
+    color: var(--text-white-color);
 }
 
-.header-left-side-paragraph{
+.header-left-side-paragraph {
     color: var(--header-paragraph-color);
 }
