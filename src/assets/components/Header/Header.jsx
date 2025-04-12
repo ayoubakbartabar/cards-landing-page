@@ -13,7 +13,7 @@ export default function Header() {
         />
         <button className="getYourCard-btn">
           get your card
-          <FaArrowRightLong />
+          <span className="arrow-icon"><FaArrowRightLong /></span>
         </button>
       </div>
       <div className="header-bottom">
@@ -27,7 +27,7 @@ export default function Header() {
           </p>
           <button className="getYourCard-btn">
             get your card
-            <FaArrowRightLong />
+            <span className="arrow-icon"><FaArrowRightLong /></span>
           </button>
           <button className="read-doc-btn">Read documentation</button>
         </div>
