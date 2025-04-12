@@ -13,14 +13,19 @@ export default function Header() {
         />
         <button className="getYourCard-btn">
           get your card
-          <span className="arrow-icon"><FaArrowRightLong /></span>
+          <span className="arrow-icon">
+            <FaArrowRightLong />
+          </span>
         </button>
       </div>
       <div className="header-bottom">
         <div className="header-left-side">
           <h1 className="header-left-side-title">
-            Create physical and virtual cards for your <span className="business-text"><img src="public/svg/background-circle.svg" alt="" />business</span>
-        
+            Create physical and virtual cards for your{" "}
+            <span className="business-text">
+              <img src="public/svg/background-circle.svg" alt="" />
+              business
+            </span>
           </h1>
           <p className="header-left-side-paragraph">
             Our landing page template works on all devices, so you only have to
@@ -28,7 +33,9 @@ export default function Header() {
           </p>
           <button className="getYourCard-btn">
             get your card
-            <span className="arrow-icon"><FaArrowRightLong /></span>
+            <span className="arrow-icon">
+              <FaArrowRightLong />
+            </span>
           </button>
           <button className="read-doc-btn">Read documentation</button>
         </div>
