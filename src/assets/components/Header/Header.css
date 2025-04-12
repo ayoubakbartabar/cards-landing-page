@@ -61,5 +61,5 @@ color: var(--text-white-color);
 }
 
 .header-left-side-paragraph{
-    color: var(--header-paragraph);
+    color: var(--header-paragraph-color);
 }
