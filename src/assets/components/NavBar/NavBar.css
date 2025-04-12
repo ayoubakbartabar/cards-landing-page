@@ -3,6 +3,6 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 1rem 1.5rem;
     background-color: var(--navBar-background);
 }
