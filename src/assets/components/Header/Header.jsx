@@ -19,7 +19,8 @@ export default function Header() {
       <div className="header-bottom">
         <div className="header-left-side">
           <h1 className="header-left-side-title">
-            Create physical and virtual cards for your business
+            Create physical and virtual cards for your <span className="business-text"><img src="public/svg/background-circle.svg" alt="" />business</span>
+        
           </h1>
           <p className="header-left-side-paragraph">
             Our landing page template works on all devices, so you only have to
