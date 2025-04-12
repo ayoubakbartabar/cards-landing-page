@@ -1,8 +1,8 @@
 :root {
     --navBar-background: rgba(17, 24, 39, 0.9);
     --text-white-color: rgb(255 255 255);
-
-}
+    --header-background:rgb(37 99 235 );
+};
 
 * {
     padding: 0;
