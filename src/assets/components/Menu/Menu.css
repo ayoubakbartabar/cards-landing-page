@@ -15,4 +15,5 @@
     text-transform: capitalize;
     text-decoration: none;
     color: var(--text-white-color);
+    font-weight: 800;
 }
