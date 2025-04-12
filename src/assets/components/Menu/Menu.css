@@ -1,0 +1,17 @@
+.menu-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+.menu-item {
+    list-style: none;
+}
+
+.menu-link {
+    text-transform: capitalize;
+    text-decoration: none;
+}
