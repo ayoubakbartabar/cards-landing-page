@@ -2,6 +2,8 @@
     --navBar-background: rgba(17, 24, 39, 0.9);
     --text-white-color: rgb(255 255 255);
     --header-background:rgb(37 99 235 );
+    --get-card-background: rgb(30 41 59);
+    --get-card-arrow-color:rgb(0, 183, 255);
 };
 
 * {
