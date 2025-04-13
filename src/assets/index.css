@@ -1,16 +1,17 @@
 :root {
     --navBar-background: rgba(17, 24, 39, 0.9);
     --text-white-color: rgb(255 255 255);
-    --header-background:rgb(37 99 235 );
+    --header-background: rgb(37 99 235);
     --header-paragraph-color: rgb(191 219 254);
     --get-card-background: rgb(30 41 59);
-    --get-card-arrow-color:rgb(0, 183, 255);
-};
+    --get-card-arrow-color: rgb(0, 183, 255);
+}
+
+;
 
 
 * {
-    padding: 0;
-    margin: 0;
+
     box-sizing: border-box;
 }
 
@@ -73,4 +74,14 @@
 
 body {
     font-family: 'Lato';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
 }
