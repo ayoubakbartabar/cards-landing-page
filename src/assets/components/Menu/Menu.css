@@ -30,10 +30,20 @@
 .menu-link {
     text-transform: capitalize;
     text-decoration: none;
-    color: var(--text-white-color);
+    color: var(--get-card-arrow-color);
     font-weight: 800;
+    position: relative;
+    background: linear-gradient(to top left, var(--text-white-color) 50%, var(--get-card-arrow-color) 50%);
+    background-size: 200% 200%;
+    background-position: bottom right;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: background-position 0.5s ease;
 }
 
+.menu-link:hover {
+    background-position: top left;
+}
 
 @keyframes navbarSlide {
     0% {
