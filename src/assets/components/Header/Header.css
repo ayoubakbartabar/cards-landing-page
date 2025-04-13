@@ -97,37 +97,38 @@
 
 .header-left-side-title {
     position: relative;
-    z-index: 2; 
+    z-index: 2;
     color: var(--text-white-color);
     font-size: 3rem;
     margin-bottom: 1rem;
 
-  }
-  .business-span {
+}
+
+.business-span {
     position: relative;
-    display: inline-block; 
-  }
-  
-  .circle-bg {
+    display: inline-block;
+}
+
+.circle-bg {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: -1;
-    width: 130%; 
+    width: 130%;
     height: auto;
-    pointer-events: none; 
-  }
-  
-  .business-text {
+    pointer-events: none;
+}
+
+.business-text {
     position: relative;
     z-index: 1;
     color: var(--text-white-color);
     font-size: 3rem;
     margin-bottom: 1rem;
-  }
-  
-  
+}
+
+
 .header-left-side-paragraph {
     color: var(--header-paragraph-color);
     font-size: 1.2rem;
