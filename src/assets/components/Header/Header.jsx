@@ -23,7 +23,11 @@ export default function Header() {
           <h1 className="header-left-side-title">
             Create physical and virtual cards for your{" "}
             <span className="business-span">
-              <img className="circle-bg" src="public/svg/background-circle.svg" alt="" />
+              <img
+                className="circle-bg"
+                src="public/svg/background-circle.svg"
+                alt=""
+              />
               <p className="business-text">business</p>
             </span>
           </h1>
@@ -31,13 +35,15 @@ export default function Header() {
             Our landing page template works on all devices, so you only have to
             set it up once, and get beautiful results forever.
           </p>
-          <button className="getYourCard-btn">
-            get your card
-            <span className="arrow-icon">
-              <FaArrowRightLong />
-            </span>
-          </button>
-          <button className="read-doc-btn">Read documentation</button>
+          <div className="header-left-side-btns">
+            <button className="getYourCard-btn">
+              get your card
+              <span className="arrow-icon">
+                <FaArrowRightLong />
+              </span>
+            </button>
+            <button className="read-doc-btn">Read documentation</button>
+          </div>
         </div>
         <img
           className="header-transparent-img"
