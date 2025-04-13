@@ -90,3 +90,23 @@
 .header-left-side-paragraph {
     color: var(--header-paragraph-color);
 }
+
+.business-text {
+    position: relative;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 1.5rem;
+    z-index: 1;
+  }
+  
+  .business-text .circle-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+ 
+  }
+  

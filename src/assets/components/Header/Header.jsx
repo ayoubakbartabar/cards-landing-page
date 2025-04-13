@@ -23,7 +23,7 @@ export default function Header() {
           <h1 className="header-left-side-title">
             Create physical and virtual cards for your{" "}
             <span className="business-text">
-              <img src="public/svg/background-circle.svg" alt="" />
+              <img className="circle-bg" src="public/svg/background-circle.svg" alt="" />
               business
             </span>
           </h1>
