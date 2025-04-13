@@ -83,30 +83,42 @@
     }
 }
 
-.header-left-side-title {
+/* .header-bottom{display: flex;} */
+.header-left-side {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 1rem;
+}
+
+.header-left-side-title , .business-text{
     color: var(--text-white-color);
+    font-size: 3rem;
 }
 
 .header-left-side-paragraph {
     color: var(--header-paragraph-color);
+    font-size: 1.2rem;
 }
 
-.business-text {
+.business-span {
     position: relative;
     display: inline-block;
     font-weight: 700;
     font-size: 1.5rem;
     z-index: 1;
-  }
-  
-  .business-text .circle-bg {
+}
+
+.business-span .circle-bg {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 100%;
+    width: 249px;
     height: auto;
     transform: translate(-50%, -50%);
-    z-index: -1;
- 
-  }
-  
+    z-index: -1
+
+}
