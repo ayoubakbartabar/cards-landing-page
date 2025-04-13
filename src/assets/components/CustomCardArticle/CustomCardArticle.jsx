@@ -12,7 +12,6 @@ export default function CustomCardArticle() {
         </p>
       </div>
 
-      {/* <div className="divider-line"></div> */}
       <div className="custom-card-article-box">
         <img src="public/svg/custom-cards-2.svg" alt="custom-card-svg" />
         <h4 className="custom-card-article-title">Create custom cards</h4>
@@ -21,7 +20,7 @@ export default function CustomCardArticle() {
           decisions on charges and spendings.
         </p>
       </div>
-      {/* <div className="divider-line"></div> */}
+
       <div className="custom-card-article-box">
         <img src="public/svg/custom-cards-3.svg" alt="custom-card-svg" />
         <h4 className="custom-card-article-title">Create custom cards</h4>
