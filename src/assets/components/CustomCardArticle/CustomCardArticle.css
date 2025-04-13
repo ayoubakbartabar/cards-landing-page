@@ -14,6 +14,18 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    position: relative;
+    padding-right: 1rem;
+}
+
+.custom-card-article-box:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 2px;
+    height: 90px;
+    background-color: rgba(180, 180, 180, 0.5);
 }
 
 .divider-line {
