@@ -89,7 +89,7 @@
     justify-content: space-between;
     align-items: center;
     padding-left: 2rem;
-    padding-bottom: 5rem;
+    padding-bottom: 10rem;
     margin-top: 5rem;
 }
 
@@ -196,7 +196,7 @@
 
 .header-transparent-img {
     position: absolute;
-    top: 0;
+    top: -300px;
     left: 0;
     z-index: 1;
     width: 100%;
@@ -204,16 +204,9 @@
 }
 
 .header-img {
-    position: relative;
-    z-index: 2;
-    width: 100%;
-    height: auto;
-}
-
-
-.header-img {
     position: absolute;
-    top: -220px;
+    width: 80%;
+    top: -200px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 2;
