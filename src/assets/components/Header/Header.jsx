@@ -5,7 +5,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 export default function Header() {
   return (
     <section className="header-container">
-      <div className="header-top">
+      <div className="header-top   fade-up delay-1">
         <img
           className="card-svg"
           src="public/svg/card-2-svgrepo-com.svg"
@@ -18,7 +18,7 @@ export default function Header() {
           </span>
         </button>
       </div>
-      <div className="header-bottom">
+      <div className="header-bottom   fade-up  delay-2">
         <div className="header-left-side">
           <h1 className="header-left-side-title">
             Create physical and virtual cards for your{" "}
