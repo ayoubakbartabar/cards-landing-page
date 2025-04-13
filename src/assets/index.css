@@ -7,11 +7,10 @@
     --get-card-arrow-color: rgb(0, 183, 255);
 }
 
-;
-
 
 * {
-
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
