@@ -45,16 +45,18 @@ export default function Header() {
             <button className="read-doc-btn">Read documentation</button>
           </div>
         </div>
-        <img
-          className="header-transparent-img"
-          src="public/svg/logos-illustration.svg"
-          alt=""
-        />
-        <img
-          className="header-img"
-          src="public/image/hero-image.png"
-          alt="hero-image"
-        />
+        <div className="header-image-wrapper">
+          <img
+            className="header-transparent-img"
+            src="public/svg/logos-illustration.svg"
+            alt=""
+          />
+          <img
+            className="header-img"
+            src="public/image/hero-image.png"
+            alt="hero-image"
+          />
+        </div>
       </div>
     </section>
   );
