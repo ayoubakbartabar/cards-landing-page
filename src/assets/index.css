@@ -75,6 +75,11 @@ body {
     font-family: 'Lato';
 }
 
+#root {
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
 h1,
 h2,
 h3,
