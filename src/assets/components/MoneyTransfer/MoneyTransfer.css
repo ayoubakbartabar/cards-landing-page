@@ -4,7 +4,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin: 4rem 4rem;
+    margin: 4rem 7rem;
+    border-top-left-radius: 100px;
 }
 
 .money-transfer-right-side {
