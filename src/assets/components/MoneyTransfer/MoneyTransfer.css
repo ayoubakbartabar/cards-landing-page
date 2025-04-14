@@ -1,0 +1,44 @@
+.money-transfer-container {
+    background-color: var(--money-transfer-linear-gradient);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4rem 4rem;
+}
+.money-transfer-right-side{
+    width: 50%;
+}
+.money-transfer-title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    line-height: 55px;
+}
+
+.money-transfer-paragraph {
+    font-size: 1.1rem;
+    color: var(--build-card-paragraph-color);
+    margin-bottom: 1.5rem;
+}
+
+.money-transfer-left-side-description-container {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1rem;
+    width: 70%;
+    line-height: 21px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--build-card-paragraph-color);
+}
+
+.money-transfer-left-side-img {
+    border-radius: 100%;
+    width: 8%;
+}
+.money-transfer-left-side {
+    width: 50%;
+}
