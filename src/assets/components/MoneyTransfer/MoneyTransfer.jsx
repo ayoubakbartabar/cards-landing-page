@@ -34,29 +34,29 @@ export default function MoneyTransfer() {
     };
   }, []);
   return (
-    <section className="money-transfer-container">
+    <section className="money-transfer-container" ref={containerRef}>
       <img
         src="public/image/features-03.png"
         alt="features-img"
-        className="money-transfer-left-side"
+        className="money-transfer-left-side fade-in-up"
       />
 
       <div className="money-transfer-right-side">
-        <h2 className="money-transfer-title">
-          Spend your money everwhere, pay anyone effortlessy
+        <h2 className="money-transfer-title fade-in-up">
+          Spend your money everywhere, pay anyone effortlessly
         </h2>
-        <p className="money-transfer-paragraph">
+        <p className="money-transfer-paragraph fade-in-up">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua minim
           veniam, quis nostrud exercitation.
         </p>
-        <button className="getYourCard-blue-btn">
+        <button className="getYourCard-blue-btn fade-in-up">
           get your card
           <span className="arrow-icon">
             <FaArrowRightLong />
           </span>
         </button>
-        <div className="money-transfer-left-side-description-container">
+        <div className="money-transfer-left-side-description-container fade-in-up">
           <img
             className="money-transfer-left-side-img"
             src="public/image/quote-author-02.jpg"
@@ -64,7 +64,7 @@ export default function MoneyTransfer() {
           />
           <p className="money-transfer-left-side-description">
             “ We know the card market very well and this product provides the
-            speed, flexible account model and API-first approach that no one
+            speed, flexible account model, and API-first approach that no one
             else can. ”
           </p>
         </div>
