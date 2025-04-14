@@ -7,7 +7,7 @@
     --get-card-background: rgb(30 41 59);
     --get-card-arrow-color: rgb(0, 183, 255);
     --light-green: rgb(13 148 136);
-    --money-transfer-background:  linear-gradient(to bottom, #f1f5f9, rgb(241 245 249 / 0));
+    --money-transfer-background: linear-gradient(to bottom, #f1f5f9, rgb(241 245 249 / 0));
 }
 
 * {
@@ -90,4 +90,34 @@ h5,
 h6 {
     margin: 0;
     padding: 0;
+}
+
+@keyframes fadeUp {
+    0% {
+        opacity: 0;
+        transform: translateY(60px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-up {
+    opacity: 0;
+    animation: fadeUp 1.6s ease-out forwards;
+    /* مدت زمان بیشتر */
+}
+
+.fade-up.delay-1 {
+    animation-delay: 0.5s;
+}
+
+.fade-up.delay-2 {
+    animation-delay: 1s;
+}
+
+.fade-up.delay-3 {
+    animation-delay: 1.5s;
 }
