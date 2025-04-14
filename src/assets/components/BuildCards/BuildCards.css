@@ -78,17 +78,16 @@
     align-items: center;
     height: 461px;
     z-index: 5;
-    overflow-x: hidden;
 }
 
 
 .build-cards-svg {
     position: absolute;
-    bottom: -230px;
+    bottom: -200px;
     left: 50%;
     transform: translateX(-50%);
     max-width: 740px;
-    z-index: -2;
+    z-index: -5;
     overflow: visible;
 }
 
