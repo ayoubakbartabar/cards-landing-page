@@ -3,10 +3,12 @@
     --text-white-color: rgb(255 255 255);
     --header-background: rgb(37 99 235);
     --header-paragraph-color: rgb(191 219 254);
-    --build-card-paragraph-color:  rgb(148 163 184);
+    --build-card-paragraph-color: rgb(148 163 184);
     --get-card-background: rgb(30 41 59);
     --get-card-arrow-color: rgb(0, 183, 255);
     --light-green: rgb(13 148 136);
+    --money-transfer-linear-gradient: linear-gradient(to bottom, #f1f5f9, rgba(241, 245, 249, 0));
+    ;
 }
 
 
