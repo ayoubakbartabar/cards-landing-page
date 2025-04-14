@@ -76,22 +76,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 461px;
+    z-index: 5;
+    overflow-x: hidden;
 }
 
 
 .build-cards-svg {
     position: absolute;
-    bottom: -500px;
+    bottom: -230px;
     left: 50%;
     transform: translateX(-50%);
     max-width: 740px;
     z-index: -2;
     overflow: visible;
-  }
-  
+}
+
 .build-cards-img {
     position: absolute;
-    bottom: -371px;
+    bottom: -161px;
     left: 50%;
     transform: translateX(-50%) rotate(38deg);
     max-width: 750px;
