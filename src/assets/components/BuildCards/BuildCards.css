@@ -80,20 +80,22 @@
 
 
 .build-cards-svg {
-    width: 100%;
-    max-width: 500px;
-    position: relative;
-    z-index: 1;
-}
-
+    position: absolute;
+    bottom: -500px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 740px;
+    z-index: -2;
+    overflow: visible;
+  }
+  
 .build-cards-img {
     position: absolute;
-    bottom: -121px;
+    bottom: -371px;
     left: 50%;
     transform: translateX(-50%) rotate(38deg);
-    width: 100%;
-    max-width: 710px;
-    z-index: 2;
+    max-width: 750px;
+    z-index: 4;
 }
 
 @media (max-width: 1024px) {
