@@ -1,5 +1,5 @@
 .money-transfer-container {
-    background-image: linear-gradient(to bottom, #f1f5f9, rgb(241 245 249 / 0));
+    background-image:var(--money-transfer-background);
     display: flex;
     flex-direction: row;
     align-items: center;
