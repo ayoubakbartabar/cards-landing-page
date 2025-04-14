@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import "./CustomCardArticle.css";
+import useIntersectionObserver from "../useIntersectionObserver/useIntersectionObserver.jsx";
 
 export default function CustomCardArticle() {
   const ref = useRef(null);
