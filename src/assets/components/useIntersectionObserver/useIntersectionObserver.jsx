@@ -1,8 +1,11 @@
 import { useEffect } from "react";
 
-// Custom hook for IntersectionObserver
-const useIntersectionObserver = (ref, threshold = 0.4) => {
+export default function useIntersectionObserver(containerRef) {
   useEffect(() => {
+    if (!containerRef.current) return;
+
+    const elements = containerRef.current.querySelectorAll(".fade-in-up");
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -11,22 +14,15 @@ const useIntersectionObserver = (ref, threshold = 0.4) => {
           }
         });
       },
-      {
-        threshold, // When the element is 40% visible
-      }
+      { threshold: 0.4 }
     );
 
-    const currentElement = ref.current;
-    if (currentElement) {
-      observer.observe(currentElement);
-    }
+
+    elements.forEach((el) => observer.observe(el));
+
 
     return () => {
-      if (currentElement) {
-        observer.unobserve(currentElement);
-      }
+      elements.forEach((el) => observer.unobserve(el));
     };
-  }, [ref, threshold]);
-};
-
-export default useIntersectionObserver;
+  }, [containerRef]);
+}
