@@ -1,40 +1,14 @@
-import React, { useEffect, useRef } from "react";
+import React, {useRef} from "react";
 import "./BuildCards.css";
+import useIntersectionObserver from '../useIntersectionObserver/useIntersectionObserver.jsx'
 import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function BuildCards() {
-  const containerRef = useRef(null);
+  const ref = useRef(null);
 
-  useEffect(() => {
-    // Select all elements inside the container that should have the fade-in animation
-    const elements = containerRef.current.querySelectorAll(".fade-in-up");
-
-    // Create an IntersectionObserver to detect when elements enter the viewport
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          // If the element is at least 40% visible, add the 'visible' class to trigger animation
-          if (entry.isIntersecting) {
-            entry.target.classList.add("visible");
-          }
-        });
-      },
-      {
-        threshold: 0.4, // Element must be 40% visible before triggering the animation
-      }
-    );
-
-    // Observe each target element
-    elements.forEach((el) => observer.observe(el));
-
-    // Cleanup: unobserve elements when the component is unmounted
-    return () => {
-      elements.forEach((el) => observer.unobserve(el));
-    };
-  }, []);
-
+  useIntersectionObserver(ref);
   return (
-    <section className="build-cards-container" ref={containerRef}>
+    <section className="build-cards-container" ref={ref}>
       <div className="build-cards-left-side fade-in-up">
         <h2 className="build-cards-title">
           Build a flexible card program for your business needs
