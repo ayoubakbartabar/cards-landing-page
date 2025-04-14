@@ -107,7 +107,6 @@ h6 {
 .fade-up {
     opacity: 0;
     animation: fadeUp 1.6s ease-out forwards;
-    /* مدت زمان بیشتر */
 }
 
 .fade-up.delay-1 {
