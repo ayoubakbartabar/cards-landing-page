@@ -7,7 +7,7 @@
     --get-card-background: rgb(30 41 59);
     --get-card-arrow-color: rgb(0, 183, 255);
     --light-green: rgb(13 148 136);
-    --money-transfer-background: rgba(0, 183, 255, 0.050);
+    --money-transfer-background:  linear-gradient(to bottom, #f1f5f9, rgb(241 245 249 / 0));
 }
 
 * {
