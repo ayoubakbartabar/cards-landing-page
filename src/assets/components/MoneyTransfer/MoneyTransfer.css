@@ -1,14 +1,16 @@
 .money-transfer-container {
-    background-color: var(--money-transfer-linear-gradient);
+    background-color: var(--money-transfer-background);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     margin: 4rem 4rem;
 }
-.money-transfer-right-side{
+
+.money-transfer-right-side {
     width: 50%;
 }
+
 .money-transfer-title {
     font-size: 3.5rem;
     font-weight: 800;
@@ -39,6 +41,7 @@
     border-radius: 100%;
     width: 8%;
 }
+
 .money-transfer-left-side {
     width: 50%;
 }
