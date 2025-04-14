@@ -61,10 +61,12 @@
     font-weight: 400;
     color: var(--build-card-paragraph-color);
 }
-.build-cards-left-side-img{
+
+.build-cards-left-side-img {
     border-radius: 100%;
     width: 8%;
 }
+
 .build-cards-right-side {
     width: 50%;
 }
@@ -74,5 +76,6 @@
 }
 
 .build-cards-img {
-    width: 20%;
+    max-width: 800px;
+    width: 100%;
 }
