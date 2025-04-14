@@ -13,7 +13,7 @@ export default function BuildCards() {
           eiusmod tempor incididunt ut labore et dolore magna aliqua minim
           veniam, quis nostrud exercitation.
         </p>
-        <button className="getYourCard-btn">
+        <button className="getYourCard-blue-btn">
           get your card
           <span className="arrow-icon">
             <FaArrowRightLong />
