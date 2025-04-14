@@ -5,10 +5,9 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function BuildCards() {
   const ref = useRef(null);
-
   useIntersectionObserver(ref);
   return (
-    <section className="build-cards-container" ref={ref}>
+    <section className="build-cards-container"  ref={ref}>
       <div className="build-cards-left-side fade-in-up">
         <h2 className="build-cards-title">
           Build a flexible card program for your business needs
