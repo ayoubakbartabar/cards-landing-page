@@ -1,10 +1,36 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./BuildCards.css";
 import { FaArrowRightLong } from "react-icons/fa6";
+
 export default function BuildCards() {
+  const containerRef = useRef(null);
+
+  useEffect(() => {
+    const elements = containerRef.current.querySelectorAll(".fade-in-up");
+
+    const observer = new IntersectionObserver(
+      entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+          }
+        });
+      },
+      {
+        threshold: 0.4,
+      }
+    );
+
+    elements.forEach(el => observer.observe(el));
+
+    return () => {
+      elements.forEach(el => observer.unobserve(el));
+    };
+  }, []);
+
   return (
-    <section className="build-cards-container">
-      <div className="build-cards-left-side">
+    <section className="build-cards-container" ref={containerRef}>
+      <div className="build-cards-left-side fade-in-up">
         <h2 className="build-cards-title">
           Build a flexible card program for your business needs
         </h2>
@@ -32,7 +58,7 @@ export default function BuildCards() {
           </p>
         </div>
       </div>
-      <div className="build-cards-right-side">
+      <div className="build-cards-right-side fade-in-up">
         <img
           className="build-cards-svg"
           src="public/svg/cards-illustration.svg"
