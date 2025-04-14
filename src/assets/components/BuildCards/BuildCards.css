@@ -8,6 +8,7 @@
     margin: 0 7rem;
     border-top-right-radius: 100px;
     position: relative;
+    overflow: visible;
     z-index: 1;
 }
 
@@ -72,12 +73,9 @@
 .build-cards-right-side {
     width: 50%;
     position: relative;
-    /* مهم برای absolute فرزند */
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
-    /* از اینجا بیرون نزنه */
 }
 
 
@@ -90,32 +88,31 @@
 
 .build-cards-img {
     position: absolute;
-    top: 50%;
+    bottom: -121px;
     left: 50%;
-    transform: translate(-50%, -50%) rotate(18deg);
-    width: 90%;
-    max-width: 550px;
+    transform: translateX(-50%) rotate(38deg);
+    width: 100%;
+    max-width: 710px;
     z-index: 2;
 }
 
 @media (max-width: 1024px) {
     .build-cards-container {
-      flex-direction: column;
-      padding: 4rem 2rem;
-      margin: 0 2rem;
-      border-top-right-radius: 50px;
+        flex-direction: column;
+        padding: 4rem 2rem;
+        margin: 0 2rem;
+        border-top-right-radius: 50px;
     }
-  
+
     .build-cards-left-side,
     .build-cards-right-side {
-      width: 100%;
-      text-align: center;
-      align-items: center;
+        width: 100%;
+        text-align: center;
+        align-items: center;
     }
-  
+
     .build-cards-img {
-      transform: translate(-50%, -50%) rotate(12deg);
-      width: 100%;
+        transform: translate(-50%, -50%) rotate(12deg);
+        width: 100%;
     }
-  }
-  
+}
