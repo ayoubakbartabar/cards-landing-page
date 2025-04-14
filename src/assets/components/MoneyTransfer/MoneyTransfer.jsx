@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./MoneyTransfer.css";
 import { FaArrowRightLong } from "react-icons/fa6";
 
