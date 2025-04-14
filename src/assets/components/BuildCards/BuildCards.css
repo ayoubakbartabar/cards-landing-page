@@ -1,21 +1,22 @@
 .build-cards-container {
     background-color: var(--get-card-background);
     display: flex;
-    position: relative;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 4rem 4.5rem;
     margin: 0 7rem;
     border-top-right-radius: 100px;
+    position: relative;
+    z-index: 1;
 }
 
 .build-cards-left-side {
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    width: 50%;
     color: var(--text-white-color);
 }
 
@@ -70,23 +71,51 @@
 
 .build-cards-right-side {
     width: 50%;
+    position: relative;
+    /* مهم برای absolute فرزند */
     display: flex;
-    flex-direction: column;
-    align-items: center
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /* از اینجا بیرون نزنه */
 }
 
+
 .build-cards-svg {
-    width: 60%;
-    max-width: 400px;
+    width: 100%;
+    max-width: 500px;
+    position: relative;
     z-index: 1;
 }
 
 .build-cards-img {
     position: absolute;
-    top: 40%;
-    left: 40%;
-    width: 86%;
-    max-width: 700px;
-    transform: rotate(42deg);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(18deg);
+    width: 90%;
+    max-width: 550px;
     z-index: 2;
 }
+
+@media (max-width: 1024px) {
+    .build-cards-container {
+      flex-direction: column;
+      padding: 4rem 2rem;
+      margin: 0 2rem;
+      border-top-right-radius: 50px;
+    }
+  
+    .build-cards-left-side,
+    .build-cards-right-side {
+      width: 100%;
+      text-align: center;
+      align-items: center;
+    }
+  
+    .build-cards-img {
+      transform: translate(-50%, -50%) rotate(12deg);
+      width: 100%;
+    }
+  }
+  
