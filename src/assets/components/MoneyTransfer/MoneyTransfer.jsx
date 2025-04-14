@@ -1,40 +1,14 @@
-import React, { useEffect, useRef } from "react";
+import React, { useRef } from "react";
 import "./MoneyTransfer.css";
+import useIntersectionObserver from "../useIntersectionObserver/useIntersectionObserver.jsx";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function MoneyTransfer() {
-  // Create a reference to the container holding the elements we want to animate
-  const containerRef = useRef(null);
+  const ref = useRef(null);
 
-  useEffect(() => {
-    // Select all elements inside the container that should have the fade-in animation
-    const elements = containerRef.current.querySelectorAll(".fade-in-up");
-
-    // Create an IntersectionObserver to detect when elements enter the viewport
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          // If the element is at least 40% visible, add the 'visible' class to trigger animation
-          if (entry.isIntersecting) {
-            entry.target.classList.add("visible");
-          }
-        });
-      },
-      {
-        threshold: 0.4, // Element must be 40% visible before triggering the animation
-      }
-    );
-
-    // Observe each target element
-    elements.forEach((el) => observer.observe(el));
-
-    // Cleanup: unobserve elements when the component is unmounted
-    return () => {
-      elements.forEach((el) => observer.unobserve(el));
-    };
-  }, []);
+  useIntersectionObserver(ref);
   return (
-    <section className="money-transfer-container" ref={containerRef}>
+    <section className="money-transfer-container" ref={ref}>
       <img
         src="public/image/features-03.png"
         alt="features-img"
