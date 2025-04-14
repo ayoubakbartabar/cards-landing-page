@@ -214,27 +214,4 @@
     z-index: 2;
     height: auto;
 }
-@keyframes fadeUp {
-    0% {
-      opacity: 0;
-      transform: translateY(60px); /* پایین‌تر شروع بشه */
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  
-  .fade-up {
-    opacity: 0;
-    animation: fadeUp 1.6s ease-out forwards; /* مدت زمان بیشتر */
-  }
-  .fade-up.delay-1 {
-    animation-delay: 0.5s;
-  }
-  .fade-up.delay-2 {
-    animation-delay: 1s;
-  }
-  .fade-up.delay-3 {
-    animation-delay: 1.5s;
-  }
+
