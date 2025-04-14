@@ -36,7 +36,7 @@
 
 .getYourCard-blue-btn {
     cursor: pointer;
-    padding: 0.4rem 1.5rem;
+    padding: 1rem 1.5rem;
     border: 0;
     border-radius: 50px;
     background-color: var(--header-background);
@@ -121,3 +121,4 @@
         width: 100%;
     }
 }
+
