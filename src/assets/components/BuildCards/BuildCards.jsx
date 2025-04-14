@@ -6,25 +6,30 @@ export default function BuildCards() {
   const containerRef = useRef(null);
 
   useEffect(() => {
+    // Select all elements inside the container that should have the fade-in animation
     const elements = containerRef.current.querySelectorAll(".fade-in-up");
 
+    // Create an IntersectionObserver to detect when elements enter the viewport
     const observer = new IntersectionObserver(
-      entries => {
-        entries.forEach(entry => {
+      (entries) => {
+        entries.forEach((entry) => {
+          // If the element is at least 40% visible, add the 'visible' class to trigger animation
           if (entry.isIntersecting) {
             entry.target.classList.add("visible");
           }
         });
       },
       {
-        threshold: 0.4,
+        threshold: 0.4, // Element must be 40% visible before triggering the animation
       }
     );
 
-    elements.forEach(el => observer.observe(el));
+    // Observe each target element
+    elements.forEach((el) => observer.observe(el));
 
+    // Cleanup: unobserve elements when the component is unmounted
     return () => {
-      elements.forEach(el => observer.unobserve(el));
+      elements.forEach((el) => observer.unobserve(el));
     };
   }, []);
 
