@@ -54,11 +54,11 @@
 
 .card-svg {
     filter: invert(94%) sepia(5%) saturate(402%) hue-rotate(180deg) brightness(105%) contrast(101%);
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.6s ease-in-out;
 }
 
 .card-svg:hover {
-    animation: tilt-shake 0.6s infinite;
+    transform: rotate(360deg);
 }
 
 @keyframes tilt-shake {
@@ -212,4 +212,3 @@
     z-index: 2;
     height: auto;
 }
-
