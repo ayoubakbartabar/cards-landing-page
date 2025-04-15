@@ -6,11 +6,27 @@ export default function Header() {
   return (
     <section className="header-container">
       <div className="header-top   fade-up delay-1">
-        <img
+        <svg
           className="card-svg"
-          src="public/svg/card-2-svgrepo-com.svg"
-          alt=""
-        />
+          width="30"
+          height="30"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g fill-rule="nonzero" fill="none">
+            <g class="cypkd" transform="translate(3 3)">
+              <circle cx="5" cy="5" r="5"></circle>
+              <circle cx="19" cy="5" r="5"></circle>
+              <circle cx="5" cy="19" r="5"></circle>
+              <circle cx="19" cy="19" r="5"></circle>
+            </g>
+            <g class="coow8">
+              <circle cx="15" cy="5" r="5"></circle>
+              <circle cx="25" cy="15" r="5"></circle>
+              <circle cx="15" cy="25" r="5"></circle>
+              <circle cx="5" cy="15" r="5"></circle>
+            </g>
+          </g>
+        </svg>
         <button className="getYourCard-btn">
           get your card
           <span className="arrow-icon">
