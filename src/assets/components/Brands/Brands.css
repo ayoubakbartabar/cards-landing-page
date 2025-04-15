@@ -1,0 +1,10 @@
+.brand-container{
+    background-color: var(--get-card-background);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 4.5rem;
+    margin: 0 7rem;
+    border-top-right-radius: 100px;
+}
