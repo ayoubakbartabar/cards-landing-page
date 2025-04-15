@@ -1,4 +1,4 @@
-import React , {useRef}from "react";
+import React, { useRef } from "react";
 import "./Brands.css";
 import useIntersectionObserver from "../useIntersectionObserver/useIntersectionObserver.jsx";
 import { FaArrowRightLong } from "react-icons/fa6";
@@ -38,32 +38,34 @@ export default function Brands() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
-        <ul className="physical-stores-list">
-          <h4 className="physical-stores-list-title">Physical Stores</h4>
-          {physicalStores.map((item, index) => (
-            <div key={index + 1}>
-              <img
-                className="blue-check"
-                src="public/svg/blue-Check.svg"
-                alt="blue-Check"
-              />
-              <li className="physical-stores-item">{item}</li>
-            </div>
-          ))}
-        </ul>
-        <ul className="online-stores-list">
-          <h4 className="online-stores-list-title">online Stores</h4>
-          {onlineStores.map((item, index) => (
-            <div key={index + 1}>
-              <img
-                className="blue-check"
-                src="public/svg/blue-Check.svg"
-                alt="blue-Check"
-              />
-              <li className="online-stores-item">{item}</li>
-            </div>
-          ))}
-        </ul>
+        <div className="stores-list-container">
+          <ul className="physical-stores-list">
+            <h4 className="physical-stores-list-title">Physical Stores</h4>
+            {physicalStores.map((item, index) => (
+              <div className="physical-stores-item-container" key={index + 1}>
+                <img
+                  className="blue-check"
+                  src="public/svg/blue-Check.svg"
+                  alt="blue-Check"
+                />
+                <li className="physical-stores-item">{item}</li>
+              </div>
+            ))}
+          </ul>
+          <ul className="online-stores-list">
+            <h4 className="online-stores-list-title">online Stores</h4>
+            {onlineStores.map((item, index) => (
+              <div className="online-stores-item-container" key={index + 1}>
+                <img
+                  className="blue-check"
+                  src="public/svg/blue-Check.svg"
+                  alt="blue-Check"
+                />
+                <li className="online-stores-item">{item}</li>
+              </div>
+            ))}
+          </ul>
+        </div>
         <button className="getYourCard-blue-btn">
           get your card
           <span className="arrow-icon">
