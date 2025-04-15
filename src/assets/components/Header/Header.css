@@ -53,12 +53,12 @@
 }
 
 .card-svg {
-    filter: invert(94%) sepia(5%) saturate(402%) hue-rotate(180deg) brightness(105%) contrast(101%);
-    transition: transform 0.6s ease-in-out;
+    animation: spin 3s linear infinite;
+    transition: none;
 }
 
 .card-svg:hover {
-    animation: spin 1s linear infinite;
+    animation-play-state: paused;
 }
 
 @keyframes spin {
@@ -70,7 +70,6 @@
         transform: rotate(360deg);
     }
 }
-
 
 .header-bottom {
     display: flex;
