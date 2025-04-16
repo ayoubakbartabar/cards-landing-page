@@ -14,20 +14,23 @@
 }
 
 .getyourcart-top {
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
 }
 .getyourcart-title{
+    width: 87%;
     color: var(--text-white-color);
-    font-size: 2.5rem;
-    font-weight: 800;
-    line-height: 32px;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 2.5rem;
     margin-bottom: 1rem;
 }
 .getyourcart-paragraph{
-    color: var(--build-card-paragraph-color);
+    width: 67%;
+    color: var(--text-light-gray-color);
     margin-bottom: 2rem;
     font-size: 1.2rem;
 }
