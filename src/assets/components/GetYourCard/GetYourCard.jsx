@@ -11,14 +11,14 @@ export default function GetYourCard() {
         "Create cards that work exactly as you configured them. Make real-time decisions on charges and spendings.",
     },
     {
-      id: 1,
-      title: "Download the app",
+      id: 2,
+      title: "Request your card",
       paragraph:
         "Create cards that work exactly as you configured them. Make real-time decisions on charges and spendings.",
     },
     {
-      id: 1,
-      title: "Download the app",
+      id: 3,
+      title: "Connect all your account",
       paragraph:
         "Create cards that work exactly as you configured them. Make real-time decisions on charges and spendings.",
     },
