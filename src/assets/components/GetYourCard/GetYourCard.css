@@ -7,6 +7,7 @@
     padding: 4rem 4.5rem;
     margin: 12rem 7rem;
     border-top-right-radius: 100px;
+    border-bottom-left-radius: 10rem;
     position: relative;
     overflow: visible;
     z-index: 1;
