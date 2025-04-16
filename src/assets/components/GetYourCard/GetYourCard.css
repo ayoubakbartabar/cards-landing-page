@@ -1,20 +1,21 @@
-.getyourcart-container{
-    background-color: var(--get-card-background);
+.getyourcart-container {
+    background-color: var(--header-background);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding: 4rem 4.5rem;
-    margin: 0 7rem;
+    margin: 12rem 7rem;
     border-top-right-radius: 100px;
     position: relative;
     overflow: visible;
     z-index: 1;
 }
 
-.getyourcart-svg{
+.getyourcart-svg {
     width: 50%;
 }
-.getyourcart-img{
+
+.getyourcart-img {
     width: 20%;
 }
