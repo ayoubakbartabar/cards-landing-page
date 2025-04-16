@@ -1,4 +1,4 @@
-import React from "react";
+import React , {useRef}from "react";
 import "./GetYourCard.css";
 import useIntersectionObserver from '../useIntersectionObserver/useIntersectionObserver.jsx'
 
