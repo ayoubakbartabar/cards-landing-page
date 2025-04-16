@@ -10,6 +10,18 @@ export default function GetYourCard() {
       paragraph:
         "Create cards that work exactly as you configured them. Make real-time decisions on charges and spendings.",
     },
+    {
+      id: 1,
+      title: "Download the app",
+      paragraph:
+        "Create cards that work exactly as you configured them. Make real-time decisions on charges and spendings.",
+    },
+    {
+      id: 1,
+      title: "Download the app",
+      paragraph:
+        "Create cards that work exactly as you configured them. Make real-time decisions on charges and spendings.",
+    },
   ];
 
   return (
