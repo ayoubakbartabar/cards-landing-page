@@ -20,7 +20,8 @@
     align-items: flex-start;
     justify-content: center;
 }
-.getyourcart-title{
+
+.getyourcart-title {
     width: 87%;
     color: var(--text-white-color);
     font-size: 3rem;
@@ -28,25 +29,29 @@
     line-height: 2.5rem;
     margin-bottom: 1rem;
 }
-.getyourcart-paragraph{
+
+.getyourcart-paragraph {
     width: 67%;
     color: var(--text-light-gray-color);
     margin-bottom: 2rem;
     font-size: 1.2rem;
 }
+
 .getyourcart-img-container {
     position: relative;
-  }
-  .getyourcart-svg {
+}
+
+.getyourcart-svg {
     width: 100%;
     position: relative;
     z-index: 0;
-  }
-  .getyourcart-img {
+}
+
+.getyourcart-img {
     position: absolute;
-    top: 50%; 
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 150px;
     z-index: 1;
-  }
+}
