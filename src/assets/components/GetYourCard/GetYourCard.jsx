@@ -14,7 +14,7 @@ export default function GetYourCard() {
       </div>
       <div className="getyourcart-img-container">
         <img src="" alt="" className="getyourcart-svg" />
-        <img src="" alt="" className="getyourcart-img" />
+        <img src="public/image/logos.png" alt="logos" className="getyourcart-img" />
       </div>
       <div className="getyourcart-install-guide"></div>
     </section>
