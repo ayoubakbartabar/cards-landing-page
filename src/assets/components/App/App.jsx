@@ -6,6 +6,7 @@ import CustomCardArticle from "../CustomCardArticle/CustomCardArticle";
 import BuildCards from "../BuildCards/BuildCards";
 import MoneyTransfer from "../MoneyTransfer/MoneyTransfer";
 import Brands from "../Brands/Brands";
+import GetYourCard from "../GetYourCard/GetYourCard";
 export default function App() {
   return (
     <>
@@ -16,6 +17,7 @@ export default function App() {
         <BuildCards/>
         <MoneyTransfer/>
         <Brands/>
+        <GetYourCard/>
       </main>
     </>
   );
