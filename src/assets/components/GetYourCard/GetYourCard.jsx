@@ -28,8 +28,8 @@ export default function GetYourCard() {
   ];
 
   return (
-    <section className="getyourcart-container">
-      <div className="getyourcart-top">
+    <section className="getyourcart-container" ref={ref}>
+      <div className="getyourcart-top fade-in-up">
         <h2 className="getyourcart-title">
           Get started in minutes and connect all your accounts in one place
         </h2>
@@ -38,7 +38,7 @@ export default function GetYourCard() {
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
       </div>
-      <div className="getyourcart-img-container">
+      <div className="getyourcart-img-container fade-in-up">
         <svg
           className="getyourcart-svg"
           width="594"
