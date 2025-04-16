@@ -98,7 +98,7 @@ export default function GetYourCard() {
             {installGuide.map(item =>(
                 <div key={item.id} className="getyourcart-install-guide-box">
                     <div className="getyourcart-install-guide-svg">
-                        
+                        {item.id}
                     </div>
                     <h4 className="getyourcart-install-guide-title">{item.title}</h4>
                     <p className="getyourcart-install-guide-paragraph">{item.paragraph}</p>
