@@ -1,6 +1,17 @@
 import React from "react";
 import "./GetYourCard.css";
+
 export default function GetYourCard() {
+  // create array for install guide date
+  const installGuide = [
+    {
+      id: 1,
+      title: "Download the app",
+      paragraph:
+        "Create cards that work exactly as you configured them. Make real-time decisions on charges and spendings.",
+    },
+  ];
+
   return (
     <section className="getyourcart-container">
       <div className="getyourcart-top">
@@ -13,7 +24,12 @@ export default function GetYourCard() {
         </p>
       </div>
       <div className="getyourcart-img-container">
-        <svg className="getyourcart-svg" width="594" height="639" xmlns="http://www.w3.org/2000/svg">
+        <svg
+          className="getyourcart-svg"
+          width="594"
+          height="639"
+          xmlns="http://www.w3.org/2000/svg"
+        >
           <defs>
             <filter
               x="-42.9%"
@@ -78,7 +94,9 @@ export default function GetYourCard() {
           className="getyourcart-img"
         />
       </div>
-      <div className="getyourcart-install-guide"></div>
+      <div className="getyourcart-install-guide-container">
+
+      </div>
     </section>
   );
 }
