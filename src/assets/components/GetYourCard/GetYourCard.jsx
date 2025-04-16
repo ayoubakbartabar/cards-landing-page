@@ -1,10 +1,10 @@
-import React , {useRef}from "react";
+import React, { useRef } from "react";
 import "./GetYourCard.css";
-import useIntersectionObserver from '../useIntersectionObserver/useIntersectionObserver.jsx'
+import useIntersectionObserver from "../useIntersectionObserver/useIntersectionObserver.jsx";
 
 export default function GetYourCard() {
-    const ref = useRef(null);
-    useIntersectionObserver(ref);
+  const ref = useRef(null);
+  useIntersectionObserver(ref);
   // create array for install guide date
   const installGuide = [
     {
@@ -111,9 +111,16 @@ export default function GetYourCard() {
       </div>
       <div className="getyourcart-install-guide-container ">
         {installGuide.map((item) => (
-          <div key={item.id} className="getyourcart-install-guide-box fade-in-up">
-            <div className="getyourcart-install-guide-svg fade-in-up">{item.id}</div>
-            <h4 className="getyourcart-install-guide-title fade-in-up ">{item.title}</h4>
+          <div
+            key={item.id}
+            className="getyourcart-install-guide-box fade-in-up"
+          >
+            <div className="getyourcart-install-guide-svg fade-in-up">
+              {item.id}
+            </div>
+            <h4 className="getyourcart-install-guide-title fade-in-up ">
+              {item.title}
+            </h4>
             <p className="getyourcart-install-guide-paragraph fade-in-up">
               {item.paragraph}
             </p>
