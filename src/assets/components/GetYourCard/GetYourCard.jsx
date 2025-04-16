@@ -95,7 +95,7 @@ export default function GetYourCard() {
         />
       </div>
       <div className="getyourcart-install-guide-container">
-
+            
       </div>
     </section>
   );
