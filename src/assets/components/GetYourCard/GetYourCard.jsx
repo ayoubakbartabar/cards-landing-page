@@ -1,7 +1,10 @@
 import React from "react";
 import "./GetYourCard.css";
+import useIntersectionObserver from '../useIntersectionObserver/useIntersectionObserver.jsx'
 
 export default function GetYourCard() {
+    const ref = useRef(null);
+    useIntersectionObserver(ref);
   // create array for install guide date
   const installGuide = [
     {
