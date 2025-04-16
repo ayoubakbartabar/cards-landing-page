@@ -109,12 +109,12 @@ export default function GetYourCard() {
           className="getyourcart-img"
         />
       </div>
-      <div className="getyourcart-install-guide-container">
+      <div className="getyourcart-install-guide-container ">
         {installGuide.map((item) => (
-          <div key={item.id} className="getyourcart-install-guide-box">
-            <div className="getyourcart-install-guide-svg">{item.id}</div>
-            <h4 className="getyourcart-install-guide-title">{item.title}</h4>
-            <p className="getyourcart-install-guide-paragraph">
+          <div key={item.id} className="getyourcart-install-guide-box fade-in-up">
+            <div className="getyourcart-install-guide-svg fade-in-up">{item.id}</div>
+            <h4 className="getyourcart-install-guide-title fade-in-up ">{item.title}</h4>
+            <p className="getyourcart-install-guide-paragraph fade-in-up">
               {item.paragraph}
             </p>
           </div>
