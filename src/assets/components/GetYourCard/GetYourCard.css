@@ -19,7 +19,18 @@
     align-items: flex-start;
     justify-content: center;
 }
-
+.getyourcart-title{
+    color: var(--text-white-color);
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 32px;
+    margin-bottom: 1rem;
+}
+.getyourcart-paragraph{
+    color: var(--build-card-paragraph-color);
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
 .getyourcart-svg {
     width: 50%;
 }
