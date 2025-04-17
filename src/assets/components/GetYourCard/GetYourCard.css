@@ -92,7 +92,10 @@
 }
 
 .getyourcart-install-guide-title{
-
+    color: var(--text-white-color);
+    font-weight: 900;
+    line-height: 24px;
+    font-size: 1.4rem;
 }
 
 .getyourcart-install-guide-paragraph{
