@@ -59,7 +59,7 @@
     z-index: 1;
 }
 
-.getyourcart-install-guide-container{
+.getyourcart-install-guide-container {
     display: flex;
     justify-content: space-evenly;
     align-items: stretch;
@@ -67,7 +67,7 @@
     padding: 0 4.5rem;
 }
 
-.getyourcart-install-guide-box{
+.getyourcart-install-guide-box {
     width: 30%;
     display: flex;
     gap: 0.7rem;
@@ -77,6 +77,7 @@
     position: relative;
     padding-right: 1rem;
 }
+
 .getyourcart-install-guide-box:not(:last-child)::after {
     content: "";
     position: absolute;
@@ -87,18 +88,29 @@
     background-color: rgba(0, 255, 255, 0.2);
 }
 
-.getyourcart-install-guide-svg{
-
+.getyourcart-install-guide-svg {
+    display: flex;
+    width: 19%;
+    padding: 1rem;
+    color: rgb(33, 100, 95);
+    font-size: 1.2rem;
+    font-weight: 800;
+    background-color: rgb(16, 214, 198);
+    border: 0;
+    border-radius: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
-.getyourcart-install-guide-title{
+.getyourcart-install-guide-title {
     color: var(--text-white-color);
     font-weight: 900;
     line-height: 24px;
     font-size: 1.4rem;
 }
 
-.getyourcart-install-guide-paragraph{
+.getyourcart-install-guide-paragraph {
     font-size: 0.9rem;
     color: var(--text-light-gray-color);
     font-weight: 600;
