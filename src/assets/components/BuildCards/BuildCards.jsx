@@ -11,7 +11,16 @@ export default function BuildCards() {
     <section className="build-cards-container"  ref={ref}>
       <div className="build-cards-left-side fade-in-up">
         <h2 className="build-cards-title">
-          Build a flexible card program for your business needs
+        <TypeAnimation
+        sequence={[
+          'Build a flexible card program for your business needs',
+          1000, 
+        ]}
+        wrapper="span"
+        speed={50}
+        style={{ display: 'inline-block' }}
+        repeat={0}
+      />
         </h2>
         <p className="build-cards-paragraph">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
