@@ -102,6 +102,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-bottom: 0.5rem;
 }
 
 .getyourcart-install-guide-title {
