@@ -99,7 +99,8 @@
 }
 
 .getyourcart-install-guide-paragraph{
+    font-size: 0.9rem;
     color: var(--text-light-gray-color);
-    font-weight: 700;
+    font-weight: 600;
     line-height: 24px;
 }
