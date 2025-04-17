@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.css";
+import { TypeAnimation } from "react-type-animation";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function Header() {
