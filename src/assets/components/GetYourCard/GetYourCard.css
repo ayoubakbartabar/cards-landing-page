@@ -39,6 +39,7 @@
 
 .getyourcart-img-container {
     position: relative;
+    width: 100%;
 }
 
 .getyourcart-svg {
@@ -49,7 +50,7 @@
 
 .getyourcart-img {
     position: absolute;
-    top: 65%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 840px;
