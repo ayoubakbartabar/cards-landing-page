@@ -66,3 +66,14 @@
     margin: 8rem 0;
     padding: 0 4.5rem;
 }
+
+.getyourcart-install-guide-box{
+    width: 24%;
+    display: flex;
+    gap: 0.7rem;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    padding-right: 1rem;
+}
