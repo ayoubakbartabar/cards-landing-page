@@ -77,14 +77,24 @@
     position: relative;
     padding-right: 1rem;
 }
+.getyourcart-install-guide-box:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 40%;
+    right: 0;
+    width: 3px;
+    height: 50%;
+    background-color: rgba(180, 180, 180, 0.3);
+}
+
 .getyourcart-install-guide-svg{
-    
+
 }
 
 .getyourcart-install-guide-title{
-    
+
 }
 
 .getyourcart-install-guide-paragraph{
-    
+
 }
