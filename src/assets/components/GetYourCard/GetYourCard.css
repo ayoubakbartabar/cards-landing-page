@@ -81,7 +81,7 @@
     content: "";
     position: absolute;
     top: 40%;
-    right: 0;
+    right: 10px;
     width: 3px;
     height: 50%;
     background-color: rgba(180, 180, 180, 0.3);
