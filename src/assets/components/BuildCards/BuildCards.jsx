@@ -1,26 +1,16 @@
-import React, { useRef } from "react";
-import { TypeAnimation } from "react-type-animation";
+import React, {useRef} from "react";
 import "./BuildCards.css";
-import useIntersectionObserver from "../useIntersectionObserver/useIntersectionObserver.jsx";
+import useIntersectionObserver from '../useIntersectionObserver/useIntersectionObserver.jsx'
 import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function BuildCards() {
   const ref = useRef(null);
   useIntersectionObserver(ref);
   return (
-    <section className="build-cards-container" ref={ref}>
+    <section className="build-cards-container"  ref={ref}>
       <div className="build-cards-left-side fade-in-up">
         <h2 className="build-cards-title">
-          <TypeAnimation
-            sequence={[
-              "Build a flexible card program for your business needs",
-              1000,
-            ]}
-            wrapper="span"
-            speed={50}
-            style={{ display: "inline-block" }}
-            repeat={0}
-          />
+          Build a flexible card program for your business needs
         </h2>
         <p className="build-cards-paragraph">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
