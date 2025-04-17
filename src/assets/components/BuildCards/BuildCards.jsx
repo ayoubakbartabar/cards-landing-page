@@ -1,4 +1,5 @@
 import React, {useRef} from "react";
+import { TypeAnimation } from 'react-type-animation';
 import "./BuildCards.css";
 import useIntersectionObserver from '../useIntersectionObserver/useIntersectionObserver.jsx'
 import { FaArrowRightLong } from "react-icons/fa6";
