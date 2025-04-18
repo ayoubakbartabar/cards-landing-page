@@ -6,6 +6,12 @@ export default function BusinessCard() {
   const ref = useRef(null);
   useIntersectionObserver(ref);
 
+  // Current active card index
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  // Ref to track swipe start position
+  const startX = useRef(0);
+
   // Testimonials array (each card content)
   const businessCardsArray = [
     {
@@ -33,12 +39,6 @@ export default function BusinessCard() {
     "Online and mobile payments",
     "IGlobal regulations and compliance",
   ];
-
-  // Current active card index
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  // Ref to track swipe start position
-  const startX = useRef(0);
 
   // Touch event handlers for swipe on mobile
   const handleTouchStart = (e) => {
