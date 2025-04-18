@@ -80,87 +80,86 @@ export default function BusinessCard() {
 
   return (
     <section
-    className="business-card-container"
-    onTouchStart={handleTouchStart}
-    onTouchEnd={handleTouchEnd}
-    onMouseDown={handleMouseDown}
-    onMouseUp={handleMouseUp}
-    ref={ref}
-  >
-    {/* Left side: testimonial card display */}
-    <div className="business-card-left-side fade-in-up">
-      <div className="business-card-box-container">
-        {/* Show only one active card */}
-        {businessCardsArray
-          .slice(currentIndex, currentIndex + 1)
-          .map((item) => (
-            <div key={item.id} className="business-card-box">
-              <div className="business-card-box-top">
-                <img
-                  className="business-card-box-img"
-                  src={item.image}
-                  alt="Box"
-                />
-              </div>
-              <div className="business-card-box-bottom">
-                <div className="business-card-box-svg-container">
+      className="business-card-container"
+      onTouchStart={handleTouchStart}
+      onTouchEnd={handleTouchEnd}
+      onMouseDown={handleMouseDown}
+      onMouseUp={handleMouseUp}
+      ref={ref}
+    >
+      {/* Left side: testimonial card display */}
+      <div className="business-card-left-side fade-in-up">
+        <div className="business-card-box-container">
+          {/* Show only one active card */}
+          {businessCardsArray
+            .slice(currentIndex, currentIndex + 1)
+            .map((item) => (
+              <div key={item.id} className="business-card-box">
+                <div className="business-card-box-top">
                   <img
-                    className="business-card-box-svg"
-                    src={item.svg}
-                    alt="SVG"
+                    className="business-card-box-img"
+                    src={item.image}
+                    alt="Box"
                   />
                 </div>
-                <p className="business-card-box-paragraph">{item.detail}</p>
-                <span className="business-card-box-info-container">
-                  <span className="business-card-box-name">{item.name}</span>{" "}
-                  -
-                  <span className="business-card-box-job-titles">
-                    {item.jobtitles}
+                <div className="business-card-box-bottom">
+                  <div className="business-card-box-svg-container">
+                    <img
+                      className="business-card-box-svg"
+                      src={item.svg}
+                      alt="SVG"
+                    />
+                  </div>
+                  <p className="business-card-box-paragraph">{item.detail}</p>
+                  <span className="business-card-box-info-container">
+                    <span className="business-card-box-name">{item.name}</span>{" "}
+                    -
+                    <span className="business-card-box-job-titles">
+                      {item.jobtitles}
+                    </span>
                   </span>
-                </span>
+                </div>
               </div>
-            </div>
-          ))}
-  
-        {/* Pagination dots */}
-        <div className="pagination-btn-container">
-          {businessCardsArray.map((_, i) => (
-            <span
-              key={i}
-              className={`pagination-btn ${
-                i === currentIndex ? "active" : ""
-              }`}
-              onClick={() => setCurrentIndex(i)}
-            ></span>
-          ))}
+            ))}
+
+          {/* Pagination dots */}
+          <div className="pagination-btn-container">
+            {businessCardsArray.map((_, i) => (
+              <span
+                key={i}
+                className={`pagination-btn ${
+                  i === currentIndex ? "active" : ""
+                }`}
+                onClick={() => setCurrentIndex(i)}
+              ></span>
+            ))}
+          </div>
         </div>
       </div>
-    </div>
-  
-    {/* Right side: static business info */}
-    <div className="business-card-right-side fade-in-up">
-      <h2 className="business-card-left-side-title">
-        Compliance built card for businesses and professionals
-      </h2>
-      <p className="business-card-left-side-paragraph">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit...
-      </p>
-  
-      {/* Business features list */}
-      <ul className="business-card-list fade-in-up">
-        {businessFeature.map((item, i) => (
-          <li key={i} className="business-card-item-container">
-            <img
-              className="blue-check"
-              src="public/svg/blue-Check.svg"
-              alt="check"
-            />
-            <span className="business-card-item">{item}</span>
-          </li>
-        ))}
-      </ul>
-    </div>
-  </section>
-  
+
+      {/* Right side: static business info */}
+      <div className="business-card-right-side fade-in-up">
+        <h2 className="business-card-left-side-title">
+          Compliance built card for businesses and professionals
+        </h2>
+        <p className="business-card-left-side-paragraph">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+        </p>
+
+        {/* Business features list */}
+        <ul className="business-card-list fade-in-up">
+          {businessFeature.map((item, i) => (
+            <li key={i} className="business-card-item-container">
+              <img
+                className="blue-check"
+                src="public/svg/blue-Check.svg"
+                alt="check"
+              />
+              <span className="business-card-item">{item}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
   );
 }
