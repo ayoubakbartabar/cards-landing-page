@@ -43,6 +43,19 @@ export default function BusinessCard() {
                   alt="Box Image"
                 />
               </div>
+              <div className="business-card-box-bottom">
+                <div className="business-card-box-svg-container">
+                    <img className="business-card-box-svg" src={item.svg} alt="Box svg" />
+                </div>
+                <p className="business-card-box-paragraph">
+                    {item.detail}
+                </p>
+                <span className="business-card-box-info-container">
+                    <span className="business-card-box-name">{item.name}</span>
+                    -
+                    <span className="business-card-box-job-titles">{item.jobtitles}</span>
+                </span>
+              </div>
             </div>
           ))}
         </div>
