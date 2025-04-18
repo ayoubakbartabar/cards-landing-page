@@ -44,8 +44,7 @@ export default function BusinessCard() {
         </p>
         <div className="business-card-list-container">
           <ul className="business-card-list">
-            <h4 className="business-card-list-title">Physical Stores</h4>
-            {physicalStores.map((item, index) => (
+            {businessFeature.map((item, index) => (
               <div className="business-card-item-container" key={index + 1}>
                 <img
                   className="blue-check"
