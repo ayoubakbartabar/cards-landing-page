@@ -1,5 +1,6 @@
 import React, { useState, useRef } from "react";
 import "./BusinessCard.css";
+import useIntersectionObserver from "../useIntersectionObserver/useIntersectionObserver.jsx";
 
 export default function BusinessCard() {
   // Testimonials array (each card content)
