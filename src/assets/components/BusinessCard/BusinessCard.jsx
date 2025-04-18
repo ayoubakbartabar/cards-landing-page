@@ -59,6 +59,9 @@ export default function BusinessCard() {
                   </span>
                 </span>
               </div>
+              <div className="pagination-btn-container">
+                <span className="pagination-btn"></span>
+              </div>
             </div>
           ))}
         </div>
