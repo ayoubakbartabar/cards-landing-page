@@ -25,7 +25,10 @@ export default function BusinessCard() {
   return (
     <section className="business-card-container">
       <div className="business-card-right-side"></div>
-      <div className="business-card-left-side"></div>
+      <div className="business-card-left-side">
+        <h2 className="business-card-left-side-title">Compliance built card for businesses and professionals</h2>
+        <p className="business-card-left-side-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua minim veniam, quis nostrud exercitation.</p>
+      </div>
     </section>
   );
 }
