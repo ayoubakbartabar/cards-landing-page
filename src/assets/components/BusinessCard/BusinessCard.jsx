@@ -34,6 +34,21 @@ export default function BusinessCard() {
           eiusmod tempor incididunt ut labore et dolore magna aliqua minim
           veniam, quis nostrud exercitation.
         </p>
+        <div className="stores-list-container">
+          <ul className="physical-stores-list">
+            <h4 className="physical-stores-list-title">Physical Stores</h4>
+            {physicalStores.map((item, index) => (
+              <div className="physical-stores-item-container" key={index + 1}>
+                <img
+                  className="blue-check"
+                  src="public/svg/blue-Check.svg"
+                  alt="blue-Check"
+                />
+                <li className="physical-stores-item">{item}</li>
+              </div>
+            ))}
+          </ul>
+          </div>
       </div>
     </section>
   );
