@@ -85,6 +85,7 @@ export default function BusinessCard() {
       onTouchEnd={handleTouchEnd}
       onMouseDown={handleMouseDown}
       onMouseUp={handleMouseUp}
+      ref={ref}
     >
       {/* Right side: testimonial card display */}
       <div className="business-card-right-side">
