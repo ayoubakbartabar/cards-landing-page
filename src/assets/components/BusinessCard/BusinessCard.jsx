@@ -88,7 +88,7 @@ export default function BusinessCard() {
       ref={ref}
     >
       {/* Right side: testimonial card display */}
-      <div className="business-card-right-side">
+      <div className="business-card-right-side fade-in-up">
         <div className="business-card-box-container">
           {/* Show only one active card */}
           {businessCardsArray
@@ -138,7 +138,7 @@ export default function BusinessCard() {
       </div>
 
       {/* Left side: static business info */}
-      <div className="business-card-left-side">
+      <div className="business-card-left-side fade-in-up">
         <h2 className="business-card-left-side-title">
           Compliance built card for businesses and professionals
         </h2>
@@ -147,7 +147,7 @@ export default function BusinessCard() {
         </p>
 
         {/* Business features list */}
-        <ul className="business-card-list">
+        <ul className="business-card-list fade-in-up">
           {businessFeature.map((item, i) => (
             <li key={i} className="business-card-item-container">
               <img
