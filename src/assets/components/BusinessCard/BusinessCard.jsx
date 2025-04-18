@@ -3,6 +3,9 @@ import "./BusinessCard.css";
 import useIntersectionObserver from "../useIntersectionObserver/useIntersectionObserver.jsx";
 
 export default function BusinessCard() {
+      const ref = useRef(null);
+      useIntersectionObserver(ref);
+      
   // Testimonials array (each card content)
   const businessCardsArray = [
     {
