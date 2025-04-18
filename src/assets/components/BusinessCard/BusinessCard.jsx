@@ -33,7 +33,14 @@ export default function BusinessCard() {
   return (
     <section className="business-card-container">
       <div className="business-card-right-side">
-        
+        <div className="business-card-box-container">
+            {businessCardsArray.map(item =>(
+
+                <div className="business-card-box">
+                
+            </div>
+            ))}
+        </div>
       </div>
       <div className="business-card-left-side">
         <h2 className="business-card-left-side-title">
