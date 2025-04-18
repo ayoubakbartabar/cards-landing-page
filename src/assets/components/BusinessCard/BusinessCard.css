@@ -1,0 +1,9 @@
+.business-card-container {
+    background-image: var(--money-transfer-background);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4.5rem 7rem;
+    border-top-left-radius: 100px;
+}
