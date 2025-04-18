@@ -36,11 +36,13 @@ export default function BusinessCard() {
         <div className="business-card-box-container">
           {businessCardsArray.map((item) => (
             <div key={item.id} className="business-card-box">
-                <div className="business-card-box-top">
-
-                <img className="business-card-box-img" src={item.image} alt="Box Image" />
-                </div>
-
+              <div className="business-card-box-top">
+                <img
+                  className="business-card-box-img"
+                  src={item.image}
+                  alt="Box Image"
+                />
+              </div>
             </div>
           ))}
         </div>
