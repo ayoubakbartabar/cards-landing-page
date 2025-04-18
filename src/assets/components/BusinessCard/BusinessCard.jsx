@@ -22,7 +22,13 @@ export default function BusinessCard() {
       jobtitles: "CEO & Co-Founder",
     },
   ];
-
+// create Array for Business Feature
+const businessFeature = [
+    'Identity verifications',
+'Secure credit card data tokenization',
+'Online and mobile payments',
+'IGlobal regulations and compliance',
+]
 
   return (
     <section className="business-card-container">
