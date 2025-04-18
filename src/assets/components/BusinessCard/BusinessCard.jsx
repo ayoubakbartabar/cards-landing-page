@@ -124,7 +124,7 @@ export default function BusinessCard() {
 
           {/* Pagination dots */}
           <div className="pagination-btn-container">
-            {businessCardsArray.map((_, i) => (
+            {businessCardsArray.map((i) => (
               <span
                 key={i}
                 className={`pagination-btn ${
