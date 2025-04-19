@@ -89,3 +89,6 @@
     cursor: pointer;
 
 }
+.active{
+    background-color:var(--get-card-arrow-color);
+}
