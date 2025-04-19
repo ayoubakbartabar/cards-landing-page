@@ -53,22 +53,23 @@
     width: 50%;
 }
 
-.business-card-box{
+.business-card-box {
     display: flex;
 
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.business-card-box-bottom{
+
+.business-card-box-bottom {
     width: 100%;
-    display: flex
-;
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
 
 }
+
 .business-card-box-img {
     width: 98%;
 }
