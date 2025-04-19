@@ -8,3 +8,14 @@
     border-top-left-radius: 100px;
     padding: 8rem 3rem;
 }
+.business-card-right-side{
+    display: flex
+;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+.business-card-box-img{
+    width: 50%;
+}
