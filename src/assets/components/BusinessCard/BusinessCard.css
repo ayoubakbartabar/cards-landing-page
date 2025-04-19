@@ -27,6 +27,14 @@
     width: 80%;
     color: var(--build-card-paragraph-color);
 }
+.business-card-list{
+    display: flex
+;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+}
 .business-card-box-img {
     width: 50%;
 }
