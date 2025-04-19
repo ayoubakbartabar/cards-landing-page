@@ -83,7 +83,7 @@
 }
 .pagination-btn{
     padding: 1rem;
-    background-color: aqua;
+    background-color:var(--pagination-btn-background-color);
     border-radius: 100%;
 
 }
