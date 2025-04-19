@@ -53,7 +53,7 @@
     width: 50%;
 }
 
-.business-card-box-container {
+.business-card-box{
     display: flex;
 
     justify-content: center;
