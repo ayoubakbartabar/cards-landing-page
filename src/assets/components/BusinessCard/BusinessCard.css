@@ -21,6 +21,10 @@
     margin-bottom: 1.5rem;
     line-height: 45px;
 }
+.business-card-left-side-paragraph{
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
 .business-card-box-img {
     width: 50%;
 }
