@@ -82,8 +82,9 @@
     gap: 1rem;
 }
 .pagination-btn{
-    padding: 1rem;
+    padding: 0.5rem;
     background-color:var(--pagination-btn-background-color);
     border-radius: 100%;
+    cursor: pointer;
 
 }
