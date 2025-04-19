@@ -48,17 +48,19 @@
     align-items: center;
     gap: 0.5rem;
 }
-.business-card-left-side{
+
+.business-card-left-side {
     width: 50%;
 }
-.business-card-box-container{
-    display: flex
-    ;
 
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+.business-card-box-container {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
 .business-card-box-img {
     width: 50%;
 }
