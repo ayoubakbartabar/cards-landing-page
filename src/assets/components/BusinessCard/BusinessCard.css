@@ -61,7 +61,8 @@
 }
 
 .business-card-box-img {
-    width: 98%;
+max-width: 500px;
+
 }
 
 .business-card-box-bottom {
