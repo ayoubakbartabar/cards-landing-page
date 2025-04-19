@@ -55,7 +55,6 @@
 
 .business-card-box {
     display: flex;
-
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -64,6 +63,7 @@
 .business-card-box-img {
     width: 98%;
 }
+
 .business-card-box-bottom {
     width: 100%;
     display: flex;
@@ -73,10 +73,9 @@
 
 }
 
-.pagination-btn-container{
+.pagination-btn-container {
     width: 100%;
-    display: flex
-;
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
