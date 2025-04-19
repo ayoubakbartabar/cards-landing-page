@@ -15,26 +15,29 @@
     align-items: flex-start;
     justify-content: center;
 }
-.business-card-left-side-title{
+
+.business-card-left-side-title {
     font-size: 3rem;
     font-weight: 800;
     margin-bottom: 1rem;
     line-height: 45px;
 }
-.business-card-left-side-paragraph{
+
+.business-card-left-side-paragraph {
     font-size: 1rem;
     margin-bottom: 2rem;
     width: 80%;
     color: var(--build-card-paragraph-color);
 }
-.business-card-list{
-    display: flex
-;
+
+.business-card-list {
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     gap: 1rem;
 }
+
 .business-card-box-img {
     width: 50%;
 }
