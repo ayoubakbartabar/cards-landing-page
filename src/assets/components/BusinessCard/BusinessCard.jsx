@@ -26,7 +26,7 @@ export default function BusinessCard() {
       id: 2,
       image: "public/image/testimonial-02.jpg",
       svg: "public/svg/testimonial-sign-02.svg",
-      detail: "“ This card allows us to achieve compliance...”",
+      detail: "“ This card allows us to achieve compliance with minimal effort, spend practically no time on payments-related customer support, and keep the user experience on our platform. “",
       name: "Maria Gress",
       jobtitles: "CEO & Co-Founder",
     },
