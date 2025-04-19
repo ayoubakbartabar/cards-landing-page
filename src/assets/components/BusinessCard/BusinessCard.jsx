@@ -143,7 +143,7 @@ export default function BusinessCard() {
           Compliance built card for businesses and professionals
         </h2>
         <p className="business-card-left-side-paragraph">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua minim veniam, quis nostrud exercitation.
         </p>
 
         {/* Business features list */}
