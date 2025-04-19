@@ -37,7 +37,10 @@
     justify-content: center;
     gap: 1rem;
 }
-
+.business-card-item-container{
+    list-style: none;
+    display: flex;
+}
 .business-card-box-img {
     width: 50%;
 }
