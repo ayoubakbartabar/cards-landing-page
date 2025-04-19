@@ -37,15 +37,16 @@
     justify-content: center;
     gap: 1rem;
 }
-.business-card-item-container{
+
+.business-card-item-container {
     list-style: none;
-    display: flex
-;
+    display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     gap: 0.5rem;
 }
+
 .business-card-box-img {
     width: 50%;
 }
