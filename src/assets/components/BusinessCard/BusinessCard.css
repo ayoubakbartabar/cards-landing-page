@@ -80,12 +80,12 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
+    gap: 0.5rem;
     margin-top: 2rem;
 }
 
 .pagination-btn {
-    padding: 0.5rem;
+    padding: 5px;
     background-color: var(--pagination-btn-background-color);
     border-radius: 100%;
     cursor: pointer;
