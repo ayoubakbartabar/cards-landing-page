@@ -79,4 +79,11 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    gap: 1rem;
+}
+.pagination-btn{
+    padding: 1rem;
+    background-color: aqua;
+    border-radius: 100%;
+
 }
