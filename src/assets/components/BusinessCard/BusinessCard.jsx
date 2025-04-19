@@ -18,7 +18,8 @@ export default function BusinessCard() {
       id: 1,
       image: "public/image/testimonial-01.jpg",
       svg: "public/svg/testimonial-sign-01.svg",
-      detail: "“ This card is awesome. The app lets me link foreign cards with a new one which makes everything 100 times easier. Like Apple Pay, online shopping without useless phone confirmation. I wish I knew this earlier. ”", // shortened for clarity
+      detail:
+        "“ This card is awesome. The app lets me link foreign cards with a new one which makes everything 100 times easier. Like Apple Pay, online shopping without useless phone confirmation. I wish I knew this earlier. ”", // shortened for clarity
       name: "Elisa Koeppel",
       jobtitles: "CEO & Co-Founder",
     },
@@ -26,7 +27,8 @@ export default function BusinessCard() {
       id: 2,
       image: "public/image/testimonial-02.jpg",
       svg: "public/svg/testimonial-sign-02.svg",
-      detail: "“ This card allows us to achieve compliance with minimal effort, spend practically no time on payments-related customer support, and keep the user experience on our platform. “",
+      detail:
+        "“ This card allows us to achieve compliance with minimal effort, spend practically no time on payments-related customer support, and keep the user experience on our platform. “",
       name: "Maria Gress",
       jobtitles: "CEO & Co-Founder",
     },
