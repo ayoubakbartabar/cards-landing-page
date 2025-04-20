@@ -6,26 +6,29 @@ export default function BusinessCard() {
   const ref = useRef(null);
   useIntersectionObserver(ref);
 
-  // Current active card index
+  // Index of the currently displayed business card
   const [currentIndex, setCurrentIndex] = useState(0);
+
+  // Control animation state for fade effect
   const [animate, setAnimate] = useState(false);
 
+  // Triggers fade animation by toggling a class
   const triggerAnimation = () => {
     setAnimate(false);
     setTimeout(() => setAnimate(true), 10);
   };
 
-  // Ref to track swipe start position
+  // Track swipe start position (touch/mouse)
   const startX = useRef(0);
 
-  // Testimonials array (each card content)
+  // Business testimonials data
   const businessCardsArray = [
     {
       id: 1,
       image: "public/image/testimonial-01.jpg",
       svg: "public/svg/testimonial-sign-01.svg",
       detail:
-        "“ This card is awesome. The app lets me link foreign cards with a new one which makes everything 100 times easier. Like Apple Pay, online shopping without useless phone confirmation. I wish I knew this earlier. ”", // shortened for clarity
+        "“ This card is awesome. The app lets me link foreign cards with a new one which makes everything 100 times easier. Like Apple Pay, online shopping without useless phone confirmation. I wish I knew this earlier. ”",
       name: "Elisa Koeppel",
       jobtitles: "CEO & Co-Founder",
     },
@@ -40,7 +43,7 @@ export default function BusinessCard() {
     },
   ];
 
-  // List of business features
+  // List of static features displayed on the right
   const businessFeature = [
     "Identity verifications",
     "Secure credit card data tokenization",
@@ -48,11 +51,12 @@ export default function BusinessCard() {
     "IGlobal regulations and compliance",
   ];
 
-  // Touch event handlers for swipe on mobile
+  // Touch start (for swipe detection on mobile)
   const handleTouchStart = (e) => {
     startX.current = e.touches[0].clientX;
   };
 
+  // Touch end (detect left/right swipe)
   const handleTouchEnd = (e) => {
     const endX = e.changedTouches[0].clientX;
     const diff = startX.current - endX;
@@ -60,11 +64,12 @@ export default function BusinessCard() {
     if (diff < -50) goPrev(); // Swipe right
   };
 
-  // Mouse event handlers for swipe on desktop
+  // Mouse down (for swipe simulation on desktop)
   const handleMouseDown = (e) => {
     startX.current = e.clientX;
   };
 
+  // Mouse up (detect drag left/right)
   const handleMouseUp = (e) => {
     const endX = e.clientX;
     const diff = startX.current - endX;
@@ -72,7 +77,7 @@ export default function BusinessCard() {
     if (diff < -50) goPrev(); // Drag right
   };
 
-  // Go to next card
+  // Move to the next card
   const goNext = () => {
     triggerAnimation();
     setCurrentIndex((prev) =>
@@ -80,13 +85,14 @@ export default function BusinessCard() {
     );
   };
 
-  // Go to previous card
+  // Move to the previous card
   const goPrev = () => {
     triggerAnimation();
     setCurrentIndex((prev) =>
       prev > 0 ? prev - 1 : businessCardsArray.length - 1
     );
   };
+
   return (
     <section
       className="business-card-container"
@@ -96,10 +102,10 @@ export default function BusinessCard() {
       onMouseUp={handleMouseUp}
       ref={ref}
     >
-      {/* Left side: testimonial card display */}
+      {/* Left: testimonial card display */}
       <div className="business-card-left-side fade-in-up">
         <div className="business-card-box-container">
-          {/* Show only one active card */}
+          {/* Show only the active card */}
           {businessCardsArray
             .slice(currentIndex, currentIndex + 1)
             .map((item) => (
@@ -126,7 +132,7 @@ export default function BusinessCard() {
               </div>
             ))}
 
-          {/* Pagination dots */}
+          {/* Pagination buttons */}
           <div className="pagination-btn-container">
             {businessCardsArray.map((_, i) => (
               <span
@@ -146,7 +152,7 @@ export default function BusinessCard() {
         </div>
       </div>
 
-      {/* Right side: static business info */}
+      {/* Right: static info and features */}
       <div className="business-card-right-side fade-in-up">
         <h2 className="business-card-left-side-title">
           Compliance built card for businesses and professionals
@@ -157,7 +163,7 @@ export default function BusinessCard() {
           veniam, quis nostrud exercitation.
         </p>
 
-        {/* Business features list */}
+        {/* Feature list */}
         <ul className="business-card-list fade-in-up">
           {businessFeature.map((item, i) => (
             <li key={i} className="business-card-item-container">
