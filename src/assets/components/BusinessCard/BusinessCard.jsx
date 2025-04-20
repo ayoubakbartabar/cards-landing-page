@@ -111,10 +111,12 @@ export default function BusinessCard() {
             .map((item) => (
               <div
                 key={item.id}
-                className={`business-card-box ${animate ? "fade-in-card" : ""}`}
+                className={`business-card-box ${
+                  animate ? "fade-in-card" : ""
+                } `}
                 style={{ backgroundImage: `url(${item.image})` }}
               >
-                <div className="business-card-overlay">
+                <div className="business-card-overlay ">
                   <img
                     className="business-card-box-svg"
                     src={item.svg}
