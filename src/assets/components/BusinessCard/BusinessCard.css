@@ -69,7 +69,7 @@
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 20px 11px rgb(0 0 0 / 20%);
 }
 
 .business-card-box-img {
