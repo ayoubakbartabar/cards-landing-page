@@ -58,12 +58,19 @@
 }
 
 .business-card-box {
+    width: 100%;
+    max-width: 400px;
+    height: 500px;
+    border-radius: 12px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
+    align-items: flex-end;
+    justify-content: flex-start;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
 .business-card-box-img {
     max-width: 400px;
 
