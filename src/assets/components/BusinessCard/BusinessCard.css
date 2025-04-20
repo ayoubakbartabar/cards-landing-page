@@ -96,7 +96,9 @@
     font-size: 0.95rem;
     line-height: 1.5rem;
 }
-
+.business-card-box-info-container {
+    font-size: 0.85rem;
+  }
 .business-card-box-bottom {
     width: 100%;
     display: flex;
