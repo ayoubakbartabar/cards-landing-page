@@ -97,26 +97,25 @@ export default function BusinessCard() {
             .slice(currentIndex, currentIndex + 1)
             .map((item) => (
               <div
-                key={item.id}
-                className="business-card-box"
-                style={{ backgroundImage: `url(${item.image})` }}
-              >
-                <div className="business-card-overlay">
-                  <img
-                    className="business-card-box-svg"
-                    src={item.svg}
-                    alt="SVG"
-                  />
-                  <p className="business-card-box-paragraph">{item.detail}</p>
-                  <span className="business-card-box-info-container">
-                    <span className="business-card-box-name">{item.name}</span>{" "}
-                    -
-                    <span className="business-card-box-job-titles">
-                      {item.jobtitles}
-                    </span>
+              key={item.id}
+              className="business-card-box"
+              style={{ backgroundImage: `url(${item.image})` }}
+            >
+              <div className="business-card-overlay">
+                <img
+                  className="business-card-box-svg"
+                  src={item.svg}
+                  alt="SVG"
+                />
+                <p className="business-card-box-paragraph">{item.detail}</p>
+                <span className="business-card-box-info-container">
+                  <span className="business-card-box-name">{item.name}</span> -
+                  <span className="business-card-box-job-titles">
+                    {item.jobtitles}
                   </span>
-                </div>
+                </span>
               </div>
+            </div>
             ))}
 
           {/* Pagination dots */}
