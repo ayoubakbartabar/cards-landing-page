@@ -70,7 +70,8 @@
     align-items: flex-end;
     justify-content: flex-start;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  }
+}
+
 .business-card-box-img {
     max-width: 400px;
 
