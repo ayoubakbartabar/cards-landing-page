@@ -91,7 +91,10 @@
     width: 120px;
     height: auto;
 }
-
+.business-card-box-paragraph {
+    font-size: 0.95rem;
+    line-height: 1.5rem;
+  }
 .business-card-box-bottom {
     width: 100%;
     display: flex;
