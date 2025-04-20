@@ -96,32 +96,26 @@ export default function BusinessCard() {
           {businessCardsArray
             .slice(currentIndex, currentIndex + 1)
             .map((item) => (
-              <div key={item.id} className="business-card-box">
-                <div className="business-card-box-top">
-                  <img
-                    className="business-card-box-img"
-                    src={item.image}
-                    alt="Box"
-                  />
-                </div>
-                <div className="business-card-box-bottom">
-                  <div className="business-card-box-svg-container">
-                    <img
-                      className="business-card-box-svg"
-                      src={item.svg}
-                      alt="SVG"
-                    />
-                  </div>
-                  <p className="business-card-box-paragraph">{item.detail}</p>
-                  <span className="business-card-box-info-container">
-                    <span className="business-card-box-name">{item.name}</span>{" "}
-                    -
-                    <span className="business-card-box-job-titles">
-                      {item.jobtitles}
-                    </span>
+              <div
+              key={item.id}
+              className="business-card-box"
+              style={{ backgroundImage: `url(${item.image})` }}
+            >
+              <div className="business-card-overlay">
+                <img
+                  className="business-card-box-svg"
+                  src={item.svg}
+                  alt="SVG"
+                />
+                <p className="business-card-box-paragraph">{item.detail}</p>
+                <span className="business-card-box-info-container">
+                  <span className="business-card-box-name">{item.name}</span> -
+                  <span className="business-card-box-job-titles">
+                    {item.jobtitles}
                   </span>
-                </div>
+                </span>
               </div>
+            </div>
             ))}
 
           {/* Pagination dots */}
