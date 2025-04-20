@@ -100,10 +100,12 @@
 .business-card-box-name {
     font-weight: bold;
 }
+
 .business-card-box-job-titles {
     opacity: 0.8;
     margin-left: 0.5rem;
-  }
+}
+
 .business-card-box-info-container {
     font-size: 0.85rem;
 }
