@@ -80,7 +80,7 @@
 .business-card-overlay {
     width: 100%;
     padding: 2rem;
-    background: linear-gradient(to top, rgba(51, 65, 85, 0.95), rgba(51, 65, 85, 0.6), rgba(51, 65, 85, 0.1));
+    background: linear-gradient(to top, rgba(51, 65, 85, 0.95), rgba(51, 65, 85, 0.6), rgba(51, 65, 85, 0));
     color: white;
     display: flex;
     flex-direction: column;
