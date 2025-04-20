@@ -86,7 +86,11 @@
     flex-direction: column;
     gap: 1rem;
 }
-
+.business-card-box-svg {
+    width: 120px;
+    height: auto;
+  }
+  
 .business-card-box-bottom {
     width: 100%;
     display: flex;
