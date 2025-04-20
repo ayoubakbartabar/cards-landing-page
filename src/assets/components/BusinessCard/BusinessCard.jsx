@@ -8,6 +8,12 @@ export default function BusinessCard() {
 
   // Current active card index
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [animate, setAnimate] = useState(false);
+
+  const triggerAnimation = () => {
+    setAnimate(false);
+    setTimeout(() => setAnimate(true), 10);
+  };
 
   // Ref to track swipe start position
   const startX = useRef(0);
@@ -68,6 +74,7 @@ export default function BusinessCard() {
 
   // Go to next card
   const goNext = () => {
+    triggerAnimation();
     setCurrentIndex((prev) =>
       prev < businessCardsArray.length - 1 ? prev + 1 : 0
     );
@@ -75,11 +82,11 @@ export default function BusinessCard() {
 
   // Go to previous card
   const goPrev = () => {
+    triggerAnimation();
     setCurrentIndex((prev) =>
       prev > 0 ? prev - 1 : businessCardsArray.length - 1
     );
   };
-
   return (
     <section
       className="business-card-container"
@@ -98,7 +105,7 @@ export default function BusinessCard() {
             .map((item) => (
               <div
                 key={item.id}
-                className="business-card-box"
+                className={`business-card-box ${animate ? "fade-in-card" : ""}`}
                 style={{ backgroundImage: `url(${item.image})` }}
               >
                 <div className="business-card-overlay">
@@ -127,7 +134,12 @@ export default function BusinessCard() {
                 className={`pagination-btn ${
                   i === currentIndex ? "active" : ""
                 }`}
-                onClick={() => setCurrentIndex(i)}
+                onClick={() => {
+                  if (i !== currentIndex) {
+                    triggerAnimation();
+                    setCurrentIndex(i);
+                  }
+                }}
               ></span>
             ))}
           </div>

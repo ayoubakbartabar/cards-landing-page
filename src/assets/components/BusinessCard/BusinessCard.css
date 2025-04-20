@@ -141,3 +141,31 @@
 .active {
     background-color: var(--get-card-arrow-color);
 }
+@keyframes fadeInCard {
+    0% {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  .fade-in-card {
+    animation: fadeInCard 0.6s ease-in-out;
+  }
+  
+  .business-card-inner-content {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+  
+  .business-card-inner-content.fade-out {
+    opacity: 0;
+  }
+  
+  .business-card-inner-content.fade-in {
+    opacity: 1;
+  }
+  
