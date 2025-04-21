@@ -44,7 +44,7 @@ export default function CustomSuperCards() {
       title: "Everything in Starter, plus",
       features: [
         'Split and settle bills',
-Money management
+'Money management',
 5 Extra cards (optional)
 Finance tracking
 Free and international domestic ATM withdrawals
