@@ -1,6 +1,8 @@
 import React from "react";
 import "./CustomSuperCards.css";
 export default function CustomSuperCards() {
+  // create data file
+  const CustomSuperCardsArray = []
   return (
     <section className="custom-super-cards-container">
       <div className="custom-super-cards-top">
