@@ -46,8 +46,8 @@ export default function CustomSuperCards() {
         'Split and settle bills',
 'Money management',
 '5 Extra cards (optional)',
-Finance tracking
-Free and international domestic ATM withdrawals
+'Finance tracking',
+'Free and international domestic ATM withdrawals',
       ],
     },
   ];
