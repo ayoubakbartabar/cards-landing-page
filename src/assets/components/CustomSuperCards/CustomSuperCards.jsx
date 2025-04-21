@@ -43,13 +43,11 @@ export default function CustomSuperCards() {
       buttonTitle: "get you",
       title: "Everything in Starter, plus",
       features: [
-        "Cashback",
-        "Travel insurance",
-        "3 Extra cards (optional)",
-        "Flight insurance",
-        "Two-factor authentication",
-        "Chatbot and in-app support",
-        "Discounted domestic transfers",
+        Split and settle bills
+Money management
+5 Extra cards (optional)
+Finance tracking
+Free and international domestic ATM withdrawals
       ],
     },
   ];
