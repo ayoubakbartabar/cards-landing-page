@@ -51,10 +51,10 @@ export default function CustomSuperCards() {
       ],
     },
     {
-      id: 3,
-      cardType: "You",
-      image: "public/image/pricing-03.png",
-      price: "$24/m",
+      id: 4,
+      cardType: "Black",
+      image: "public/image/pricing-04.png",
+      price: "$49/m",
       buttonTitle: "get you",
       title: "Everything in Starter, plus",
       features: [
