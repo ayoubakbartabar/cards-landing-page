@@ -2,7 +2,9 @@ import React from "react";
 import "./CustomSuperCards.css";
 export default function CustomSuperCards() {
   // create data file
-  const CustomSuperCardsArray = []
+  const CustomSuperCardsArray = [
+    {id:1 , cardType:"Starter" , image:"public/image/pricing-01.png" , price:'$0/m' , buttonTitle:"get starter" , title:"Features include" , }
+  ]
   return (
     <section className="custom-super-cards-container">
       <div className="custom-super-cards-top">
