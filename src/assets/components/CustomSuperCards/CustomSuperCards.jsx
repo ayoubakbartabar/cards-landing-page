@@ -40,7 +40,7 @@ export default function CustomSuperCards() {
       cardType: "You",
       image: "public/image/pricing-03.png",
       price: "$24/m",
-      buttonTitle: "get smart",
+      buttonTitle: "get you",
       title: "Everything in Starter, plus",
       features: [
         "Cashback",
