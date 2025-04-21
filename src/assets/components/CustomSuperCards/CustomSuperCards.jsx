@@ -3,7 +3,13 @@ import "./CustomSuperCards.css";
 export default function CustomSuperCards() {
   // create data file
   const CustomSuperCardsArray = [
-    {id:1 , cardType:"Starter" , image:"public/image/pricing-01.png" , price:'$0/m' , buttonTitle:"get starter" , title:"Features include" , }
+    {id:1 , cardType:"Starter" , image:"public/image/pricing-01.png" , price:'$0/m' , buttonTitle:"get starter" , title:"Features include" , features: [
+      "Contactless payments",
+      "Mobile payments",
+      "Extra card (optional)",
+      "Free payments worldwide",
+      "Free domestic ATM withdrawals",
+    ], }
   ]
   return (
     <section className="custom-super-cards-container">
