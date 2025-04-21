@@ -9,6 +9,13 @@ export default function CustomSuperCards() {
       "Extra card (optional)",
       "Free payments worldwide",
       "Free domestic ATM withdrawals",
+    ], },
+    {id:1 , cardType:"Starter" , image:"public/image/pricing-01.png" , price:'$0/m' , buttonTitle:"get starter" , title:"Features include" , features: [
+      "Contactless payments",
+      "Mobile payments",
+      "Extra card (optional)",
+      "Free payments worldwide",
+      "Free domestic ATM withdrawals",
     ], }
   ]
   return (
