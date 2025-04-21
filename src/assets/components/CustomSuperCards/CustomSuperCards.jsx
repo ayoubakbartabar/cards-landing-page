@@ -58,11 +58,11 @@ export default function CustomSuperCards() {
       buttonTitle: "get black",
       title: "Everything in You, plus",
       features: [
-        "Split and settle bills",
-        "Money management",
-        "5 Extra cards (optional)",
-        "Finance tracking",
-        "Free and international domestic ATM withdrawals",
+        'Manage subscriptions',
+'Savings vaults',
+'Commission-free stock trade',
+'Crypto and commodities',
+'Free foreign exchange',
       ],
     },
   ];
