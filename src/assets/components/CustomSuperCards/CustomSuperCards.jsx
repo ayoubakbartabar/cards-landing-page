@@ -35,6 +35,23 @@ export default function CustomSuperCards() {
         "Discounted domestic transfers",
       ],
     },
+    {
+      id: 2,
+      cardType: "Smart",
+      image: "public/image/pricing-02.png",
+      price: "$12/m",
+      buttonTitle: "get smart",
+      title: "Everything in Starter, plus",
+      features: [
+        "Cashback",
+        "Travel insurance",
+        "3 Extra cards (optional)",
+        "Flight insurance",
+        "Two-factor authentication",
+        "Chatbot and in-app support",
+        "Discounted domestic transfers",
+      ],
+    },
   ];
   return (
     <section className="custom-super-cards-container">
