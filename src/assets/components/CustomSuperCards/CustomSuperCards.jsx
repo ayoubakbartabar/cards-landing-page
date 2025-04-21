@@ -11,11 +11,13 @@ export default function CustomSuperCards() {
       "Free domestic ATM withdrawals",
     ], },
     {id:2 , cardType:"Smart" , image:"public/image/pricing-02.png" , price:'$12/m' , buttonTitle:"get smart" , title:"Everything in Starter, plus" , features: [
-      "Contactless payments",
-      "Mobile payments",
-      "Extra card (optional)",
-      "Free payments worldwide",
-      "Free domestic ATM withdrawals",
+      'Cashback',
+'Travel insurance',
+'3 Extra cards (optional)',
+'Flight insurance',
+'Two-factor authentication',
+'Chatbot and in-app support',
+'Discounted domestic transfers',
     ], }
   ]
   return (
