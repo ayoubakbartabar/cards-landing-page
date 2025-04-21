@@ -36,9 +36,9 @@ export default function CustomSuperCards() {
       ],
     },
     {
-      id: 2,
-      cardType: "Smart",
-      image: "public/image/pricing-02.png",
+      id: 3,
+      cardType: "You",
+      image: "public/image/pricing-03.png",
       price: "$12/m",
       buttonTitle: "get smart",
       title: "Everything in Starter, plus",
