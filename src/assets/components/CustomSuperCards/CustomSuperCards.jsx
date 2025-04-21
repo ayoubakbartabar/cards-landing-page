@@ -56,7 +56,7 @@ export default function CustomSuperCards() {
       image: "public/image/pricing-04.png",
       price: "$49/m",
       buttonTitle: "get black",
-      title: "Everything in Starter, plus",
+      title: "Everything in You, plus",
       features: [
         "Split and settle bills",
         "Money management",
