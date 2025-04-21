@@ -58,11 +58,11 @@ export default function CustomSuperCards() {
       buttonTitle: "get black",
       title: "Everything in You, plus",
       features: [
-        'Manage subscriptions',
-'Savings vaults',
-'Commission-free stock trade',
-'Crypto and commodities',
-'Free foreign exchange',
+        "Manage subscriptions",
+        "Savings vaults",
+        "Commission-free stock trade",
+        "Crypto and commodities",
+        "Free foreign exchange",
       ],
     },
   ];
