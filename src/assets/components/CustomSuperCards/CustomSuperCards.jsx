@@ -43,7 +43,7 @@ export default function CustomSuperCards() {
       buttonTitle: "get you",
       title: "Everything in Starter, plus",
       features: [
-        Split and settle bills
+        'Split and settle bills',
 Money management
 5 Extra cards (optional)
 Finance tracking
