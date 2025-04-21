@@ -50,6 +50,21 @@ export default function CustomSuperCards() {
         "Free and international domestic ATM withdrawals",
       ],
     },
+    {
+      id: 3,
+      cardType: "You",
+      image: "public/image/pricing-03.png",
+      price: "$24/m",
+      buttonTitle: "get you",
+      title: "Everything in Starter, plus",
+      features: [
+        "Split and settle bills",
+        "Money management",
+        "5 Extra cards (optional)",
+        "Finance tracking",
+        "Free and international domestic ATM withdrawals",
+      ],
+    },
   ];
   return (
     <section className="custom-super-cards-container">
