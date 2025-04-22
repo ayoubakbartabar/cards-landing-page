@@ -1,5 +1,6 @@
 import React from "react";
 import "./CustomSuperCards.css";
+import CustomSuperCardsArray from "./CustomSuperCardsDatas";
 export default function CustomSuperCards() {
  
   return (
@@ -14,7 +15,7 @@ export default function CustomSuperCards() {
         </p>
       </div>
       <div className="custom-super-cards-bottom"> 
-        
+
       </div>
     </section>
   );
