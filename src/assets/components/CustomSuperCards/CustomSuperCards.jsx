@@ -15,10 +15,10 @@ export default function CustomSuperCards() {
         </p>
       </div>
       <div className="custom-super-cards-bottom"> 
-        <div className="custom-super-cards-box"></div>
           {/* set map for generate elements */}
           {
             CustomSuperCardsArray.map(item =>(
+              <div className="custom-super-cards-box"></div>
               
               
             ))
