@@ -5,7 +5,7 @@
             <stop stopColor="#3B82F6" offset="100%"></stop>
         </linearGradient>
     </defs>
-    <g fill-rule="nonzero" fill="none">
+    <g fillRule="nonzero" fill="none">
         <path
             d="M30.22 38.065h-26a1 1 0 0 1-1-1v-32a1 1 0 0 1 1-1h26a1 1 0 0 1 1 1v32a1 1 0 0 1-1 1Zm-19-24v2h7v-2h-7Zm3 6v2h10v-2h-10Zm-3 6v2h7v-2h-7Z"
             fill="#7DD3FC"></path>
