@@ -17,7 +17,10 @@ export default function CustomSuperCards() {
       <div className="custom-super-cards-bottom"> 
           {/* set map for generate elements */}
           {
-
+            CustomSuperCardsArray.map(item =>(
+              
+              
+            ))
           }
       </div>
     </section>
