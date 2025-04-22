@@ -6,6 +6,7 @@ const CustomSuperCardsArray = [
     image: "public/image/pricing-01.png",
     price: "$0/m",
     buttonTitle: "get starter",
+    buttonStyle: "black-btn",
     title: "Features include",
     features: [
       "Contactless payments",
