@@ -23,6 +23,7 @@ export default function CustomSuperCards() {
                 <img src={item.image} alt={item.title}  className="custom-super-cards-image"/>
                 <h3 className="custom-super-cards-price">{item.price}</h3>
                 <button className={`${item.buttonStyle}`}>{item.buttonTitle}</button>
+                <ul className="custom-super-cards-list"></ul>
               </div>
               
               
