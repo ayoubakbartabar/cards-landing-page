@@ -56,7 +56,7 @@ const CustomSuperCardsArray = [
     image: "public/image/pricing-04.png",
     price: "$49/m",
     buttonTitle: "get black",
-    buttonStyle: "black-btn",
+    buttonStyle: "blue-btn",
     title: "Everything in You, plus",
     features: [
       "Manage subscriptions",
