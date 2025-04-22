@@ -20,6 +20,7 @@ export default function CustomSuperCards() {
             CustomSuperCardsArray.map(item =>(
               <div key={item.id} className="custom-super-cards-box">
                 <h4 className="custom-super-cards-title">{item.title}</h4>
+                <img src={item.image} alt={item.title}  className="custom-super-cards-image"/>
               </div>
               
               
