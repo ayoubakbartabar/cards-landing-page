@@ -24,7 +24,9 @@ export default function CustomSuperCards() {
                 <h3 className="custom-super-cards-price">{item.price}</h3>
                 <button className={`${item.buttonStyle}`}>{item.buttonTitle}</button>
                 <ul className="custom-super-cards-list">
-                {item.features.map((feature, index) => ())}
+                {item.features.map((feature, index) => (
+                  <div className="custom-super-cards-item-container"></div>
+                ))}
                 </ul>
               </div>
               
