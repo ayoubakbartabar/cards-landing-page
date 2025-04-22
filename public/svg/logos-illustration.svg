@@ -13,8 +13,8 @@
             <feGaussianBlur stdDeviation="8" in="SourceGraphic" />
         </filter>
         <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="a">
-            <stop stop-color="#0EA5E9" offset="0%" />
-            <stop stop-color="#BAE6FD" offset="100%" />
+            <stop stopColor="#0EA5E9" offset="0%" />
+            <stop stopColor="#BAE6FD" offset="100%" />
         </linearGradient>
     </defs>
     <g transform="translate(-422 -2927)" fill="url(#a)" fill-rule="nonzero">
