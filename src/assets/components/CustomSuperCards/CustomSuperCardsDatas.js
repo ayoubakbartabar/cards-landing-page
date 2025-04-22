@@ -21,6 +21,7 @@ const CustomSuperCardsArray = [
     image: "public/image/pricing-02.png",
     price: "$12/m",
     buttonTitle: "get smart",
+    buttonStyle: "black-btn",
     title: "Everything in Starter, plus",
     features: [
       "Cashback",
