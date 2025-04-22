@@ -18,7 +18,7 @@ export default function CustomSuperCards() {
           {/* set map for generate elements */}
           {
             CustomSuperCardsArray.map(item =>(
-              <div className="custom-super-cards-box">
+              <div key={item.id} className="custom-super-cards-box">
                 <h4 className="custom-super-cards-title">{item.title}</h4>
               </div>
               
