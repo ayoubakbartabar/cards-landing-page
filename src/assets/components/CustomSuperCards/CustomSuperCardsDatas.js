@@ -40,6 +40,7 @@ const CustomSuperCardsArray = [
     image: "public/image/pricing-03.png",
     price: "$24/m",
     buttonTitle: "get you",
+    buttonStyle: "black-btn",
     title: "Everything in Starter, plus",
     features: [
       "Split and settle bills",
