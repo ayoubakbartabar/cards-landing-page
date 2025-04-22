@@ -77,14 +77,14 @@ export default function GetYourCard() {
               <feGaussianBlur stdDeviation="8" in="SourceGraphic" />
             </filter>
             <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="a">
-              <stop stop-color="#0EA5E9" offset="0%" />
-              <stop stop-color="#BAE6FD" offset="100%" />
+              <stop stopColor="#0EA5E9" offset="0%" />
+              <stop stopColor="#BAE6FD" offset="100%" />
             </linearGradient>
           </defs>
           <g
             transform="translate(-422 -2927)"
             fill="url(#a)"
-            fill-rule="nonzero"
+            fillRule="nonzero"
           >
             <path
               d="M286.04 19.22c74.64 46.968 85.528 164.69 24.342 263.158-61.303 98.461-171.592 140.279-246.339 93.402-74.746-46.876-85.645-164.696-24.342-263.158C101.004 14.161 211.293-27.657 286.04 19.22Zm-47.046 76.512c-42.544-26.681-105.319-2.88-140.211 53.163C63.89 204.938 70.093 272 112.638 298.68c42.544 26.682 105.319 2.88 140.211-53.163 34.827-56.046 28.629-123.051-13.855-149.785Z"

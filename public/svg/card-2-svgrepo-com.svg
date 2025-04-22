@@ -1,5 +1,5 @@
 <svg width="30" height="30" xmlns="http://www.w3.org/2000/svg">
-    <g fill-rule="nonzero" fill="none">
+    <g fillRule="nonzero" fill="none">
         <g class="cypkd" transform="translate(3 3)">
             <circle cx="5" cy="5" r="5"></circle>
             <circle cx="19" cy="5" r="5"></circle>
