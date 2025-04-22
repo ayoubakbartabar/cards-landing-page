@@ -21,6 +21,7 @@ export default function CustomSuperCards() {
               <div key={item.id} className="custom-super-cards-box">
                 <h4 className="custom-super-cards-title">{item.title}</h4>
                 <img src={item.image} alt={item.title}  className="custom-super-cards-image"/>
+                <h3 className="custom-super-cards-price">{item.price}</h3>
               </div>
               
               
