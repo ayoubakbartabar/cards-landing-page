@@ -15,7 +15,10 @@ export default function CustomSuperCards() {
         </p>
       </div>
       <div className="custom-super-cards-bottom"> 
+          {/* set map for generate elements */}
+          {
 
+          }
       </div>
     </section>
   );
