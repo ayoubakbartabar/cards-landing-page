@@ -63,3 +63,6 @@ const CustomSuperCardsArray = [
     ],
   },
 ];
+
+// export array
+export default CustomSuperCardsArray 

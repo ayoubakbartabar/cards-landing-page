@@ -13,7 +13,9 @@ export default function CustomSuperCards() {
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
       </div>
-      <div className="custom-super-cards-bottom"></div>
+      <div className="custom-super-cards-bottom"> 
+        
+      </div>
     </section>
   );
 }
