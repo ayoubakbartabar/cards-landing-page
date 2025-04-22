@@ -25,7 +25,9 @@ export default function CustomSuperCards() {
                 <button className={`${item.buttonStyle}`}>{item.buttonTitle}</button>
                 <ul className="custom-super-cards-list">
                 {item.features.map((feature, index) => (
-                  <div className="custom-super-cards-item-container"></div>
+                  <div key={index + 1} className="custom-super-cards-item-container">
+                    <li className="custom-super-cards-item">{feature}</li>
+                  </div>
                 ))}
                 </ul>
               </div>
