@@ -46,6 +46,10 @@
     align-items: center;
     gap: 0.5rem;
   }
+  .custom-super-cards-item-svg {
+    width: 16px;
+    height: 16px;
+  }
   
 .custom-super-cards-image{
     width: 80%;
