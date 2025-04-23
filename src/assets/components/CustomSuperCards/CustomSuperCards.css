@@ -71,6 +71,12 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease, width 0.3s ease; 
 }
 
+.blue-btn {
+    background-color: var(--custom-supercard-button-background);
+    color: var(--text-white-color);
+  }
+
+  
 .custom-super-cards-list {
     list-style: none;
     padding: 0;
