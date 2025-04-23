@@ -35,7 +35,14 @@
 .custom-super-cards-item-svg {
     width: 20px;
 }
-
+.custom-super-cards-bottom {
+    display: grid
+    ;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 2rem;
+        padding: 2rem;
+        width: 100%;
+  }
 .custom-super-cards-list {
     list-style: none;
     padding: 0;
