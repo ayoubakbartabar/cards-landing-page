@@ -25,14 +25,17 @@
     line-height: 3.5rem;
     width: 80%;
 }
+
 .custom-super-cards-paragraph {
     color: var(--build-card-paragraph-color);
-    font-size: 1.2rem;;
+    font-size: 1.2rem;
+    ;
 }
 
 .custom-super-cards-item-svg {
     width: 20px;
 }
+
 .custom-super-cards-list {
     list-style: none;
     padding: 0;
@@ -40,17 +43,19 @@
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
-  }
-  .custom-super-cards-item-container {
+}
+
+.custom-super-cards-item-container {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-  }
-  .custom-super-cards-item-svg {
+}
+
+.custom-super-cards-item-svg {
     width: 16px;
     height: 16px;
-  }
-  
-.custom-super-cards-image{
+}
+
+.custom-super-cards-image {
     width: 80%;
 }
