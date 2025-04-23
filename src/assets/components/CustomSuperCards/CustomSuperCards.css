@@ -101,7 +101,9 @@
     flex-direction: column;
     gap: 0.8rem;
 }
-
+.custom-super-cards-list-title{
+    margin-bottom: 1rem;
+}
 .custom-super-cards-item-container {
     display: flex;
     align-items: center;
