@@ -1,6 +1,15 @@
-.custom-super-cards-container{
+.custom-super-cards-container {
+    border: 2.6px solid var(--brands-border-color);
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 4.5rem;
+    margin: 0 7rem;
+    border-top-right-radius: 100px;
+
 }
-.custom-super-cards-item-svg{
+
+.custom-super-cards-item-svg {
     width: 20px;
 }
