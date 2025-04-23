@@ -43,40 +43,44 @@
     padding: 2rem;
     width: 100%;
 }
-.custom-super-cards-box{
+
+.custom-super-cards-box {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.custom-super-cards-box-title{
+
+.custom-super-cards-box-title {
     font-weight: 800;
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
 }
-.custom-super-cards-box-price{
+
+.custom-super-cards-box-price {
     font-weight: 700;
     font-size: 1.2rem;
     margin-bottom: 1rem;
 }
+
 .blue-btn,
 .black-btn {
-  width: 60%;
-  padding: 1rem 0;
-  border: 0;
-  font-size: 1rem;
-  font-weight: 700;
-  border-radius: 50px;
-  text-transform: capitalize;
-  cursor: pointer;
-  transition: transform 0.3s ease, box-shadow 0.3s ease, width 0.3s ease; 
+    width: 60%;
+    padding: 1rem 0;
+    border: 0;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 50px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, width 0.3s ease;
 }
 
 .blue-btn {
     background-color: var(--custom-supercard-button-background);
     color: var(--text-white-color);
-  }
+}
 
-  
+
 .custom-super-cards-list {
     list-style: none;
     padding: 0;
