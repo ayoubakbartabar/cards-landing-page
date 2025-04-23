@@ -85,7 +85,13 @@
     background-color: var(--navBar-background);
     color: var(--text-white-color);
 }
-
+  
+.blue-btn:hover,
+.black-btn:hover {
+  transform: scale(1.05);
+  width: 80%; 
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
 .custom-super-cards-list {
     list-style: none;
     padding: 0;
