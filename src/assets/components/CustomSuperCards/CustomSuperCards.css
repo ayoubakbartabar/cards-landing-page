@@ -80,11 +80,11 @@
     color: var(--text-white-color);
 }
 
-  
+
 .black-btn {
     background-color: var(--navBar-background);
     color: var(--text-white-color);
-  }
+}
 
 .custom-super-cards-list {
     list-style: none;
