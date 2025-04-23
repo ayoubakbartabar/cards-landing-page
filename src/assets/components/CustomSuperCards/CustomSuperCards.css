@@ -48,6 +48,11 @@
     flex-direction: column;
     align-items: center;
 }
+.custom-super-cards-box-title{
+    font-weight: 800;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
 .custom-super-cards-list {
     list-style: none;
     padding: 0;
@@ -70,4 +75,5 @@
 
 .custom-super-cards-image {
     width: 100%;
+    margin-bottom: 1rem;
 }
