@@ -68,6 +68,7 @@
     font-weight: 700;
     border-radius: 50px;
     text-transform: capitalize;
+    cursor: pointer;
 }
 .custom-super-cards-list {
     list-style: none;
