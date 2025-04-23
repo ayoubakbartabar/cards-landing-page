@@ -58,30 +58,19 @@
     font-size: 1.2rem;
     margin-bottom: 1rem;
 }
-.blue-btn{
-    width: 50%;
-    padding: 1rem 0px;
-    border: 0;
-    background-color: var(--custom-supercard-button-background);
-    color: var(--text-white-color);
-    font-size: 1rem;
-    font-weight: 700;
-    border-radius: 50px;
-    text-transform: capitalize;
-    cursor: pointer;
+.blue-btn,
+.black-btn {
+  width: 60%;
+  padding: 1rem 0;
+  border: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 50px;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, width 0.3s ease; 
 }
-.black-btn{
-    width: 50%;
-    padding: 1rem 0px;
-    border: 0;
-    background-color: var(--navBar-background);
-    color: var(--text-white-color);
-    font-size: 1rem;
-    font-weight: 700;
-    border-radius: 50px;
-    text-transform: capitalize;
-    cursor: pointer;
-}
+
 .custom-super-cards-list {
     list-style: none;
     padding: 0;
