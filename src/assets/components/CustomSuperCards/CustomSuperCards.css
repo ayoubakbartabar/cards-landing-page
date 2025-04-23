@@ -20,10 +20,14 @@
 }
 
 .custom-super-cards-title {
-    font-size: 3.5rem;
+    font-size: 2.8rem;
     font-weight: 800;
     line-height: 3.5rem;
     width: 80%;
+}
+.custom-super-cards-paragraph {
+    color: var(--build-card-paragraph-color);
+    font-size: 1.2rem;;
 }
 
 .custom-super-cards-item-svg {

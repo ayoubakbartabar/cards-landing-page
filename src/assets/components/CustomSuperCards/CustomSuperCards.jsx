@@ -19,9 +19,9 @@ export default function CustomSuperCards() {
           {
             CustomSuperCardsArray.map(item =>(
               <div key={item.id} className="custom-super-cards-box">
-                <h4 className="custom-super-cards-title">{item.cardType}</h4>
+                <h4 className="custom-super-cards-box-title">{item.cardType}</h4>
                 <img src={item.image} alt={item.title}  className="custom-super-cards-image"/>
-                <h3 className="custom-super-cards-price">{item.price}</h3>
+                <h3 className="custom-super-cards-box-price">{item.price}</h3>
                 <button className={`${item.buttonStyle}`}>{item.buttonTitle}</button>
                 <ul className="custom-super-cards-list">
                 {item.features.map((feature, index) => (
