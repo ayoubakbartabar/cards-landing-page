@@ -53,6 +53,11 @@
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
 }
+.custom-super-cards-box-price{
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
 .custom-super-cards-list {
     list-style: none;
     padding: 0;
