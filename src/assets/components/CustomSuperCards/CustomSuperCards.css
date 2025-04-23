@@ -19,6 +19,13 @@
     align-items: flex-start;
 }
 
+.custom-super-cards-title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 3.5rem;
+    width: 80%;
+}
+
 .custom-super-cards-item-svg {
     width: 20px;
 }
