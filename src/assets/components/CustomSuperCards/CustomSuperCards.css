@@ -65,7 +65,9 @@
     background-color: var(--custom-supercard-button-background);
     color: var(--text-white-color);
     font-size: 1rem;
-    font-weight: 800;
+    font-weight: 700;
+    border-radius: 50px;
+    text-transform: capitalize;
 }
 .custom-super-cards-list {
     list-style: none;
