@@ -28,8 +28,9 @@ export default function CustomSuperCards() {
               {item.buttonTitle}
             </button>
             <ul className="custom-super-cards-list">
+              <h3 className="custom-super-cards-list-title">{item.title}</h3>
               {item.features.map((feature, index) => (
-                  <li key={index} className="custom-super-cards-item-container">
+                <li key={index} className="custom-super-cards-item-container">
                   <img
                     src="public/svg/green-Check.svg"
                     alt="green check"
