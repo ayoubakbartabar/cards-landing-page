@@ -43,7 +43,12 @@
     padding: 2rem;
     width: 100%;
 }
-
+.custom-super-cards-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .custom-super-cards-list {
     list-style: none;
     padding: 0;
