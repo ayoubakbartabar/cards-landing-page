@@ -58,6 +58,13 @@
     font-size: 1.2rem;
     margin-bottom: 1rem;
 }
+.blue-btn{
+    width: 100%;
+    padding: 1rem;
+    border: 0;
+    background-color: var(--custom-supercard-button-background);
+    color: var(--text-white-color);
+}
 .custom-super-cards-list {
     list-style: none;
     padding: 0;
