@@ -25,6 +25,7 @@ const CustomSuperCardsArray = [
     buttonTitle: "get smart",
     buttonStyle: "black-btn",
     title: "Everything in Starter, plus",
+    activeMode:true,
     features: [
       "Cashback",
       "Travel insurance",
