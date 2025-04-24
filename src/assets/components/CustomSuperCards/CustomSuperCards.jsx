@@ -1,4 +1,4 @@
-import React , {useState} from "react";
+import React, { useState } from "react";
 import "./CustomSuperCards.css";
 import CustomSuperCardsArray from "./CustomSuperCardsDatas";
 export default function CustomSuperCards() {
@@ -17,9 +17,12 @@ export default function CustomSuperCards() {
       <div className="custom-super-cards-bottom">
         {/* set map for generate elements */}
         {CustomSuperCardsArray.map((item) => (
-          <div key={item.id} className={`custom-super-cards-box ${
-            item.activeMode ? "custom-super-cards-box--active" : ""
-          }`}>
+          <div
+            key={item.id}
+            className={`custom-super-cards-box ${
+              item.activeMode ? "custom-super-cards-box--active" : ""
+            }`}
+          >
             <h4 className="custom-super-cards-box-title">{item.cardType}</h4>
             <img
               src={item.image}
