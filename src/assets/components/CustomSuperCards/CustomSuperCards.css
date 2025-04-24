@@ -42,18 +42,18 @@
     padding: 2rem;
     width: 100%;
 }
-
 .custom-super-cards-box {
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+    transition: background 0.5s ease, border-radius 0.5s ease, box-shadow 0.5s ease;
+  }
 
-.custom-super-cards-box--active , .custom-super-cards-box:hover{
-    background: linear-gradient(135deg, #fafafa 0%, #bbdaff 100%);
-    border-bottom-right-radius: 100px;
-}
+.custom-super-cards-box--active::before {
+    height: 100%;
+  }
+  
 .custom-super-cards-box-title {
     font-weight: 800;
     font-size: 1.2rem;
