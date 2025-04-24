@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import "./CustomSuperCards.css";
 import CustomSuperCardsArray from "./CustomSuperCardsDatas";
 export default function CustomSuperCards() {
-  const [activeCardId, setActiveCardId] = useState(null);
+  const [activeCardId, setActiveCardId] = useState(
+    CustomSuperCardsArray.find((card) => card.activeMode)?.id || null
+  );
   return (
     <section className="custom-super-cards-container">
       <div className="custom-super-cards-top">
@@ -14,14 +16,15 @@ export default function CustomSuperCards() {
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
       </div>
+
       <div className="custom-super-cards-bottom">
-        {/* set map for generate elements */}
         {CustomSuperCardsArray.map((item) => (
           <div
             key={item.id}
             className={`custom-super-cards-box ${
-              item.activeMode ? "custom-super-cards-box--active" : ""
+              activeCardId === item.id ? "custom-super-cards-box--active" : ""
             }`}
+            onMouseEnter={() => setActiveCardId(item.id)}
           >
             <h4 className="custom-super-cards-box-title">{item.cardType}</h4>
             <img
