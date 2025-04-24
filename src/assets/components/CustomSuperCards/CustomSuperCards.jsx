@@ -12,7 +12,7 @@ export default function CustomSuperCards() {
 
   return (
     <section className="custom-super-cards-container" ref={ref}>
-      <div className="custom-super-cards-top ">
+      <div className="custom-super-cards-top fade-in-up ">
         <h1 className="custom-super-cards-title">
           Get the only custom super card you'll ever need
         </h1>
@@ -22,7 +22,7 @@ export default function CustomSuperCards() {
         </p>
       </div>
 
-      <div className="custom-super-cards-bottom">
+      <div className="custom-super-cards-bottom fade-in-up">
         {CustomSuperCardsArray.map((item) => (
           <div
             key={item.id}
