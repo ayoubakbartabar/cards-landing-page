@@ -66,6 +66,10 @@
     border-bottom-right-radius: 100px;
     border-top-left-radius: 10px;
   }
+  .custom-super-cards-box:hover::before {
+    height: 100%;
+  }
+  
 .custom-super-cards-box--active::before {
     height: 100%;
 }
