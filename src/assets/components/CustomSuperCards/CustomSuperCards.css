@@ -51,6 +51,7 @@
 }
 .custom-super-cards-box--active{
     background: linear-gradient(135deg, #fafafa 0%, #bbdaff 100%);
+    border-bottom-right-radius: 100px;
 }
 .custom-super-cards-box-title {
     font-weight: 800;
