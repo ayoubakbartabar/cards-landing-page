@@ -42,6 +42,7 @@
     padding: 2rem;
     width: 100%;
 }
+
 .custom-super-cards-box {
     padding: 1.5rem;
     display: flex;
@@ -51,12 +52,12 @@
     position: relative;
     overflow: hidden;
     transition: transform 0.3s ease;
-  }
+}
 
 .custom-super-cards-box--active::before {
     height: 100%;
-  }
-  
+}
+
 .custom-super-cards-box-title {
     font-weight: 800;
     font-size: 1.2rem;
