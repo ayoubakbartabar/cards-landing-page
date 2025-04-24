@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import "./CustomSuperCards.css";
 import CustomSuperCardsArray from "./CustomSuperCardsDatas";
-
+import useIntersectionObserver from "../useIntersectionObserver/useIntersectionObserver.jsx";
 export default function CustomSuperCards() {
   // set Hook
   const [activeCardId, setActiveCardId] = useState(
     CustomSuperCardsArray.find((card) => card.activeMode)?.id || null
   );
+  const ref = useRef(null);
+  useIntersectionObserver(ref);
   return (
     <section className="custom-super-cards-container">
       <div className="custom-super-cards-top">
