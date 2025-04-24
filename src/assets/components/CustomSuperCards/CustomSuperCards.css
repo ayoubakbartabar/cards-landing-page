@@ -79,6 +79,30 @@
     transition: transform 0.3s ease;
 }
 
+.custom-super-cards-box::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: linear-gradient(to top, #dbeafe 0%, #93c5fd 100%);
+    z-index: 0;
+    transition: height 1.5s ease;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 10px;
+}
+
+.custom-super-cards-box:hover::before,
+.custom-super-cards-box--active::before {
+    height: 100%;
+}
+
+.custom-super-cards-box>* {
+    position: relative;
+    z-index: 1;
+}
+
 .custom-super-cards-box:hover::before {
     height: 100%;
 }
