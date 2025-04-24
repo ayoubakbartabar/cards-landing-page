@@ -1,7 +1,8 @@
-import React from "react";
+import React , {useState} from "react";
 import "./CustomSuperCards.css";
 import CustomSuperCardsArray from "./CustomSuperCardsDatas";
 export default function CustomSuperCards() {
+  
   return (
     <section className="custom-super-cards-container">
       <div className="custom-super-cards-top">
