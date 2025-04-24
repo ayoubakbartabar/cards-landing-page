@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import "./CustomSuperCards.css";
 import CustomSuperCardsArray from "./CustomSuperCardsDatas";
+
 export default function CustomSuperCards() {
+  // set Hook
   const [activeCardId, setActiveCardId] = useState(
     CustomSuperCardsArray.find((card) => card.activeMode)?.id || null
   );
