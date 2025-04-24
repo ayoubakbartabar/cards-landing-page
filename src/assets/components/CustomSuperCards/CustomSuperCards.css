@@ -68,6 +68,17 @@
     border-top-left-radius: 10px;
 }
 
+.custom-super-cards-box>* {
+    position: relative;
+    z-index: 1;
+}
+
+.custom-super-cards-box {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
 .custom-super-cards-box:hover::before {
     height: 100%;
 }
