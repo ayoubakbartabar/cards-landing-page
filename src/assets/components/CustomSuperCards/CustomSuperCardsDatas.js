@@ -8,7 +8,7 @@ const CustomSuperCardsArray = [
     buttonTitle: "get starter",
     buttonStyle: "blue-btn",
     title: "Features include",
-    activeMode:false,
+    activeMode: false,
     features: [
       "Contactless payments",
       "Mobile payments",
@@ -25,7 +25,7 @@ const CustomSuperCardsArray = [
     buttonTitle: "get smart",
     buttonStyle: "black-btn",
     title: "Everything in Starter, plus",
-    activeMode:true,
+    activeMode: true,
     features: [
       "Cashback",
       "Travel insurance",
@@ -44,7 +44,7 @@ const CustomSuperCardsArray = [
     buttonTitle: "get you",
     buttonStyle: "blue-btn",
     title: "Everything in Starter, plus",
-    activeMode:false,
+    activeMode: false,
     features: [
       "Split and settle bills",
       "Money management",
@@ -61,7 +61,7 @@ const CustomSuperCardsArray = [
     buttonTitle: "get black",
     buttonStyle: "blue-btn",
     title: "Everything in You, plus",
-    activeMode:false,
+    activeMode: false,
     features: [
       "Manage subscriptions",
       "Savings vaults",
@@ -73,4 +73,4 @@ const CustomSuperCardsArray = [
 ];
 
 // export array
-export default CustomSuperCardsArray 
+export default CustomSuperCardsArray;
