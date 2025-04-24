@@ -8,6 +8,7 @@ const CustomSuperCardsArray = [
     buttonTitle: "get starter",
     buttonStyle: "blue-btn",
     title: "Features include",
+    activeMode:false,
     features: [
       "Contactless payments",
       "Mobile payments",
