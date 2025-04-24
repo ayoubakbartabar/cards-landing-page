@@ -61,6 +61,7 @@ const CustomSuperCardsArray = [
     buttonTitle: "get black",
     buttonStyle: "blue-btn",
     title: "Everything in You, plus",
+    activeMode:false,
     features: [
       "Manage subscriptions",
       "Savings vaults",
