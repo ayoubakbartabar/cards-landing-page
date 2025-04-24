@@ -49,7 +49,8 @@
     flex-direction: column;
     align-items: center;
 }
-.custom-super-cards-box--active{
+
+.custom-super-cards-box--active , .custom-super-cards-box:hover{
     background: linear-gradient(135deg, #fafafa 0%, #bbdaff 100%);
     border-bottom-right-radius: 100px;
 }
