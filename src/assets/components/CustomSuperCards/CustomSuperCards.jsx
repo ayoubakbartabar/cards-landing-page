@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import "./CustomSuperCards.css";
 import CustomSuperCardsArray from "./CustomSuperCardsDatas";
 import useIntersectionObserver from "../useIntersectionObserver/useIntersectionObserver.jsx";
@@ -9,9 +9,10 @@ export default function CustomSuperCards() {
   );
   const ref = useRef(null);
   useIntersectionObserver(ref);
+
   return (
-    <section className="custom-super-cards-container">
-      <div className="custom-super-cards-top">
+    <section className="custom-super-cards-container" ref={ref}>
+      <div className="custom-super-cards-top ">
         <h1 className="custom-super-cards-title">
           Get the only custom super card you'll ever need
         </h1>
