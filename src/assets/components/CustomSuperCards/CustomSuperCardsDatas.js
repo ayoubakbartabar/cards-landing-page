@@ -44,6 +44,7 @@ const CustomSuperCardsArray = [
     buttonTitle: "get you",
     buttonStyle: "blue-btn",
     title: "Everything in Starter, plus",
+    activeMode:false,
     features: [
       "Split and settle bills",
       "Money management",
