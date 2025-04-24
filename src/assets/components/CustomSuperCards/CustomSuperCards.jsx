@@ -16,7 +16,9 @@ export default function CustomSuperCards() {
       <div className="custom-super-cards-bottom">
         {/* set map for generate elements */}
         {CustomSuperCardsArray.map((item) => (
-          <div key={item.id} className="custom-super-cards-box">
+          <div key={item.id} className={`custom-super-cards-box ${
+            item.activeMode ? "custom-super-cards-box--active" : ""
+          }`}>
             <h4 className="custom-super-cards-box-title">{item.cardType}</h4>
             <img
               src={item.image}
