@@ -51,7 +51,7 @@
     align-items: center;
 }
 .custom-super-cards-box--active{
-    background-color: aqua;
+    background: linear-gradient(135deg, #fafafa 0%, #bbdaff 100%);
 }
 .custom-super-cards-box-title {
     font-weight: 800;
