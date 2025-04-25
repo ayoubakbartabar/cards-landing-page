@@ -14,7 +14,7 @@ const fqaArray = [
   },
   {
     id: 3,
-    question: "How do I get started with card payments?",
+    question: "How is my document data stored/secured?",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam.",
   },
