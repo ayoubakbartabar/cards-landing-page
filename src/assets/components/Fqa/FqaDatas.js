@@ -1,0 +1,2 @@
+// create array
+const fqaArray=[]
