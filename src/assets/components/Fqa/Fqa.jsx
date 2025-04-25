@@ -3,6 +3,8 @@ import './Fqa.css'
 import fqaArray from './FqaDatas'
 export default function Fqa() {
   return (
-    <section className='fqa-container'>Fqa</section>
+    <section className='fqa-container'>
+        <h1 className="fqa-title"></h1>
+    </section>
   )
 }
