@@ -32,7 +32,7 @@ const fqaArray = [
   },
   {
     id: 6,
-    question: "I do not want to pay now, how can I proceed?",
+    question: "I don't have the required documents, how can I proceed?",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam.",
   },
