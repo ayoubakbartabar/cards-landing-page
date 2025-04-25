@@ -20,7 +20,7 @@ const fqaArray = [
   },
   {
     id: 4,
-    question: "How is my document data stored/secured?",
+    question: "Can I get a standard card for free?",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam.",
   },
