@@ -9,6 +9,7 @@ export default function Fqa() {
             {fqaArray.map(item =>(
                 <div key={item.id} className="fqa-box">
                     <h2 className="fqa-box-title">{item.question}</h2>
+                    <p className="fqa-box-description">{item.description}</p>
                 </div>
             ))}
         </div>
