@@ -38,4 +38,4 @@ const fqaArray = [
   },
 ];
 // export Array
-export default fqaArray
+export default fqaArray;
