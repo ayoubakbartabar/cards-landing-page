@@ -8,7 +8,7 @@ const fqaArray = [
   },
   {
     id: 2,
-    question: "How can I add money to my account?",
+    question: "How do I get started with card payments?",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam.",
   },
