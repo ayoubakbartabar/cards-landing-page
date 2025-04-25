@@ -171,7 +171,7 @@
 
 .custom-super-cards-item-container {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: flex-start;
     gap: 0.5rem;
     color: var(--build-card-paragraph-color);
