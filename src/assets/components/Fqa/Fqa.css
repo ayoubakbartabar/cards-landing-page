@@ -1,4 +1,5 @@
 .fqa-container{
     padding: 4rem 4.5rem;
     margin: 0 7rem;
+    display: grid;
 }
