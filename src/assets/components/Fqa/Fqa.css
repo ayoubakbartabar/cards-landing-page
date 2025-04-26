@@ -1,9 +1,8 @@
-.fqa-container{
+.fqa-container {
     padding: 4rem 4.5rem;
     margin: 0 7rem;
-    display: flex
-    ;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 2rem
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem
 }
