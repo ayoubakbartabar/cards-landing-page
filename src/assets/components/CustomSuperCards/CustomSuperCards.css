@@ -196,9 +196,6 @@
   }
   
 
-/* .custom-super-cards-image:hover {
+  .custom-super-cards-image-wrapper:hover .custom-super-cards-image {
     transform: rotateY(360deg);
   }
-  .fqa-box, .custom-super-cards-box {
-    perspective: 1000px; 
-  } */
