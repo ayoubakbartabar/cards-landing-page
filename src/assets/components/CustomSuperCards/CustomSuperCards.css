@@ -181,14 +181,14 @@
     width: 12px;
     height: 12px;
 }
-
-.custom-super-cards-image {
+.custom-super-cards-image-wrapper {
     width: 100%;
     margin-bottom: 1rem;
     border-radius: 10px;
-    transition: transform 0.8s ease;
-    transform-style: preserve-3d;
-}
+    overflow: hidden;
+    perspective: 1000px; 
+  }
+  
 
 /* .custom-super-cards-image:hover {
     transform: rotateY(360deg);
