@@ -186,9 +186,13 @@
     width: 100%;
     margin-bottom: 1rem;
     border-radius: 10px;
-    transition: transform 0.8s ease
+    transition: transform 0.8s ease;
+    transform-style: preserve-3d;
 }
 
-.custom-super-cards-image:hover {
-    transform: rotate(360deg);
-}
+/* .custom-super-cards-image:hover {
+    transform: rotateY(360deg);
+  }
+  .fqa-box, .custom-super-cards-box {
+    perspective: 1000px; 
+  } */
