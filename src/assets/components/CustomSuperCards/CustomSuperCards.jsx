@@ -33,12 +33,12 @@ export default function CustomSuperCards() {
           >
             <h4 className="custom-super-cards-box-title">{item.cardType}</h4>
             <div className="custom-super-cards-image-wrapper">
-  <img
-    src={item.image}
-    alt={item.title}
-    className="custom-super-cards-image"
-  />
-</div>
+              <img
+                src={item.image}
+                alt={item.title}
+                className="custom-super-cards-image"
+              />
+            </div>
             <h3 className="custom-super-cards-box-price">{item.price}</h3>
             <button className={`${item.buttonStyle}`}>
               {item.buttonTitle}
