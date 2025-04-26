@@ -188,6 +188,12 @@
     overflow: hidden;
     perspective: 1000px; 
   }
+  .custom-super-cards-image {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 1s ease;
+    transform-style: preserve-3d;
+  }
   
 
 /* .custom-super-cards-image:hover {
