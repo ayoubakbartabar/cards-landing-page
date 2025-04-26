@@ -193,7 +193,7 @@
 .custom-super-cards-image {
     width: 100%;
     border-radius: 10px;
-    transition: transform 1s ease;
+    transition: transform 0.8s ease;
     transform-style: preserve-3d;
 }
 
