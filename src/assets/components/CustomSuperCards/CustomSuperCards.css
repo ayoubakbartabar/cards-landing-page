@@ -188,6 +188,7 @@
     border-radius: 10px;
     transition: transform 0.8s ease
 }
+
 .custom-super-cards-image:hover {
     transform: rotate(360deg);
-  }
+}
