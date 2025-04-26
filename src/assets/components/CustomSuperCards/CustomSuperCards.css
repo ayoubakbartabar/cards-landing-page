@@ -181,21 +181,23 @@
     width: 12px;
     height: 12px;
 }
+
 .custom-super-cards-image-wrapper {
     width: 100%;
     margin-bottom: 1rem;
     border-radius: 10px;
     overflow: hidden;
-    perspective: 1000px; 
-  }
-  .custom-super-cards-image {
+    perspective: 1000px;
+}
+
+.custom-super-cards-image {
     width: 100%;
     border-radius: 10px;
     transition: transform 1s ease;
     transform-style: preserve-3d;
-  }
-  
+}
 
-  .custom-super-cards-image-wrapper:hover .custom-super-cards-image {
+
+.custom-super-cards-image-wrapper:hover .custom-super-cards-image {
     transform: rotateY(360deg);
-  }
+}
