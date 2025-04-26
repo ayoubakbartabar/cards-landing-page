@@ -9,3 +9,8 @@
 .fqa-title{
     font-size: 3rem;
 }
+.fqa-box-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
