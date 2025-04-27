@@ -8,8 +8,7 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    text-transform: uppercase;
-    background-color: rgba(17, 16, 16, 0.795);
+    background-color: rgba(255, 255, 255, 0.5);
     border: 0;
     border-radius: 10px;
     color: #ffffff;
@@ -20,10 +19,11 @@
 }
 
 .footer-dark-btn-text {
+    text-transform: capitalize;
     position: relative;
     z-index: 2;
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 0.9rem;
+    font-weight: 700;
     letter-spacing: 0.7px;
 }
 
