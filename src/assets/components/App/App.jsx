@@ -10,6 +10,7 @@ import GetYourCard from "../GetYourCard/GetYourCard";
 import BusinessCard from "../BusinessCard/BusinessCard";
 import CustomSuperCards from "../CustomSuperCards/CustomSuperCards";
 import Fqa from "../Fqa/Fqa";
+import Footer from "../Footer/Footer";
 export default function App() {
   return (
     <>
@@ -25,6 +26,7 @@ export default function App() {
         <CustomSuperCards/>
         <Fqa/>
       </main>
+      <Footer/>
     </>
   );
 }
