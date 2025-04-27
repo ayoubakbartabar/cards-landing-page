@@ -1,35 +1,122 @@
-.footer-read-doc-btn {
-    position: relative;
-    overflow: hidden;
-    padding: 0.8rem 1.5rem;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 50px;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    cursor: pointer;
-    color: var(--text-white-color);
-    font-size: 1rem;
-    font-weight: 400;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    transition: all 1.2s ease;
+
+
+
+
+
+
+
+
+
+
+
+
+/* From Uiverse.io by mobinkakei */ 
+.footer-dark-btn {
+  position: relative;
+  margin: 0;
+  padding: 17px 35px;
+  outline: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: rgba(44, 42, 42 , 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 0;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
 }
 
-
-.footer-read-doc-btn::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: -75%;
-    width: 50%;
-    height: 100%;
-    background: rgba(255, 255, 255, 0.3);
-    border-radius: 50px;
-    transform: skewX(-20deg);
-    transition: right 0.5s ease;
-    pointer-events: none;
+.footer-dark-btn span {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.7px;
 }
 
-.footer-read-doc-btn:hover::before {
-    right: 120%;
+.footer-dark-btn:hover {
+  animation: rotate624 0.7s ease-in-out both;
+}
+
+@keyframes rotate624 {
+  0% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+
+  25% {
+    transform: rotate(3deg) translate3d(0, 0, 0);
+  }
+
+  50% {
+    transform: rotate(-3deg) translate3d(0, 0, 0);
+  }
+
+  75% {
+    transform: rotate(1deg) translate3d(0, 0, 0);
+  }
+
+  100% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+}
+
+@keyframes storm1261 {
+  0% {
+    transform: translate3d(0, 0, 0) translateZ(0);
+  }
+
+  25% {
+    transform: translate3d(4px, 0, 0) translateZ(0);
+  }
+
+  50% {
+    transform: translate3d(-3px, 0, 0) translateZ(0);
+  }
+
+  75% {
+    transform: translate3d(2px, 0, 0) translateZ(0);
+  }
+
+  100% {
+    transform: translate3d(0, 0, 0) translateZ(0);
+  }
+}
+
+.footer-dark-btn {
+  border: 1px solid;
+  overflow: hidden;
+  position: relative;
+}
+
+.footer-dark-btn span {
+  z-index: 20;
+}
+
+.footer-dark-btn:after {
+    background: rgba(255, 255, 255, 0.9);
+  content: "";
+  height: 155px;
+  left: -75px;
+  opacity: 0.4;
+  position: absolute;
+  top: -50px;
+  transform: rotate(35deg);
+  transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+  width: 50px;
+  z-index: -10;
+}
+
+.footer-dark-btn:hover:after {
+  left: 120%;
+  transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+.footer-dark-btn:hover span {
+  animation: storm1261 0.7s ease-in-out both;
+  animation-delay: 0.06s;
 }

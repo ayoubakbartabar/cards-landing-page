@@ -17,7 +17,9 @@ export default function Footer() {
               <FaArrowRightLong />
             </span>
           </button>
-          <button className="footer-read-doc-btn">Read documentation</button>
+          <button className="footer-dark-btn">
+            <span className="footer-dark-btn-text">Get in touch</span>
+          </button>
         </div>
       </div>
       <div className="footer-bottom-section">
