@@ -1,5 +1,6 @@
 :root {
     --navBar-background: rgba(17, 24, 39, 0.9);
+    --footer-background:rgb(30 41 59);
     --text-white-color: rgb(255 255 255);
     --text-light-gray-color:rgb(191 219 254);
     --pagination-btn-background-color:rgb(203 213 225);
