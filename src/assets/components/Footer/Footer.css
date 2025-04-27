@@ -1,5 +1,5 @@
 .footer-container{
-    
+    background-color: var(--footer-background);
 }
 
 .footer-dark-btn {
