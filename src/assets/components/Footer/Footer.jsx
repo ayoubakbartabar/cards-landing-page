@@ -1,5 +1,5 @@
 import React from "react";
-
+import { FaArrowRightLong } from "react-icons/fa6";
 export default function Footer() {
   return (
     <footer className="footer-container">
