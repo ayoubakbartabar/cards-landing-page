@@ -1,0 +1,35 @@
+.footer-read-doc-btn {
+    position: relative;
+    overflow: hidden;
+    padding: 0.8rem 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    cursor: pointer;
+    color: var(--text-white-color);
+    font-size: 1rem;
+    font-weight: 400;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    transition: all 1.2s ease;
+}
+
+
+.footer-read-doc-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -75%;
+    width: 50%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    transform: skewX(-20deg);
+    transition: right 0.5s ease;
+    pointer-events: none;
+}
+
+.footer-read-doc-btn:hover::before {
+    right: 120%;
+}
