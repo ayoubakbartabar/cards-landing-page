@@ -102,21 +102,21 @@
     background: rgba(255, 255, 255, 0.9);
   content: "";
   height: 155px;
-  left: -75px;
+  left: -105px;
   opacity: 0.4;
   position: absolute;
   top: -50px;
   transform: rotate(35deg);
-  transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
-  width: 50px;
+  transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+  width: 80px;
   z-index: -10;
 }
 
 .footer-dark-btn:hover:after {
   left: 120%;
-  transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
 }
 .footer-dark-btn:hover span {
   animation: storm1261 0.7s ease-in-out both;
-  animation-delay: 0.06s;
+  animation-delay: 0.85s;
 }
