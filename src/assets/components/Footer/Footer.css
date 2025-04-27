@@ -31,8 +31,8 @@
     content: "";
     position: absolute;
     top: -50px;
-    left: -100px;
-    width: 80px;
+    left: -150px;
+    width: 90px;
     height: 160px;
     background: rgba(59, 130, 246, 0.8);
     transform: rotate(35deg);
@@ -43,5 +43,5 @@
 }
 
 .footer-dark-btn:hover:after {
-    left: 120%;
+    left: 180%;
 }
