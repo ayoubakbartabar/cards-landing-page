@@ -6,6 +6,12 @@ export default function Footer() {
       <div className="footer-top-section">
         <h3 className="footer-top-text">What are you waiting for?</h3>
         <h1 className="footer-top-title"></h1>
+         <button className="getYourCard-blue-btn">
+                  get your card
+                  <span className="arrow-icon">
+                    <FaArrowRightLong />
+                  </span>
+                </button>
       </div>
       <div className="footer-bottom-section">
         Get the only custom super card
