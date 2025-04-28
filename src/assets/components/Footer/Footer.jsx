@@ -25,6 +25,7 @@ export default function Footer() {
       </div>
       <div className="footer-bottom-section">
 
+      <div className="footer-bottom-leftside">
       <svg
           className="card-svg"
           width="30"
@@ -47,6 +48,7 @@ export default function Footer() {
           </g>
         </svg>
         
+      </div>
       </div>
     </footer>
   );
