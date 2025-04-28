@@ -39,7 +39,7 @@
     margin: 0 7rem;
     align-items: flex-start;
     justify-content: space-between;
-    ّ
+
 }
 
 .footer-bottom-right-side {
@@ -48,6 +48,16 @@
     justify-content: space-between;
     align-items: flex-start;
     width: 80%;
+}
+
+.footer-bottom-list {
+    list-style: none;
+}
+
+.footer-bottom-list-title {
+    color: var(--text-white-color);
+    margin-bottom: 1rem;
+
 }
 
 .footer-dark-btn {
