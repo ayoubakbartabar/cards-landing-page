@@ -31,14 +31,14 @@ const footerDatas = [
     ],
   },
   {
-    id: 1,
-    title: "Essentials",
+    id: 4,
+    title: "Company",
     items: [
-      "Payments",
-      "Budgeting and analytics",
-      "Open banking",
-      "Pockets",
-      "Subscriptions",
+        'Send us an email',
+        'Facebook',
+        'Twitter',
+        'Instagram',
+        'TikTok',
     ],
   },
 ];
