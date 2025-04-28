@@ -32,6 +32,15 @@
     gap: 1rem;
 }
 
+.footer-bottom-section {
+    display: flex;
+    flex-direction: row;
+    padding: 4rem 4.5rem;
+    margin: 0 7rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .footer-dark-btn {
     position: relative;
     margin: 0;

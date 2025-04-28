@@ -59,11 +59,11 @@ export default function Footer() {
             </ul>
           ))}
         </div>
-        <img
+        {/* <img
           src="public/svg/footer-illustration.svg"
           alt=""
           className="footer-bottom-image"
-        />
+        /> */}
       </div>
     </footer>
   );
