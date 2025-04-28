@@ -37,8 +37,9 @@
     flex-direction: row;
     padding: 4rem 4.5rem;
     margin: 0 7rem;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
+    ّ
 }
 
 .footer-bottom-right-side {
