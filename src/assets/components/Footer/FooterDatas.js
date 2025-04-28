@@ -11,14 +11,14 @@ const footerDatas = [
     ],
   },
   {
-    id: 1,
-    title: "Essentials",
+    id: 2,
+    title: "Company",
     items: [
-      "Payments",
-      "Budgeting and analytics",
-      "Open banking",
-      "Pockets",
-      "Subscriptions",
+        'About us',
+        'Diversity / Inclusion',
+        'Sustainability',
+        'Code of conduct',
+        'Financial statements',
     ],
   },
   {
