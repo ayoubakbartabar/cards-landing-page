@@ -1,7 +1,6 @@
-.footer-container{
+.footer-container {
     background-color: var(--footer-background);
-    display: flex
-;
+    display: flex;
     flex-direction: column;
 }
 
