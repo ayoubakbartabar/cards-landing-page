@@ -2,7 +2,7 @@
     background-color: var(--footer-background);
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .footer-top-section {
@@ -12,14 +12,25 @@
     padding: 4rem 4.5rem;
     margin: 0 7rem;
 }
-.footer-top-text{
+
+.footer-top-text {
     color: var(--custom-supercard-button-background);
     font-size: 1.2rem;
 }
-.footer-top-title{
-color: var(--text-white-color);
-font-size: 3.5rem;
+
+.footer-top-title {
+    color: var(--text-white-color);
+    font-size: 3.5rem;
 }
+
+.footer-top-right-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
 .footer-dark-btn {
     position: relative;
     margin: 0;
