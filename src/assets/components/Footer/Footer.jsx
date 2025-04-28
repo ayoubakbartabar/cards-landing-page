@@ -60,7 +60,7 @@ export default function Footer() {
           ))}
         </div>
         <img
-          src="public/svg/cards-illustration.svg"
+          src="public/svg/footer-illustration.svg"
           alt=""
           className="footer-bottom-image"
         />
