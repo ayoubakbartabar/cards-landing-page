@@ -4,6 +4,12 @@
     flex-direction: column;
 }
 
+.footer-top-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .footer-dark-btn {
     position: relative;
     margin: 0;
