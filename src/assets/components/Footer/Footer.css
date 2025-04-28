@@ -12,7 +12,12 @@
     padding: 4rem 4.5rem;
     margin: 0 7rem;
 }
-
+.footer-top-text{
+    color: var(--custom-supercard-button-background);
+}
+.footer-top-title{
+    
+}
 .footer-dark-btn {
     position: relative;
     margin: 0;
