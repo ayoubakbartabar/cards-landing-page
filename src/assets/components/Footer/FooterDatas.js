@@ -22,14 +22,12 @@ const footerDatas = [
     ],
   },
   {
-    id: 1,
-    title: "Essentials",
+    id: 3,
+    title: "Lifestyle",
     items: [
-      "Payments",
-      "Budgeting and analytics",
-      "Open banking",
-      "Pockets",
-      "Subscriptions",
+        'International products',
+        'Currency exchange',
+        'Lounge & Smart delay',
     ],
   },
   {
