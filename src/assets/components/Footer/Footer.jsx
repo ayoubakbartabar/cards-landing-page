@@ -59,6 +59,7 @@ export default function Footer() {
             </ul>
           ))}
         </div>
+        <img src="" alt="" className="footer-bottom-image" />
       </div>
     </footer>
   );
