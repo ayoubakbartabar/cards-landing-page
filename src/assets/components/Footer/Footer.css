@@ -1,5 +1,8 @@
 .footer-container{
     background-color: var(--footer-background);
+    display: flex
+;
+    flex-direction: column;
 }
 
 .footer-dark-btn {
