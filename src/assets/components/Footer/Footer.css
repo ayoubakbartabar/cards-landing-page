@@ -2,12 +2,15 @@
     background-color: var(--footer-background);
     display: flex;
     flex-direction: column;
+    
 }
 
 .footer-top-section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 4rem 4.5rem;
+    margin: 0 7rem;
 }
 
 .footer-dark-btn {
