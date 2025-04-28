@@ -59,7 +59,11 @@ export default function Footer() {
             </ul>
           ))}
         </div>
-        <img src="public/svg/cards-illustration.svg" alt="" className="footer-bottom-image" />
+        <img
+          src="public/svg/cards-illustration.svg"
+          alt=""
+          className="footer-bottom-image"
+        />
       </div>
     </footer>
   );
