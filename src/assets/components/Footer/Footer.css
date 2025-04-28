@@ -14,9 +14,11 @@
 }
 .footer-top-text{
     color: var(--custom-supercard-button-background);
+    font-size: 1.2rem;
 }
 .footer-top-title{
-    
+color: var(--text-white-color);
+font-size: 3.5rem;
 }
 .footer-dark-btn {
     position: relative;
