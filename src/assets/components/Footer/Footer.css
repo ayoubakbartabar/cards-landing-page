@@ -75,7 +75,8 @@
     padding: 4px 0;
     transition: color 0.4s ease;
     overflow: hidden;
-  }
+}
+
 .footer-bottom-list-item::after {
     content: "";
     position: absolute;
