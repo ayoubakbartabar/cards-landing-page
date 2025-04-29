@@ -176,3 +176,21 @@
     left: 180%;
 }
 
+@media (max-width: 768px) {
+    .footer-bottom-image {
+        width: 120px;
+        right: 2rem;
+        bottom: 2rem;
+    }
+
+    .footer-bottom-section {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .footer-bottom-right-side {
+        flex-direction: column;
+        gap: 2rem;
+        width: 100%;
+    }
+}
