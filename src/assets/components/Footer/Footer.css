@@ -65,8 +65,12 @@
 
 }
 .footer-bottom-list-item{
+    position: relative;
     color: var(--build-card-paragraph-color);
     cursor: pointer;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    transition: color 0.4s ease, letter-spacing 0.4s ease;
 }
 .footer-bottom-list-item:hover{
     transition: ease-in 300ms ;
