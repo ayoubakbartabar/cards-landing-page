@@ -89,12 +89,10 @@
     transition: transform 0.4s cubic-bezier(0.77, 0, 0.175, 1);
 }
 
-
-.footer-bottom-list-item:hover {
-    color: var(--custom-supercard-button-background);
-    letter-spacing: 0.7px;
-}
-
+.footer-bottom-list-item:hover::before {
+    transform: translateY(0%);
+  }
+  
 .footer-bottom-list-item:hover::after {
     width: 100%;
 }
