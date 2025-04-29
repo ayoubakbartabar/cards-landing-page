@@ -97,9 +97,10 @@
     display: inline-block;
     transition: transform 0.4s cubic-bezier(0.77, 0, 0.175, 1);
 }
+
 .footer-bottom-list-item:hover span {
     transform: translateY(-100%);
-  }
+}
 
 .footer-dark-btn {
     position: relative;
