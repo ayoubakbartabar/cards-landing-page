@@ -64,7 +64,10 @@
     margin-bottom: 1rem;
 
 }
-
+.footer-bottom-list-item{
+    color: var(--build-card-paragraph-color);
+    cursor: pointer;
+}
 .footer-dark-btn {
     position: relative;
     margin: 0;
