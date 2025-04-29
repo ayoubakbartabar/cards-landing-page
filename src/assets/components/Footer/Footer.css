@@ -99,7 +99,7 @@
 }
 
 .footer-bottom-list-item:hover span {
-    transform: translateY(-100%);
+    transform: translateY(-200%);
 }
 
 .footer-dark-btn {
