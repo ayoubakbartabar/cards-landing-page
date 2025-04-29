@@ -75,7 +75,13 @@
 .footer-bottom-list-item::after {
     content: "";
     position: absolute;
- 
+    bottom: -2px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: var(--custom-supercard-button-background);
+    transition: width 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+    border-radius: 2px;
   }
 .footer-bottom-list-item:hover{
     transition: ease-in 300ms ;
