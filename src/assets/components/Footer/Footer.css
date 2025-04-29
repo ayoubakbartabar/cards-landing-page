@@ -91,7 +91,9 @@
     letter-spacing: 0.7px;
   }
   
-
+  .footer-bottom-list-item:hover::after {
+    width: 100%;
+  }
 .footer-dark-btn {
     position: relative;
     margin: 0;
