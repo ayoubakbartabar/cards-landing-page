@@ -2,7 +2,7 @@
     background-color: var(--footer-background);
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .footer-top-section {
@@ -65,11 +65,27 @@
 
 }
 
+
 .footer-bottom-list-item {
+    background: linear-gradient(90deg, var(--custom-supercard-button-background) 50%, var(--build-card-paragraph-color) 50%);
+    cursor: pointer;
+    background-size: 200%;
+    background-position: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: background-position 0.4s ease;
+}
+
+.footer-bottom-list-item:hover {
+    background-position: 0%;
+}
+
+/* //// */
+/* .footer-bottom-list-item {
     position: relative;
     display: inline-block;
     color: var(--build-card-paragraph-color);
-    cursor: pointer;
+
     font-weight: 400;
     font-size: 14px;
     padding: 4px 0;
@@ -100,13 +116,14 @@
 
 .footer-bottom-list-item:hover span {
     transform: translateY(-200%);
-}
+} */
 
-.footer-bottom-image{
+.footer-bottom-image {
     width: 100%;
     position: absolute;
     z-index: -1;
 }
+
 .footer-dark-btn {
     position: relative;
     margin: 0;
