@@ -2,7 +2,7 @@
     background-color: var(--footer-background);
     display: flex;
     flex-direction: column;
-
+    
 }
 
 .footer-top-section {
@@ -102,6 +102,11 @@
     transform: translateY(-200%);
 }
 
+.footer-bottom-image{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
 .footer-dark-btn {
     position: relative;
     margin: 0;
