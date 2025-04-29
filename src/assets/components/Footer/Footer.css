@@ -67,13 +67,15 @@
 
 .footer-bottom-list-item {
     position: relative;
+    display: inline-block;
     color: var(--build-card-paragraph-color);
     cursor: pointer;
     font-weight: 400;
-    letter-spacing: 0.3px;
-    transition: color 0.4s ease, letter-spacing 0.4s ease;
-}
-
+    font-size: 14px;
+    padding: 4px 0;
+    transition: color 0.4s ease;
+    overflow: hidden;
+  }
 .footer-bottom-list-item::after {
     content: "";
     position: absolute;
