@@ -89,11 +89,12 @@
 .footer-bottom-list-item:hover {
     color: var(--custom-supercard-button-background);
     letter-spacing: 0.7px;
-  }
-  
-  .footer-bottom-list-item:hover::after {
+}
+
+.footer-bottom-list-item:hover::after {
     width: 100%;
-  }
+}
+
 .footer-dark-btn {
     position: relative;
     margin: 0;
