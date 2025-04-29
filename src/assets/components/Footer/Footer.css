@@ -2,7 +2,7 @@
     background-color: var(--footer-background);
     display: flex;
     flex-direction: column;
-
+    overflow: hidden;
 }
 
 .footer-top-section {
@@ -34,13 +34,13 @@
 }
 
 .footer-bottom-section {
+    position: relative;
     display: flex;
     flex-direction: row;
     padding: 4rem 4.5rem;
     margin: 0 7rem;
     align-items: flex-start;
     justify-content: space-between;
-
 }
 
 .footer-bottom-right-side {
@@ -117,11 +117,14 @@
 .footer-bottom-list-item:hover span {
     transform: translateY(-200%);
 } */
-
 .footer-bottom-image {
-    width: 100%;
     position: absolute;
-    z-index: -1;
+    left: 8%;
+    bottom: 0rem;
+    width: 120%;
+    height: 400px;
+    z-index: 0;
+    pointer-events: none;
 }
 
 .footer-dark-btn {
@@ -172,3 +175,4 @@
 .footer-dark-btn:hover:after {
     left: 180%;
 }
+
