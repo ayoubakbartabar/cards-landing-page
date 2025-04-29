@@ -52,10 +52,14 @@ export default function Footer() {
             <ul key={item.id} className="footer-bottom-list">
               <h3 className="footer-bottom-list-title">{item.title}</h3>
               {item.items.map((feature, index) => (
-                <li key={index + 1} className="footer-bottom-list-item">
-                  {feature}
-                </li>
-              ))}
+  <li
+    key={index + 1}
+    className="footer-bottom-list-item"
+    data-text={feature}
+  >
+    <span>{feature}</span>
+  </li>
+))}
             </ul>
           ))}
         </div>
