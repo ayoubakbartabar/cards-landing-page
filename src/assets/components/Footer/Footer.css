@@ -87,9 +87,10 @@
 }
 
 .footer-bottom-list-item:hover {
-    transition: ease-in 300ms;
     color: var(--custom-supercard-button-background);
-}
+    letter-spacing: 0.7px;
+  }
+  
 
 .footer-dark-btn {
     position: relative;
