@@ -125,12 +125,13 @@
 } */
 .footer-bottom-image {
     position: absolute;
-    left: 8%;
+    left: 1%;
     bottom: -2rem;
     width: 120%;
-    height: 400px;
+    height: 310px;
     z-index: 0;
     pointer-events: none;
+
 }
 
 .author-container {
