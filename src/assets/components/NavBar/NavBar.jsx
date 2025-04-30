@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 import "./NavBar.css";
 import Menu from "../Menu/Menu";
 export default function NavBar() {
@@ -38,10 +39,22 @@ export default function NavBar() {
       </button>
 
       <div className={`mobile-nav ${isOpen ? "show" : ""}`} ref={menuRef}>
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
+        <ul className="mobile-menu-list">
+          <li className="mobile-menu-item">
+            <Link className="mobile-menu-link" to="">
+              Home
+            </Link>
+          </li>
+          <li className="mobile-menu-item">
+            <Link className="mobile-menu-link" to="">
+              Get your card
+            </Link>
+          </li>
+          <li className="mobile-menu-item">
+            <Link className="mobile-menu-link" to="">
+              Support center
+            </Link>
+          </li>
         </ul>
       </div>
     </section>
