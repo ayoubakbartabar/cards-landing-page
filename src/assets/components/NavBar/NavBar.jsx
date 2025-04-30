@@ -12,10 +12,18 @@ export default function NavBar() {
         className={`mobile-menu ${isOpen ? "open" : ""}`}
         onClick={() => setIsOpen(!isOpen)}
       >
-        <span>link</span>
-        <span>link</span>
-        <span>link</span>
+        <span></span>
+        <span></span>
+        <span></span>
       </button>
+
+      <div className={`mobile-nav ${isOpen ? "show" : ""}`}>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </div>
     </section>
   );
 }
