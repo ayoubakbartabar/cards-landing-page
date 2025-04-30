@@ -35,15 +35,14 @@
 
 .footer-bottom-section {
     position: relative;
-    display: flex
-;
+    display: flex;
     flex-direction: column;
     padding: 4rem 4.5rem;
     margin: 0 7rem;
 }
-.footer-bottom-data{
 
-}
+.footer-bottom-data {}
+
 .footer-bottom-right-side {
     display: flex;
     flex-direction: row;
