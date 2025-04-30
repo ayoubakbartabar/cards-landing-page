@@ -24,6 +24,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer-bottom-section">
+        <div className="footer-bottom-data">
         <div className="footer-bottom-left-side">
           <svg
             className="card-svg"
@@ -62,6 +63,7 @@ export default function Footer() {
               ))}
             </ul>
           ))}
+        </div>
         </div>
         <img
           src="public/svg/footer-illustration.svg"
