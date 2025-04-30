@@ -227,6 +227,7 @@
     .header-left-side {
         width: 100%;
         margin-bottom: 12rem;
+        padding-left: 10px;
     }
 
     .header-img {
@@ -234,7 +235,7 @@
         top: -110px;
     }
     .header-transparent-img {
-        top: -300px;
+        top: -140px;
         width: 100%;
     }
 }
