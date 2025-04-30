@@ -142,13 +142,16 @@
     justify-content: flex-start;
     margin-top: 2rem;
 }
-.author-link-container{
+
+.author-link-container {
     color: var(--build-card-paragraph-color);
 }
-.author-link{
+
+.author-link {
     color: var(--build-card-paragraph-color);
     margin-left: 0.2rem;
 }
+
 .footer-dark-btn {
     position: relative;
     margin: 0;
