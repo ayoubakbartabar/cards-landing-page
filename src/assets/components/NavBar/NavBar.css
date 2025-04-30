@@ -27,7 +27,6 @@
     transition: all 0.4s ease;
 }
 
-/* انیمیشن باز شدن */
 .mobile-menu.open span:nth-child(1) {
     transform: rotate(45deg) translate(4px, 4px);
 }
@@ -40,13 +39,12 @@
     transform: rotate(-45deg) translate(4px, -4px);
 }
 
-/* منوی موبایل */
 .mobile-nav {
     position: fixed;
     top: 0;
     right: -100%;
     width: 75%;
-    height: 100vh;
+    height: 110vh;
     background-color: #111827;
     padding: 3rem 2rem;
     display: flex;
@@ -73,7 +71,6 @@
     cursor: pointer;
 }
 
-/* Responsive */
 @media (max-width: 775px) {
     .menu-list {
         display: none;
