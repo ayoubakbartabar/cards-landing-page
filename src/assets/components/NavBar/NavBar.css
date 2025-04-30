@@ -65,10 +65,11 @@
     max-width: 500px;
     animation: menuSlide 1s ease-out forwards;
     animation-delay: 0.5s;
-
+    
 }
 
 .mobile-menu-item {
+    margin-top: 2rem;
     list-style: none;
     opacity: 0;
     animation: fadeIn 0.5s ease-out forwards;
