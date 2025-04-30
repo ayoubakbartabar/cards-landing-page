@@ -66,7 +66,7 @@ export default function Footer() {
         </div>
         </div>
       <div className="author-container">
-        <span>Made by<a href="https://github.com/ayoubakbartabar">Ayoub Akbartabar Kami</a></span>
+        <span className="author-link-container">Made by<a className="author-link" href="https://github.com/ayoubakbartabar">Ayoub Akbartabar Kami</a></span>
       </div>
         <img
           src="public/svg/footer-illustration.svg"
