@@ -6,3 +6,6 @@
     padding: 1rem 1.5rem;
     background-color: var(--navBar-background);
 }
+.mobile-menu{
+    display: none;
+}

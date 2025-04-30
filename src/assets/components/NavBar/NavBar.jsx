@@ -6,6 +6,7 @@ export default function NavBar() {
     <section className="navbar-section">
       <img src="/svg/logo.svg" alt="logo" />
       <Menu />
+      <button className="mobile-menu"></button>
     </section>
   );
 }

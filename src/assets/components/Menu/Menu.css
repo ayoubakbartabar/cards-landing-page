@@ -76,3 +76,11 @@
         transform: translateY(0);
     }
 }
+@media (max-width: 775px) {
+    .menu-list{
+        display: none;
+    }
+    .mobile-menu{
+        display: flex;
+    }
+}
