@@ -126,7 +126,7 @@
 .footer-bottom-image {
     position: absolute;
     left: 8%;
-    bottom: 0rem;
+    bottom: -2rem;
     width: 120%;
     height: 400px;
     z-index: 0;
