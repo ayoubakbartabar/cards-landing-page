@@ -132,15 +132,16 @@
     z-index: 0;
     pointer-events: none;
 }
-.author-container{
+
+.author-container {
     width: 100%;
-    display: flex
-;
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
     margin-top: 2rem;
 }
+
 .footer-dark-btn {
     position: relative;
     margin: 0;
