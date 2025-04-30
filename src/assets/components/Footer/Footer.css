@@ -142,10 +142,11 @@
     margin-top: 2rem;
 }
 .author-link-container{
-    color: var(--text-white-color);
+    color: var(--build-card-paragraph-color);
 }
 .author-link{
-    color: var(--text-white-color);
+    color: var(--build-card-paragraph-color);
+    margin-left: 0.2rem;
 }
 .footer-dark-btn {
     position: relative;
