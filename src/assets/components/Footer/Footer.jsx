@@ -69,6 +69,9 @@ export default function Footer() {
           className="footer-bottom-image"
         />
       </div>
+      <div className="author-container">
+        <span>Made by<a href="https://github.com/ayoubakbartabar">Ayoub Akbartabar Kami</a></span>
+      </div>
     </footer>
   );
 }
