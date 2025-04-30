@@ -212,3 +212,29 @@
         opacity: 1;
     }
 }
+
+@media (max-width: 775px) {
+    .header-bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 2rem;
+        padding-bottom: 10rem;
+        margin-top: 5rem;
+        justify-content: space-between;
+        
+    }
+    .header-left-side {
+        width: 100%;
+        margin-bottom: 12rem;
+    }
+
+    .header-img {
+        width: 100%;
+        top: -110px;
+    }
+    .header-transparent-img {
+        top: -300px;
+        width: 100%;
+    }
+}
