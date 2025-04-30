@@ -41,12 +41,13 @@
     margin: 0 7rem;
 }
 
-.footer-bottom-data {display: flex
-    ;
-        position: relative;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-start;}
+.footer-bottom-data {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
 
 .footer-bottom-right-side {
     display: flex;
