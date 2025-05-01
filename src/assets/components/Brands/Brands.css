@@ -57,6 +57,7 @@
 .physical-stores-item-container,
 .online-stores-item-container {
     display: flex;
+    align-items: center;
     gap: 0.5rem;
 }
 
