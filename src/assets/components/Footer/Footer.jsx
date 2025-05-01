@@ -3,36 +3,42 @@ import { TypeAnimation } from "react-type-animation";
 import "./Footer.css";
 import { FaArrowRightLong } from "react-icons/fa6";
 import footerDatas from "./FooterDatas.js";
+
 export default function Footer() {
   const footerRef = useRef();
   const [showTyping, setShowTyping] = useState(false);
 
   useEffect(() => {
+    // Create an IntersectionObserver to detect when the footer comes into view
     const observer = new IntersectionObserver(
       (entries) => {
         if (entries[0].isIntersecting) {
-          setShowTyping(true);
+          setShowTyping(true); // Trigger typing animation when visible
         }
       },
-      { threshold: 0.3 }
+      { threshold: 0.3 } // Trigger when 30% of the footer is visible
     );
 
+    // Attach observer to the footer element
     if (footerRef.current) {
       observer.observe(footerRef.current);
     }
 
+    // Clean up the observer on unmount
     return () => {
       if (footerRef.current) observer.unobserve(footerRef.current);
     };
   }, []);
+
   return (
     <footer ref={footerRef} className="footer-container">
+      {/* Top section of footer with call-to-action */}
       <div className="footer-top-section">
         <div className="footer-top-left-side">
           <h3 className="footer-top-text">
             {showTyping ? (
               <TypeAnimation
-                sequence={["What are you waiting for?", 1000]}
+                sequence={["What are you waiting for?", 1000]} // Text + pause
                 speed={50}
                 repeat={0}
               />
@@ -43,7 +49,7 @@ export default function Footer() {
           <h1 className="footer-top-title">
             {showTyping ? (
               <TypeAnimation
-                sequence={["Get the only custom super card", 1000]}
+                sequence={["Get the only custom super card", 1000]} // Main title
                 speed={200}
                 repeat={0}
               />
@@ -52,8 +58,9 @@ export default function Footer() {
             )}
           </h1>
         </div>
+
+        {/* Right side with action buttons */}
         <div className="footer-top-right-side">
-          {" "}
           <button className="getYourCard-blue-btn">
             get your card
             <span className="arrow-icon">
@@ -65,8 +72,11 @@ export default function Footer() {
           </button>
         </div>
       </div>
+
+      {/* Bottom section with lists and author credit */}
       <div className="footer-bottom-section">
         <div className="footer-bottom-data">
+          {/* Left-side SVG logo */}
           <div className="footer-bottom-left-side">
             <svg
               className="card-svg"
@@ -90,6 +100,8 @@ export default function Footer() {
               </g>
             </svg>
           </div>
+
+          {/* Right-side dynamic lists from footerDatas */}
           <div className="footer-bottom-right-side">
             {footerDatas.map((item) => (
               <ul key={item.id} className="footer-bottom-list">
@@ -107,6 +119,8 @@ export default function Footer() {
             ))}
           </div>
         </div>
+
+        {/* Author credit section */}
         <div className="author-container">
           <span className="author-link-container">
             Made by
@@ -118,6 +132,8 @@ export default function Footer() {
             </a>
           </span>
         </div>
+
+        {/* Background illustration image */}
         <img
           src="public/svg/footer-illustration.svg"
           alt=""
