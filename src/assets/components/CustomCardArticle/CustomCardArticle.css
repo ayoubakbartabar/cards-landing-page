@@ -64,3 +64,32 @@
 .fade-in-up.visible {
   animation: fadeInUp 1.2s ease-out forwards;
 }
+@media (max-width: 1200px) {
+  .custom-card-article-box {
+    flex: 1 1 calc(33.33% - 2rem);
+    max-width: 33.33%;
+  }
+}
+
+@media (max-width: 900px) {
+  .custom-card-article-box {
+    flex: 1 1 calc(50% - 2rem);
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .custom-card-article-box {
+    flex: 1 1 100%;
+    max-width: 100%;
+    padding-right: 0;
+  }
+
+  .custom-card-article-box:not(:last-child)::after {
+    display: none; 
+  }
+
+  .custom-card-article-container {
+    padding: 0 1rem;
+  }
+}
