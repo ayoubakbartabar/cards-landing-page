@@ -98,6 +98,6 @@
  
     .stores-list-container {
         flex-direction: column;
-        
+        gap: 4rem;
     }
 }
