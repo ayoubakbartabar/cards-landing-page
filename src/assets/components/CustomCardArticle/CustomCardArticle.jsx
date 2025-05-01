@@ -5,6 +5,17 @@ import useIntersectionObserver from "../useIntersectionObserver/useIntersectionO
 export default function CustomCardArticle() {
   const ref = useRef(null);
   useIntersectionObserver(ref);
+
+  // create object
+  const customCardArticleArray = [
+    {
+      id: 1,
+      img: "public/svg/custom-cards-1.svg",
+      title: "Create custom cards",
+      paragraph:
+        "Create cards that work exactly as you configured them. Make real-time decisions on charges and spending's.",
+    },
+  ];
   return (
     <section className="custom-card-article-container" ref={ref}>
       <div className="custom-card-article-box fade-in-up">
