@@ -94,3 +94,10 @@
         justify-content: center;
     }
 }
+@media (max-width: 470px) {
+ 
+    .stores-list-container {
+        flex-direction: column;
+        
+    }
+}
