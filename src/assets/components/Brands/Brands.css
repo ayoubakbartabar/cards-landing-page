@@ -79,4 +79,11 @@
         border-top-right-radius: 50px;
     }
 
+    .brand-left-side {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+      }
+    
+    
 }
