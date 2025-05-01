@@ -15,6 +15,20 @@ export default function CustomCardArticle() {
       paragraph:
         "Create cards that work exactly as you configured them. Make real-time decisions on charges and spending's.",
     },
+    {
+      id: 2,
+      img: "public/svg/custom-cards-2.svg",
+      title: "Create custom cards",
+      paragraph:
+        "Create cards that work exactly as you configured them. Make real-time decisions on charges and spending's.",
+    },
+    {
+      id: 3,
+      img: "public/svg/custom-cards-3.svg",
+      title: "Create custom cards",
+      paragraph:
+        "Create cards that work exactly as you configured them. Make real-time decisions on charges and spending's.",
+    },
   ];
   return (
     <section className="custom-card-article-container" ref={ref}>
