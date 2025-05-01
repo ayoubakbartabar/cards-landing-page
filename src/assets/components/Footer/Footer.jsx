@@ -1,8 +1,30 @@
-import React from "react";
+import React, { useRef, useEffect, useState } from "react";
+import { TypeAnimation } from "react-type-animation";
 import "./Footer.css";
 import { FaArrowRightLong } from "react-icons/fa6";
 import footerDatas from "./FooterDatas.js";
 export default function Footer() {
+  const footerRef = useRef();
+  const [showTyping, setShowTyping] = useState(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          setShowTyping(true);
+        }
+      },
+      { threshold: 0.3 }
+    );
+
+    if (footerRef.current) {
+      observer.observe(footerRef.current);
+    }
+
+    return () => {
+      if (footerRef.current) observer.unobserve(footerRef.current);
+    };
+  }, []);
   return (
     <footer className="footer-container">
       <div className="footer-top-section">
