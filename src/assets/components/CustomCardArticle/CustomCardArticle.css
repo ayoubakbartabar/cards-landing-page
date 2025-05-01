@@ -1,9 +1,11 @@
 .custom-card-article-container {
   display: flex;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: stretch;
   margin: 8rem 0;
-  padding: 0 4.5rem;
+  padding: 0 2rem;
+  gap: 2rem;
 }
 
 .custom-card-article-box {
