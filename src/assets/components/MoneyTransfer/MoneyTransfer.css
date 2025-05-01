@@ -51,6 +51,20 @@
         margin: 5rem auto;
     }
 }
-@media (max-width: 768px) {
 
+@media (max-width: 768px) {
+    .money-transfer-container {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .money-transfer-left-side,
+    .money-transfer-right-side {
+        width: 100%;
+    }
+
+    .money-transfer-left-side-description-container {
+        justify-content: center;
+    }
 }
