@@ -1,5 +1,5 @@
 .money-transfer-container {
-    background-image:var(--money-transfer-background);
+    background-image: var(--money-transfer-background);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -46,8 +46,9 @@
 .money-transfer-left-side {
     width: 50%;
 }
+
 @media (max-width: 1025px) {
-    .money-transfer-container{
+    .money-transfer-container {
         margin: 5rem auto;
     }
 }
@@ -62,6 +63,12 @@
     .money-transfer-left-side,
     .money-transfer-right-side {
         width: 100%;
+        display: flex;
+        margin: 1rem 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
     }
 
     .money-transfer-left-side-description-container {
