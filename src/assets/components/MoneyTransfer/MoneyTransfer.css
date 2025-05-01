@@ -46,3 +46,11 @@
 .money-transfer-left-side {
     width: 50%;
 }
+@media (max-width: 1025px) {
+    .money-transfer-container{
+        margin: 5rem auto;
+    }
+}
+@media (max-width: 768px) {
+
+}
