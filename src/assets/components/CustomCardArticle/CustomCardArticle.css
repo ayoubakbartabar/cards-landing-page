@@ -9,7 +9,8 @@
 }
 
 .custom-card-article-box {
-  width: 24%;
+  flex: 1 1 calc(25% - 2rem); 
+  max-width: 25%;
   display: flex;
   gap: 0.7rem;
   flex-direction: column;
@@ -18,6 +19,7 @@
   position: relative;
   padding-right: 1rem;
 }
+
 
 .custom-card-article-box:not(:last-child)::after {
   content: "";
