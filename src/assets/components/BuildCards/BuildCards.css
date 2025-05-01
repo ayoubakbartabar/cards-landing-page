@@ -105,7 +105,7 @@
     .build-cards-container {
         flex-direction: column;
         padding: 4rem 2rem;
-        margin: 0 2rem;
+        margin: 0 auto;
         border-top-right-radius: 50px;
     }
 
