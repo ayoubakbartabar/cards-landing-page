@@ -26,11 +26,31 @@ export default function Footer() {
     };
   }, []);
   return (
-    <footer className="footer-container">
+    <footer ref={footerRef} className="footer-container">
       <div className="footer-top-section">
         <div className="footer-top-left-side">
-          <h3 className="footer-top-text">What are you waiting for?</h3>
-          <h1 className="footer-top-title">Get the only custom super card</h1>
+          <h3 className="footer-top-text">
+            {showTyping ? (
+              <TypeAnimation
+                sequence={["What are you waiting for?", 1000]}
+                speed={50}
+                repeat={0}
+              />
+            ) : (
+              ""
+            )}
+          </h3>
+          <h1 className="footer-top-title">
+            {showTyping ? (
+              <TypeAnimation
+                sequence={["Get the only custom super card", 1000]}
+                speed={200}
+                repeat={0}
+              />
+            ) : (
+              ""
+            )}
+          </h1>
         </div>
         <div className="footer-top-right-side">
           {" "}
