@@ -130,4 +130,9 @@
         display: none;
     }
 
+    .getyourcart-install-guide-box {
+        flex: 1 1 calc(50% - 2rem);
+        max-width: calc(50% - 2rem);
+    }
+
 }
