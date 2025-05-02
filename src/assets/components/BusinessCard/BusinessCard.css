@@ -157,3 +157,10 @@
 .fade-in-card {
     animation: fadeInCard 0.6s ease-in-out;
 }
+
+
+@media (max-width: 1270px) {
+    .business-card-container {
+        flex-direction: column-reverse;
+    }
+}
