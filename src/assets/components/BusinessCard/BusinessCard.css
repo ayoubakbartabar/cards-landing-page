@@ -167,7 +167,11 @@
         margin: 0 auto;
     }
 
-    .business-card-left-side {
+    .business-card-left-side , .business-card-left-side{
         width: 100%;
     }
+    .business-card-box {
+        width: 100%;
+        max-width: 960px;
+    }    
 }
