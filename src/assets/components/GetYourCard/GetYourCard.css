@@ -39,16 +39,16 @@
 
 .getyourcart-img-container {
     position: relative;
-    width: 100%;
+    max-width: 900px;
     height: 390px;
 }
 
 .getyourcart-svg {
-    /* width: 100%; */
+    width: 100%;
     position: relative;
     z-index: 0;
     left: 27%;
-    top: -118px;
+    top: -155px;
 }
 
 .getyourcart-img {
