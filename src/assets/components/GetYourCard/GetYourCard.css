@@ -139,4 +139,13 @@
         content: none;
     }
 
+    .getyourcart-install-guide-box:not(:nth-child(2n))::after {
+        content: "";
+        position: absolute;
+        top: 40%;
+        right: 10px;
+        width: 2px;
+        height: 50%;
+        background-color: rgba(0, 255, 255, 0.2);
+    }
 }
