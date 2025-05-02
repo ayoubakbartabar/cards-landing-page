@@ -162,5 +162,6 @@
 @media (max-width: 1270px) {
     .business-card-container {
         flex-direction: column-reverse;
+        gap: 8rem;
     }
 }
