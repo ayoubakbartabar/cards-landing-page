@@ -149,3 +149,12 @@
         background-color: rgba(0, 255, 255, 0.2);
     }
 }
+
+@media (max-width: 600px) {
+    .getyourcart-install-guide-box {
+        flex: 1 1 100%;
+        max-width: 100%;
+        padding-right: 0;
+    }
+
+}
