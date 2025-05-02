@@ -163,5 +163,7 @@
     .business-card-container {
         flex-direction: column-reverse;
         gap: 8rem;
+        padding: 4rem 2rem;
+        margin: 0 auto;
     }
 }
