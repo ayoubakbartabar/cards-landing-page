@@ -45,12 +45,11 @@
 }
 
 .getyourcart-svg {
-    width: 100%;
+    width: 60%;
     position: relative;
     z-index: 0;
     left: 25%;
     top: -108px;
-    color: #1b94fe;
 }
 
 .getyourcart-img {
@@ -64,14 +63,17 @@
 
 .getyourcart-install-guide-container {
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: stretch;
     margin: 8rem 0;
     padding: 0 4.5rem;
+    gap: 2rem;
 }
 
 .getyourcart-install-guide-box {
-    width: 30%;
+    flex: 1 1 calc(33.33% - 2rem);
+    max-width: calc(33.33% - 2rem);
     display: flex;
     gap: 0.7rem;
     flex-direction: column;
@@ -81,7 +83,7 @@
     padding-right: 1rem;
 }
 
-.getyourcart-install-guide-box:not(:last-child)::after {
+.getyourcart-install-guide-box:not(:nth-child(3n))::after {
     content: "";
     position: absolute;
     top: 40%;
@@ -90,6 +92,7 @@
     height: 50%;
     background-color: rgba(0, 255, 255, 0.2);
 }
+
 
 .getyourcart-install-guide-svg {
     display: flex;
