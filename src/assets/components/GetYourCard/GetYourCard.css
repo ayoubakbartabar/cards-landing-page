@@ -39,8 +39,9 @@
 
 .getyourcart-img-container {
     position: relative;
-    max-width: 900px;
+    max-width: 1000px;
     height: 390px;
+    width: 100%;
 }
 
 .getyourcart-svg {
