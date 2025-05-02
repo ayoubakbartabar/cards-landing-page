@@ -39,7 +39,7 @@ export default function GetYourCard() {
         </p>
       </div>
       <div className="getyourcart-img-container fade-in-up">
-        <img src="public/svg/logos-illustration.svg" alt="logos-svg" />
+        <img className="getyourcart-svg" src="public/svg/logos-illustration.svg" alt="logos-svg" />
         <img
           src="public/image/logos.png"
           alt="logos"
