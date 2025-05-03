@@ -129,6 +129,7 @@
         padding: 4rem 2rem;
         margin: 0 auto;
     }
+
     .getyourcart-install-guide-container {
         flex-direction: column;
         align-items: center;
@@ -147,6 +148,7 @@
         width: 9%;
     }
 }
+
 @media (max-width: 900px) {
 
     .getyourcart-svg {
@@ -161,7 +163,7 @@
     .getyourcart-install-guide-box::after {
         content: none;
     }
-    
+
     .getyourcart-install-guide-box:not(:nth-child(2n))::after {
         content: "";
         position: absolute;
