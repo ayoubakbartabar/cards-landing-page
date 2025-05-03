@@ -29,6 +29,7 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
+
 .fqa-box::before {
     content: "";
     position: absolute;
@@ -36,12 +37,13 @@
     left: -50%;
     width: 200%;
     height: 200%;
-    background: rgba(0, 123, 255, 0.3);
+    background: rgba(0, 123, 255, 0.481);
     border-radius: 50%;
     transform: scale(0);
     transform-origin: top left;
-    transition: transform 0.8s ease;
+    transition: transform 1200ms ease;
     z-index: 0;
+    
 }
 
 .fqa-box:hover::before {
