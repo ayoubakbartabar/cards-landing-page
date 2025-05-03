@@ -201,3 +201,13 @@
 .custom-super-cards-image-wrapper:hover .custom-super-cards-image {
     transform: rotateY(360deg);
 }
+
+@media (max-width: 1024px) {
+
+
+.custom-super-cards-container {
+            padding: 4rem 2rem;
+            margin: 4rem auto;
+  
+}
+}
