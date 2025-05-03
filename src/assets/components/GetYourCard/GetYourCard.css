@@ -150,6 +150,11 @@
     }
 }
 
+@media (max-width: 1390px) {
+    .getyourcart-install-guide-container {
+        flex-direction: column;
+align-items: center;    }
+}
 @media (max-width: 600px) {
     .getyourcart-install-guide-box {
         flex: 1 1 100%;
