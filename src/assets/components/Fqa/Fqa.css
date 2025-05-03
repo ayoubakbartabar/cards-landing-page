@@ -3,17 +3,17 @@
     margin: 0 7rem;
     display: flex;
     flex-direction: column;
-    gap: 2rem
+    gap: 2rem;
 }
 
 .fqa-title {
     font-size: 3rem;
+    text-align: center;
 }
 
 .fqa-box-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
     gap: 2rem;
 }
 
@@ -22,8 +22,13 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 1rem;
+    padding: 1.5rem;
+    border-radius: 12px;
+    background-color: var(--box-background, #f9f9f9);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
-.fqa-box-title{
+
+.fqa-box-title {
     font-size: 1.2rem;
     font-weight: 800;
     text-transform: capitalize;
