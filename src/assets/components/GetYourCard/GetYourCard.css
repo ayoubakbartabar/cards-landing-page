@@ -144,12 +144,16 @@
         width: 9%;
     }
 }
+
 @media (max-width: 1027px) {
     .getyourcart-container {
         padding: 4rem 2rem;
         margin: 0 auto;
     }
+
+
 }
+
 @media (max-width: 900px) {
 
     .getyourcart-svg {
