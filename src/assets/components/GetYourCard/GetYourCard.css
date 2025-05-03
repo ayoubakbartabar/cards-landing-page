@@ -156,9 +156,11 @@
         align-items: center;
         width: 100%;
     }
+
     .getyourcart-install-guide-box::after {
         display: none;
     }
+
     .getyourcart-install-guide-box {
         max-width: 100%;
     }
