@@ -2,14 +2,13 @@
     background-color: var(--header-background);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     padding: 4rem 4.5rem;
     margin: 12rem 7rem;
     border-top-right-radius: 100px;
     border-bottom-left-radius: 10rem;
     position: relative;
-    overflow: visible;
+    overflow: hidden;
     z-index: 1;
 }
 
@@ -40,23 +39,21 @@
 .getyourcart-img-container {
     position: relative;
     max-width: 1000px;
-    height: 390px;
     width: 100%;
 }
 
 .getyourcart-svg {
-    width: 60%;
-    position: relative;
-    z-index: 0;
-    left: 25%;
-    top: -108px;
-}
-
-.getyourcart-img {
+    width: 70%;
     position: absolute;
-    top: 80%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 0;
+}
+
+
+.getyourcart-img {
+    position: relative;
     width: 100%;
     z-index: 1;
 }
@@ -69,16 +66,16 @@
     margin: 8rem 0;
     padding: 0 4.5rem;
     gap: 2rem;
+    width: 100%;
 }
 
 .getyourcart-install-guide-box {
     flex: 1 1 calc(33.33% - 2rem);
     max-width: calc(33.33% - 2rem);
     display: flex;
-    gap: 0.7rem;
     flex-direction: column;
+    gap: 0.7rem;
     align-items: flex-start;
-    justify-content: center;
     position: relative;
     padding-right: 1rem;
 }
@@ -93,18 +90,15 @@
     background-color: rgba(0, 255, 255, 0.2);
 }
 
-
 .getyourcart-install-guide-svg {
     display: flex;
-    width: 19%;
-    padding: 1rem;
+    width: 60px;
+    height: 60px;
     color: rgb(33, 100, 95);
     font-size: 1.2rem;
     font-weight: 800;
     background-color: rgb(16, 214, 198);
-    border: 0;
-    border-radius: 100%;
-    flex-direction: row;
+    border-radius: 50%;
     justify-content: center;
     align-items: center;
     margin-bottom: 0.5rem;
@@ -113,8 +107,8 @@
 .getyourcart-install-guide-title {
     color: var(--text-white-color);
     font-weight: 900;
-    line-height: 24px;
     font-size: 1.4rem;
+    line-height: 24px;
 }
 
 .getyourcart-install-guide-paragraph {
@@ -124,71 +118,63 @@
     line-height: 24px;
 }
 
+/* === MEDIA QUERIES === */
 @media (max-width: 1390px) {
-
     .getyourcart-install-guide-container {
         flex-direction: column;
         align-items: center;
-        width: 100%;
-    }
-
-    .getyourcart-install-guide-box::after {
-        display: none;
     }
 
     .getyourcart-install-guide-box {
         max-width: 100%;
+        flex: 1 1 100%;
+        padding-right: 0;
     }
 
-    .getyourcart-install-guide-svg {
-        width: 9%;
+    .getyourcart-install-guide-box::after {
+        display: none;
     }
+    .getyourcart-svg {
+        width: 100%;
+        top: 50%;
+        left: 60%;
+        transform: translate(-50%, -50%);
+    }
+    
+    
 }
+
 
 @media (max-width: 1027px) {
     .getyourcart-container {
         padding: 4rem 2rem;
-        margin: 0 auto;
+        margin: 4rem 2rem;
     }
 
-
+    .getyourcart-title,
+    .getyourcart-paragraph {
+        width: 100%;
+    }
 }
 
 @media (max-width: 900px) {
-
     .getyourcart-svg {
-        display: none;
+        width: 150%;
     }
 
     .getyourcart-install-guide-box {
-        flex: 1 1 calc(50% - 2rem);
-        max-width: calc(50% - 2rem);
-    }
-
-    .getyourcart-install-guide-box::after {
-        content: none;
-    }
-
-    .getyourcart-install-guide-box:not(:nth-child(2n))::after {
-        content: "";
-        position: absolute;
-        top: 40%;
-        right: 10px;
-        width: 2px;
-        height: 50%;
-        background-color: rgba(0, 255, 255, 0.2);
+        flex: 1 1 calc(50% - 1rem);
+        max-width: calc(50% - 1rem);
     }
 }
-
 
 @media (max-width: 600px) {
     .getyourcart-install-guide-box {
         flex: 1 1 100%;
         max-width: 100%;
-        padding-right: 0;
     }
 
-    .getyourcart-install-guide-box::after {
-        content: none;
+    .getyourcart-svg {
+        width: 200%;
     }
 }
