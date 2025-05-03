@@ -156,9 +156,10 @@
         align-items: center;
         width: 100%;
     }
+
     .getyourcart-install-guide-box {
         max-width: 100%;
-        }
+    }
 }
 
 @media (max-width: 600px) {
