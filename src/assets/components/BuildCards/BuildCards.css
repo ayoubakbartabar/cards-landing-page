@@ -95,8 +95,8 @@
     position: absolute;
     bottom: -231px;
     left: 50%;
-    transform: translate(-50%, -10%) rotate(51deg);
-    max-width: 780px;
+    transform: translate(-50%, -10%) rotate(54deg);
+    max-width: 700px;
     z-index: 4;
 }
 
