@@ -202,7 +202,7 @@
     transform: rotateY(360deg);
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1270px) {
     .custom-super-cards-container {
         padding: 4rem 2rem;
         margin: 4rem auto;
