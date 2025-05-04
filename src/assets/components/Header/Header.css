@@ -141,7 +141,7 @@
     gap: 1rem;
 }
 
-.read-doc-btn {
+/* .read-doc-btn {
     position: relative;
     overflow: hidden;
     padding: 0.8rem 1.5rem;
@@ -175,6 +175,27 @@
 
 .read-doc-btn:hover::before {
     right: 120%;
+} */
+ /* second magic hover */
+.read-doc-btn {
+    position: relative;
+    margin: 0;
+    padding: 1rem 0.9rem;
+    outline: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 0;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: inherit;
+    z-index: 0;
+    overflow: hidden;
 }
 
 .header-image-wrapper {
