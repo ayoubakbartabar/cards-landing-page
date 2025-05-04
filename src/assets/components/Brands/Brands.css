@@ -70,13 +70,16 @@
     width: 60%;
 }
 
+@media (max-width: 1270px) {
+    .brand-container {
+        padding: 4rem 2rem;
+        margin: 0 auto;
+    }
+}
 @media (max-width: 1024px) {
     .brand-container {
         flex-direction: column;
         align-items: center;
-        padding: 4rem 2rem;
-        margin: 4rem auto;
-        border-top-right-radius: 50px;
     }
 
     .brand-left-side {
