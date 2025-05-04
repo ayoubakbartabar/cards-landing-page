@@ -1,13 +1,18 @@
 .money-transfer-container {
     background-image: var(--money-transfer-background);
+    border-top-left-radius: 100px;
+    margin: 0 4rem;
+}
+.money-transfer-section{
+    
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin: 4.5rem 7rem;
-    border-top-left-radius: 100px;
+    margin: 4.5rem auto;
+    max-width: 2000px;
+    
 }
-
 .money-transfer-right-side {
     width: 50%;
 }
