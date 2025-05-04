@@ -85,9 +85,9 @@
 .build-cards-svg {
     position: absolute;
     bottom: -191px;
-    left: 50%;
+    left: 20%;
     transform: translate(-50%, -10%) rotate(0deg);
-    max-width: 770px;
+    max-width: 690px;
     z-index: 4;
 }
 
@@ -117,7 +117,7 @@
     }
 
     .build-cards-img {
-        transform: translate(-50%, -10%) rotate(12deg);
+        transform: translate(-50%, -30%) rotate(12deg);
         width: 100%;
 
     }
