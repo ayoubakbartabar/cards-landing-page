@@ -201,6 +201,12 @@
     left: 180%;
 }
 
+@media (max-width: 1309px) {
+    .footer-top-section {
+        flex-direction: column;
+        align-items: center;
+    }
+}
 @media (max-width: 768px) {
     .footer-bottom-image {
         width: 120px;
