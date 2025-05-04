@@ -1,11 +1,13 @@
-.custom-card-article-container {
+
+.custom-card-article-section{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: stretch;
-  margin: 8rem 0;
+  margin: 8rem auto;
   padding: 0 2rem;
   gap: 2rem;
+  max-width: 2000px;
 }
 
 .custom-card-article-box {
