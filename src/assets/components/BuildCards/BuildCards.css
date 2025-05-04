@@ -1,12 +1,16 @@
 .build-cards-container {
     background-color: var(--get-card-background);
+    border-top-right-radius: 100px;
+}
+
+.build-card-section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 4rem 4.5rem;
-    margin: 0 7rem;
-    border-top-right-radius: 100px;
+    margin: 10rem auto;
+    max-width: 2000px;
     position: relative;
     overflow: visible;
     z-index: 1;

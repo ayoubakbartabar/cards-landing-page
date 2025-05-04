@@ -1,7 +1,12 @@
+/* .header-bg{
+    width: 100%; 
+} */
 .header-container {
     background-color: var(--header-background);
     border-bottom-left-radius: 10rem;
     overflow: visible;
+    max-width: 2000px;
+    margin: 0 auto;
 }
 
 .header-top {
