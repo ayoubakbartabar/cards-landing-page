@@ -1,14 +1,14 @@
-/* .header-bg{
-    width: 100%; 
-} */
+
 .header-container {
     background-color: var(--header-background);
     border-bottom-left-radius: 10rem;
     overflow: visible;
+    
+}
+.header-section{
     max-width: 2000px;
     margin: 0 auto;
 }
-
 .header-top {
     display: flex;
     align-items: center;
