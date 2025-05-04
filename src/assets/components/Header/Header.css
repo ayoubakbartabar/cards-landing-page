@@ -192,7 +192,8 @@
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     color: #ffffff;
-    font-weight: 400;
+    font-weight: 700;
+    text-transform: capitalize;
     font-family: inherit;
     z-index: 0;
     overflow: hidden;
@@ -214,7 +215,7 @@
     left: -150px;
     width: 90px;
     height: 160px;
-    background: rgba(59, 130, 246, 0.8);
+    background: rgba(255, 255, 255, 0.3);
     transform: rotate(35deg);
     filter: blur(10px);
     mix-blend-mode: lighten;
