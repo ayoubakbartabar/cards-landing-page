@@ -127,8 +127,8 @@
     position: absolute;
     left: 1%;
     bottom: -2rem;
-    width: 120%;
-    height: 310px;
+    max-width: 100%;
+    height: auto;
     z-index: 0;
     pointer-events: none;
 
