@@ -9,6 +9,7 @@ const HeaderSection = () => {
 
   return (
     <section className="header-container">
+      <div className="header-bg">
       <div className="header-top fade-up delay-1">
         <svg
           className="card-svg"
@@ -99,6 +100,7 @@ const HeaderSection = () => {
             alt="hero-image"
           />
         </div>
+      </div>
       </div>
     </section>
   );
