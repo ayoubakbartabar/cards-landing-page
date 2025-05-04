@@ -84,24 +84,24 @@
 
 .build-cards-svg {
     position: absolute;
-    bottom: -200px;
-    left: 50%;
-    transform: translateX(-50%);
-    max-width: 740px;
-    z-index: -5;
-    overflow: visible;
+    bottom: -191px;
+    left: 40%;
+    transform: translate(-50%, -10%) rotate(0deg);
+    max-width: 770px;
+    z-index: 4;
 }
 
 .build-cards-img {
     position: absolute;
-    bottom: -161px;
+    bottom: -231px;
     left: 50%;
-    transform: translate(-50%, -10%) rotate(38deg);
-    max-width: 750px;
+    transform: translate(-50%, -10%) rotate(51deg);
+    max-width: 780px;
     z-index: 4;
 }
 
-@media (max-width: 1025px) {
+
+@media (max-width: 1234px) {
     .build-cards-container {
         flex-direction: column;
         padding: 4rem 2rem;
@@ -121,10 +121,10 @@
         width: 100%;
 
     }
-
+/* 
     .build-cards-svg {
         display: none;
-    }
+    } */
 
 }
 
