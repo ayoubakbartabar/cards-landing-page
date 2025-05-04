@@ -146,11 +146,10 @@
 
 }
 
-
-@media (max-width: 1027px) {
+@media (max-width: 1270px) {
     .getyourcart-container {
         padding: 4rem 2rem;
-        margin: 4rem 2rem;
+        margin: 3rem auto;
     }
 
     .getyourcart-title,
