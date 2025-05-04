@@ -198,6 +198,17 @@
     overflow: hidden;
 }
 
+.read-doc-btn-text {
+    text-transform: capitalize;
+    position: relative;
+    z-index: 2;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+}
+
+
+
 .header-image-wrapper {
     position: relative;
     width: 50%;
