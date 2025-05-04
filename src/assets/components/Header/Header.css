@@ -207,7 +207,24 @@
     letter-spacing: 0.7px;
 }
 
+.read-doc-btn:after {
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: -150px;
+    width: 90px;
+    height: 160px;
+    background: rgba(59, 130, 246, 0.8);
+    transform: rotate(35deg);
+    filter: blur(10px);
+    mix-blend-mode: lighten;
+    transition: all 1.5s cubic-bezier(0.19, 1, 0.22, 1);
+    z-index: 1;
+}
 
+.read-doc-btn:hover:after {
+    left: 180%;
+}
 
 .header-image-wrapper {
     position: relative;
