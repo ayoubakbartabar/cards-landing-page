@@ -106,12 +106,14 @@
         padding: 4rem 2rem;
         margin: 0 auto;
     }
+
     .build-cards-img {
         transform: translate(-60%, -30%) rotate(40deg);
         width: 100%;
 
     }
 }
+
 @media (max-width: 1234px) {
     .build-cards-container {
         flex-direction: column;
@@ -132,7 +134,8 @@
         width: 100%;
 
     }
-/* 
+
+    /* 
     .build-cards-svg {
         display: none;
     } */
@@ -158,7 +161,8 @@
         margin-bottom: 2rem;
     }
 
-    .build-cards-right-side , .build-cards-img {
+    .build-cards-right-side,
+    .build-cards-img {
         display: none;
     }
 }
