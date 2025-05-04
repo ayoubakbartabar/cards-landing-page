@@ -1,6 +1,7 @@
 .build-cards-container {
     background-color: var(--get-card-background);
     border-top-right-radius: 100px;
+    margin: 0 4rem;
 }
 
 .build-card-section {
