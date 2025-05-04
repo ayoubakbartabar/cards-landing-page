@@ -47,12 +47,13 @@
     width: 50%;
 }
 
-@media (max-width: 1025px) {
+
+@media (max-width: 1270px) {
     .money-transfer-container {
-        margin: 5rem auto;
+        padding: 4rem 2rem;
+        margin: 12rem auto;
     }
 }
-
 @media (max-width: 768px) {
     .money-transfer-container {
         flex-direction: column-reverse;
