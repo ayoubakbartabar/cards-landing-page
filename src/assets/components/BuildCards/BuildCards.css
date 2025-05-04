@@ -85,7 +85,7 @@
 .build-cards-svg {
     position: absolute;
     bottom: -191px;
-    left: 40%;
+    left: 50%;
     transform: translate(-50%, -10%) rotate(0deg);
     max-width: 770px;
     z-index: 4;
