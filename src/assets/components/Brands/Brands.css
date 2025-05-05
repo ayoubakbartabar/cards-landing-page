@@ -1,11 +1,12 @@
-.brand-container {
-    border: 2.6px solid var(--brands-border-color);
+.brand-container-section{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 4rem 4.5rem;
-    margin: 0 7rem;
+    margin: 0 auto;
+    max-width: 1500px;
+    border: 2.6px solid var(--brands-border-color);
     border-top-right-radius: 100px;
 }
 
@@ -71,14 +72,14 @@
 }
 
 @media (max-width: 1270px) {
-    .brand-container {
+    .brand-container-section {
         padding: 4rem 2rem;
         margin: 0 auto;
     }
 }
 
 @media (max-width: 1024px) {
-    .brand-container {
+    .brand-container-section {
         flex-direction: column;
         align-items: center;
     }
