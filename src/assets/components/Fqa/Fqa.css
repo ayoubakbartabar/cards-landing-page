@@ -1,11 +1,11 @@
-.fqa-container {
+.fqa-section{
+    max-width: 1500px;
     padding: 4rem 4.5rem;
-    margin: 0 7rem;
+    margin: 5rem auto;
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
-
 .fqa-title {
     font-size: 3rem;
     text-align: center;
@@ -63,7 +63,7 @@
 
 
 @media (max-width: 1024px) {
-    .fqa-container {
+    .fqa-section{
         padding: 3rem 2rem;
         margin: 0 2rem;
     }
