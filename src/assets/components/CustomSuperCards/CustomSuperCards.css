@@ -1,4 +1,4 @@
-.custom-super-cards-container {
+.custom-super-cards-section {
     display: flex;
     border: 2.6px solid var(--brands-border-color);
     display: flex;
@@ -6,8 +6,9 @@
     justify-content: center;
     align-items: flex-start;
     padding: 4rem 4.5rem;
-    margin: 0 7rem;
+    margin: 5rem auto;
     border-top-right-radius: 100px;
+    max-width: 1500px;
 }
 
 .custom-super-cards-top {

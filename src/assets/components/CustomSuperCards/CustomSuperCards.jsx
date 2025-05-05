@@ -12,7 +12,8 @@ export default function CustomSuperCards() {
 
   return (
     <section className="custom-super-cards-container" ref={ref}>
-      <div className="custom-super-cards-top fade-in-up ">
+     <div className="custom-super-cards-section">
+     <div className="custom-super-cards-top fade-in-up ">
         <h1 className="custom-super-cards-title">
           Get the only custom super card you'll ever need
         </h1>
@@ -59,6 +60,7 @@ export default function CustomSuperCards() {
           </div>
         ))}
       </div>
+     </div>
     </section>
   );
 }
