@@ -203,10 +203,13 @@
     transform: rotateY(360deg);
 }
 
-@media (max-width: 1270px) {
-    .custom-super-cards-container {
+@media (max-width: 1024px) {
+    .custom-super-cards-section {
         padding: 4rem 2rem;
         margin: 4rem auto;
-
+    }
+    .custom-super-cards-title,.custom-super-cards-paragraph{
+        width: 100%;
+        text-align: center;
     }
 }

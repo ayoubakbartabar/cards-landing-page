@@ -177,10 +177,12 @@
     .business-card-right-side {
         text-align: center;
     }
-    .business-card-left-side-title ,.business-card-left-side-paragraph {
+
+    .business-card-left-side-title,
+    .business-card-left-side-paragraph {
         width: 100%;
     }
-    
+
     .business-card-box {
         width: 100%;
         max-width: 960px;
