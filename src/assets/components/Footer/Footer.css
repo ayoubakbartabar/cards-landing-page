@@ -226,6 +226,10 @@
         flex-direction: row;
         justify-content: flex-start;
     }
+    .footer-bottom-right-side {
+margin-top: 2rem;
+        width: 100%;
+    }
 }
 
 @media (max-width: 768px) {
