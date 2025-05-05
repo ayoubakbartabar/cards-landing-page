@@ -212,6 +212,20 @@
     }
 }
 
+@media (max-width: 1202px) {
+.footer-bottom-data{
+    flex-direction: column;
+    align-items: center;
+}
+.footer-bottom-left-side{
+    width: 100%;
+    display: flex
+;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+}
+
 @media (max-width: 768px) {
     .footer-bottom-image {
         width: 120px;
