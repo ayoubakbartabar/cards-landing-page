@@ -32,7 +32,8 @@ export default function Footer() {
 
   return (
     <footer ref={footerRef} className="footer-container">
-      {/* Top section of footer with call-to-action */}
+      <div className="footer-section">
+           {/* Top section of footer with call-to-action */}
       <div className="footer-top-section">
         <div className="footer-top-left-side">
           <h3 className="footer-top-text">
@@ -139,6 +140,7 @@ export default function Footer() {
           alt=""
           className="footer-bottom-image"
         />
+      </div>
       </div>
     </footer>
   );
