@@ -1,12 +1,13 @@
-.business-card-container {
+.business-card-section {
     background-image: var(--money-transfer-background);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin: 4.5rem 7rem;
+    margin: 4.5rem auto;
     border-top-left-radius: 100px;
     padding: 8rem 3rem;
+    max-width: 1500px;
 }
 
 .business-card-right-side {
@@ -159,7 +160,7 @@
 }
 
 @media (max-width: 1270px) {
-    .business-card-container {
+    .business-card-section {
         flex-direction: column-reverse;
         gap: 8rem;
         padding: 4rem 2rem;
