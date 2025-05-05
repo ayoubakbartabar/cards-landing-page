@@ -1,16 +1,13 @@
-.money-transfer-container {
+
+.money-transfer-section{
     background-image: var(--money-transfer-background);
     border-top-left-radius: 100px;
-    margin: 0 4rem;
-}
-.money-transfer-section{
-    
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     margin: 4.5rem auto;
-    max-width: 2000px;
+    max-width: 1500px;
     
 }
 .money-transfer-right-side {
@@ -54,13 +51,13 @@
 
 
 @media (max-width: 1270px) {
-    .money-transfer-container {
+   .money-transfer-section {
         padding: 4rem 2rem;
         margin: 12rem auto;
     }
 }
 @media (max-width: 768px) {
-    .money-transfer-container {
+   .money-transfer-section {
         flex-direction: column-reverse;
         text-align: center;
         padding: 2rem;
