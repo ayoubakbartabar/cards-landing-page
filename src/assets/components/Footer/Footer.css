@@ -226,8 +226,9 @@
         flex-direction: row;
         justify-content: flex-start;
     }
+
     .footer-bottom-right-side {
-margin-top: 2rem;
+        margin-top: 2rem;
         width: 100%;
     }
 }
