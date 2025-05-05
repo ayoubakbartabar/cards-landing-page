@@ -30,6 +30,7 @@ export default function Brands() {
 
   return (
     <section className="brand-container" ref={ref}>
+      <div className="brand-container-section">
       <div className="brand-left-side  fade-in-up">
         <h2 className="brand-left-side-title">
           Get cashback rewards on your favourite brands
@@ -78,6 +79,7 @@ export default function Brands() {
         src="public/image/features-04.png"
         alt="features-04"
       />
+      </div>
     </section>
   );
 }
