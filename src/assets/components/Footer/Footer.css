@@ -1,13 +1,15 @@
 .footer-container {
     background-color: var(--footer-background);
 }
-.footer-section{
+
+.footer-section {
     display: flex;
     flex-direction: column;
     overflow: hidden;
     max-width: 1500px;
     margin: 0 auto;
 }
+
 .footer-top-section {
     display: flex;
     flex-direction: row;
@@ -213,17 +215,17 @@
 }
 
 @media (max-width: 1202px) {
-.footer-bottom-data{
-    flex-direction: column;
-    align-items: center;
-}
-.footer-bottom-left-side{
-    width: 100%;
-    display: flex
-;
-    flex-direction: row;
-    justify-content: flex-start;
-}
+    .footer-bottom-data {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-bottom-left-side {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
 }
 
 @media (max-width: 768px) {
