@@ -29,7 +29,8 @@ export default function GetYourCard() {
 
   return (
     <section className="getyourcart-container" ref={ref}>
-      <div className="getyourcart-top fade-in-up">
+     <div className="getyourcart-container-section">
+     <div className="getyourcart-top fade-in-up">
         <h2 className="getyourcart-title">
           Get started in minutes and connect all your accounts in one place
         </h2>
@@ -127,6 +128,7 @@ export default function GetYourCard() {
           </div>
         ))}
       </div>
+     </div>
     </section>
   );
 }

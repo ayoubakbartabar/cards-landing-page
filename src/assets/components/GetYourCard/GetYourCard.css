@@ -1,17 +1,17 @@
-.getyourcart-container {
+.getyourcart-container-section{
     background-color: var(--header-background);
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 4rem 4.5rem;
-    margin: 12rem 7rem;
+    margin: 12rem auto;
     border-top-right-radius: 100px;
     border-bottom-left-radius: 10rem;
     position: relative;
     overflow: hidden;
     z-index: 1;
+    max-width: 1500px;
 }
-
 .getyourcart-top {
     margin-top: 2rem;
     margin-bottom: 5rem;
@@ -147,7 +147,7 @@
 }
 
 @media (max-width: 1270px) {
-    .getyourcart-container {
+    .getyourcart-container-section {
         padding: 4rem 2rem;
         margin: 3rem auto;
     }
