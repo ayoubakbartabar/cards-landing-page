@@ -159,7 +159,7 @@
     animation: fadeInCard 0.6s ease-in-out;
 }
 
-@media (max-width: 1270px) {
+@media (max-width: 1024px) {
     .business-card-section {
         flex-direction: column-reverse;
         gap: 8rem;
@@ -170,8 +170,17 @@
     .business-card-right-side,
     .business-card-left-side {
         width: 100%;
+        align-items: center;
+
     }
 
+    .business-card-right-side {
+        text-align: center;
+    }
+    .business-card-left-side-title ,.business-card-left-side-paragraph {
+        width: 100%;
+    }
+    
     .business-card-box {
         width: 100%;
         max-width: 960px;
