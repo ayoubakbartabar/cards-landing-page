@@ -55,10 +55,9 @@
 }
 
 .footer-bottom-right-side {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
+    display: grid;
+
+    gap: 2rem;
     width: 80%;
 }
 
