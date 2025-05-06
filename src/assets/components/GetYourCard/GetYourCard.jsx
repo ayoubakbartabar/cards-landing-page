@@ -78,8 +78,8 @@ export default function GetYourCard() {
                 <feGaussianBlur stdDeviation="8" in="SourceGraphic" />
               </filter>
               <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="a">
-                <stop stop-color="#0EA5E9" offset="0%" />
-                <stop stop-color="#BAE6FD" offset="100%" />
+              <stop stop-color="#0EA5E9" />
+              <stop stop-color="#BAE6FD" />
               </linearGradient>
             </defs>
             <g
