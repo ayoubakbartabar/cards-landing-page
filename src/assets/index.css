@@ -4,7 +4,7 @@
     --text-white-color: rgb(255 255 255);
     --text-light-gray-color:rgb(191 219 254);
     --pagination-btn-background-color:rgb(203 213 225);
-    --header-background: rgb(37 99 235);
+    --header-background: rgba(37 , 99 , 235 , 0.89);
     --custom-supercard-button-background: rgb(59 130 246 );
     --header-paragraph-color: rgb(191 219 254);
     --build-card-paragraph-color: rgb(148 163 184);
