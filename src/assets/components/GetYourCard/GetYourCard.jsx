@@ -55,7 +55,9 @@ export default function GetYourCard() {
                 filterUnits="objectBoundingBox"
                 id="b"
               >
-                <feGaussianBlur stdDeviation="50" in="SourceGraphic" />
+                <feGaussianBlur stdDeviation="20" />
+                <feGaussianBlur stdDeviation="8" />
+                <feGaussianBlur stdDeviation="4" />
               </filter>
               <filter
                 x="-28.1%"
