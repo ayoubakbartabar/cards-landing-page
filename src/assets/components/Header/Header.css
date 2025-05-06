@@ -269,11 +269,18 @@
     }
 }
 
-/* @media (min-width: 1300px) {
+@media (min-width: 1300px) {
     .header-img {
-        max-height: 90vh;
+        width: 70%;
+        top: -270px;
+        z-index: 2;
+
     }
-} */
+    .header-transparent-img {
+        top: -380px;
+    }
+    
+}
 
 @media (max-width: 775px) {
     .header-bottom {
