@@ -1,14 +1,15 @@
-
 .header-container {
     background-color: var(--header-background);
     border-bottom-left-radius: 10rem;
     overflow: visible;
-    
+
 }
-.header-section{
+
+.header-section {
     max-width: 2000px;
     margin: 0 auto;
 }
+
 .header-top {
     display: flex;
     align-items: center;
@@ -267,6 +268,12 @@
         opacity: 1;
     }
 }
+
+/* @media (min-width: 1300px) {
+    .header-img {
+        max-height: 90vh;
+    }
+} */
 
 @media (max-width: 775px) {
     .header-bottom {
