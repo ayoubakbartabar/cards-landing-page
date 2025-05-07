@@ -8,7 +8,10 @@ const HeaderSection = () => {
   const [animationDone, setAnimationDone] = useState(false);
 
   // create BuyCardBtnHandler function
-  
+  const BuyCardBtnHandler = () =>{
+    console.log("hello");
+    
+  }
   return (
     <section className="header-container">
       <div className="header-section">
