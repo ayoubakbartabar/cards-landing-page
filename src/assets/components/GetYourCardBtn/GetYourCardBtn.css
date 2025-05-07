@@ -1,0 +1,36 @@
+
+.getYourCard-btn:hover .arrow-icon {
+
+    animation: moveArrow 0.6s infinite ease-in-out;
+}
+
+@keyframes moveArrow {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(5px);
+    }
+}
+
+.card-svg {
+    animation: spin 3s linear infinite;
+    transition: none;
+}
+
+.card-svg:hover {
+    animation-play-state: paused;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
