@@ -6,10 +6,7 @@ import GetYourCardBtn from "../GetYourCardBtn/GetYourCardBtn";
 
 const HeaderSection = () => {
   const [animationDone, setAnimationDone] = useState(false);
-  // create BuyCardBtnHandler function
-  const BuyCardBtnHandler = () => {
-    console.log("hello");
-  };
+
   return (
     <section className="header-container">
       <div className="header-section">
@@ -36,7 +33,7 @@ const HeaderSection = () => {
             </g>
           </svg>
 
-          <GetYourCardBtn onClick={BuyCardBtnHandler} />
+          <GetYourCardBtn onClick={() => BuyCardBtnHandler()} />
         </div>
 
         <div className="header-bottom fade-up delay-2">
@@ -76,7 +73,7 @@ const HeaderSection = () => {
             </p>
 
             <div className="header-left-side-btns">
-              <GetYourCardBtn variant="blue" onClick={BuyCardBtnHandler} />
+              <GetYourCardBtn onClick={() => BuyCardBtnHandler()} />
 
               <button className="read-doc-btn">Read documentation</button>
             </div>
