@@ -2,16 +2,11 @@ import React from "react";
 import "./Header.css";
 import { TypeAnimation } from "react-type-animation";
 import { useState } from "react";
-import { FaArrowRightLong } from "react-icons/fa6";
+import GetYourCardBtn from "../GetYourCardBtn/GetYourCardBtn";
 
 const HeaderSection = () => {
   const [animationDone, setAnimationDone] = useState(false);
 
-  // create BuyCardBtnHandler function
-  const BuyCardBtnHandler = () =>{
-    console.log("hello");
-    
-  }
   return (
     <section className="header-container">
       <div className="header-section">
@@ -38,12 +33,7 @@ const HeaderSection = () => {
           </g>
         </svg>
 
-        <button className="getYourCard-btn">
-          get your card
-          <span className="arrow-icon">
-            <FaArrowRightLong />
-          </span>
-        </button>
+        <GetYourCardBtn/>
       </div>
 
       <div className="header-bottom fade-up delay-2">
@@ -83,12 +73,7 @@ const HeaderSection = () => {
           </p>
 
           <div className="header-left-side-btns">
-            <button onClick={() =>BuyCardBtnHandler()} className="getYourCard-btn">
-              get your card
-              <span className="arrow-icon">
-                <FaArrowRightLong />
-              </span>
-            </button>
+          <GetYourCardBtn/>
             <button className="read-doc-btn">Read documentation</button>
           </div>
         </div>
