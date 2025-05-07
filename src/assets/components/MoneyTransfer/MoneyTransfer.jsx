@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import "./MoneyTransfer.css";
 import useIntersectionObserver from "../useIntersectionObserver/useIntersectionObserver.jsx";
-import { FaArrowRightLong } from "react-icons/fa6";
+import GetYourCardBtn from "../GetYourCardBtn/GetYourCardBtn.jsx";
 
 export default function MoneyTransfer() {
   const ref = useRef(null);
@@ -25,12 +25,10 @@ export default function MoneyTransfer() {
             eiusmod tempor incididunt ut labore et dolore magna aliqua minim
             veniam, quis nostrud exercitation.
           </p>
-          <button className="getYourCard-blue-btn fade-in-up">
-            get your card
-            <span className="arrow-icon">
-              <FaArrowRightLong />
-            </span>
-          </button>
+          <GetYourCardBtn
+            onClick={() => BuyCardBtnHandler()}
+            className="getYourCard-blue-btn"
+          />
           <div className="money-transfer-left-side-description-container fade-in-up">
             <img
               className="money-transfer-left-side-img"
