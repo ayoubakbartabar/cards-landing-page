@@ -1,8 +1,7 @@
 import React, { useRef } from "react";
 import "./BuildCards.css";
 import useIntersectionObserver from "../useIntersectionObserver/useIntersectionObserver.jsx";
-import { FaArrowRightLong } from "react-icons/fa6";
-
+import GetYourCardBtn from "../GetYourCardBtn/GetYourCardBtn.jsx";
 export default function BuildCards() {
   const ref = useRef(null);
   useIntersectionObserver(ref);
@@ -18,12 +17,10 @@ export default function BuildCards() {
             eiusmod tempor incididunt ut labore et dolore magna aliqua minim
             veniam, quis nostrud exercitation.
           </p>
-          <button className="getYourCard-blue-btn">
-            get your card
-            <span className="arrow-icon">
-              <FaArrowRightLong />
-            </span>
-          </button>
+          <GetYourCardBtn
+            onClick={() => BuyCardBtnHandler()}
+            className="getYourCard-blue-btn"
+          />
           <div className="build-cards-left-side-description-container">
             <img
               className="build-cards-left-side-img"
