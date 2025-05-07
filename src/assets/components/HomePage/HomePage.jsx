@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import NavBar from "../NavBar/NavBar";
 import Header from "../Header/Header";
 import CustomCardArticle from "../CustomCardArticle/CustomCardArticle";
@@ -13,19 +13,19 @@ import Footer from "../Footer/Footer";
 export default function HomePage() {
   return (
     <>
- <NavBar />
+      <NavBar />
       <Header />
       <main>
-        <CustomCardArticle/>
-        <BuildCards/>
-        <MoneyTransfer/>
-        <Brands/>
-        <GetYourCard/>
-        <BusinessCard/>
-        <CustomSuperCards/>
-        <Fqa/>
+        <CustomCardArticle />
+        <BuildCards />
+        <MoneyTransfer />
+        <Brands />
+        <GetYourCard />
+        <BusinessCard />
+        <CustomSuperCards />
+        <Fqa />
       </main>
-      <Footer/>
+      <Footer />
     </>
-  )
+  );
 }
