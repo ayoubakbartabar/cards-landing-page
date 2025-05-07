@@ -13,7 +13,19 @@ import Footer from "../Footer/Footer";
 export default function HomePage() {
   return (
     <>
-
+ <NavBar />
+      <Header />
+      <main>
+        <CustomCardArticle/>
+        <BuildCards/>
+        <MoneyTransfer/>
+        <Brands/>
+        <GetYourCard/>
+        <BusinessCard/>
+        <CustomSuperCards/>
+        <Fqa/>
+      </main>
+      <Footer/>
     </>
   )
 }
