@@ -7,6 +7,8 @@ import { FaArrowRightLong } from "react-icons/fa6";
 const HeaderSection = () => {
   const [animationDone, setAnimationDone] = useState(false);
 
+  // create BuyCardBtnHandler function
+  
   return (
     <section className="header-container">
       <div className="header-section">
@@ -78,7 +80,7 @@ const HeaderSection = () => {
           </p>
 
           <div className="header-left-side-btns">
-            <button className="getYourCard-btn">
+            <button onClick={() =>BuyCardBtnHandler()} className="getYourCard-btn">
               get your card
               <span className="arrow-icon">
                 <FaArrowRightLong />
