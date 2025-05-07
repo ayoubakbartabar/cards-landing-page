@@ -11,6 +11,7 @@ import BusinessCard from "../BusinessCard/BusinessCard";
 import CustomSuperCards from "../CustomSuperCards/CustomSuperCards";
 import Fqa from "../Fqa/Fqa";
 import Footer from "../Footer/Footer";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 export default function App() {
   return (
     <>
