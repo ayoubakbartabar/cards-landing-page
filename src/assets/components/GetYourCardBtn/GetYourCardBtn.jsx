@@ -14,7 +14,7 @@ export default function GetYourCardBtn() {
   };
   return (
     <>
-      <button onClick={() => BuyCardBtnHandler()} className="getYourCard-btn">
+      <button onClick={() => BuyCardBtnHandler()}  className={className}>
         get your card
         <span className="arrow-icon">
           <FaArrowRightLong />
