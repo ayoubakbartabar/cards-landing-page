@@ -19,7 +19,7 @@ export default function BuildCards() {
           </p>
           <GetYourCardBtn
             onClick={() => BuyCardBtnHandler()}
-            className="getYourCard-blue-btn"
+            className="getYourCard-blue-btn fade-in-up"
           />
           <div className="build-cards-left-side-description-container">
             <img

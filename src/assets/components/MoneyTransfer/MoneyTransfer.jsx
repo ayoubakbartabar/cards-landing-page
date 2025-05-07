@@ -27,7 +27,7 @@ export default function MoneyTransfer() {
           </p>
           <GetYourCardBtn
             onClick={() => BuyCardBtnHandler()}
-            className="getYourCard-blue-btn"
+            className="getYourCard-blue-btn fade-in-up"
           />
           <div className="money-transfer-left-side-description-container fade-in-up">
             <img
