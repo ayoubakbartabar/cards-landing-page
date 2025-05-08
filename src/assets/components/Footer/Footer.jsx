@@ -3,6 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 import "./Footer.css";
 import { FaArrowRightLong } from "react-icons/fa6";
 import footerDatas from "./FooterDatas.js";
+import GetYourCardBtn from '../GetYourCardBtn/GetYourCardBtn.jsx'
 
 export default function Footer() {
   const footerRef = useRef();
@@ -62,12 +63,10 @@ export default function Footer() {
 
         {/* Right side with action buttons */}
         <div className="footer-top-right-side">
-          <button className="getYourCard-blue-btn">
-            get your card
-            <span className="arrow-icon">
-              <FaArrowRightLong />
-            </span>
-          </button>
+        <GetYourCardBtn
+            onClick={() => BuyCardBtnHandler()}
+            className="getYourCard-blue-btn fade-in-up"
+          />
           <button className="footer-dark-btn">
             <span className="footer-dark-btn-text">Get in touch</span>
           </button>
