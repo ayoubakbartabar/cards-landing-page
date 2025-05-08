@@ -9,7 +9,7 @@ export default function BuildFlexibleCards() {
       </h1>
       <div className="build-flexible-card-box-container">
         {BuildFlexibleCardsData.map((item) => (
-          <div className="build-flexible-card-box">
+          <div key={item.id} className="build-flexible-card-box">
             <img
               className="build-flexible-card-box-svg"
               src={item.svg}
@@ -20,6 +20,12 @@ export default function BuildFlexibleCards() {
             </p>
           </div>
         ))}
+        <div className="build-flexible-card-company-container">
+            <p className="build-flexible-card-company-title">Trusted bt the best</p>
+            <div className="build-flexible-card-companies">
+                
+            </div>
+        </div>
       </div>
     </section>
   );
