@@ -65,7 +65,7 @@ export default function Footer() {
           <div className="footer-top-right-side">
             <GetYourCardBtn
               onClick={() => BuyCardBtnHandler()}
-              className="getYourCard-blue-btn fade-in-up"
+              className="getYourCard-blue-btn "
             />
             <button className="footer-dark-btn">
               <span className="footer-dark-btn-text">Get in touch</span>
