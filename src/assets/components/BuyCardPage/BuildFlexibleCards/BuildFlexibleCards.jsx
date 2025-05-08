@@ -1,6 +1,7 @@
 import React from "react";
 import "./BuildFlexibleCards.css";
 import BuildFlexibleCardsData from "./BuildFlexibleCardsData";
+import BuildFlexibleCardsCompony from './BuildFlexibleCardsData.js' ;
 export default function BuildFlexibleCards() {
   return (
     <section className="build-flexible-card-section">
@@ -23,7 +24,11 @@ export default function BuildFlexibleCards() {
         <div className="build-flexible-card-company-container">
             <p className="build-flexible-card-company-title">Trusted bt the best</p>
             <div className="build-flexible-card-companies">
-                
+                {BuildFlexibleCardsCompony.map(item =>(
+                    <div key={item.id} className="compony-img-container">
+                        <img src={item.svg} alt={item.alt} />
+                    </div>
+                ))}
             </div>
         </div>
       </div>
