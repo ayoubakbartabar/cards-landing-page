@@ -2,8 +2,8 @@ import React from 'react'
 import './BuyCardPage.css'
 export default function BuyCardPage() {
   return (
-    <div>
-      
-    </div>
+    <>
+      Hello 👋
+    </>
   )
 }
