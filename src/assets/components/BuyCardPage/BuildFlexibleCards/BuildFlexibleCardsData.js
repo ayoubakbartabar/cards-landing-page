@@ -15,4 +15,7 @@ const BuildFlexibleCardsData = [
     paragraph: "Make real-time decisions on charges and spendings.",
   },
 ];
-export default BuildFlexibleCardsData;
+const BuildFlexibleCardsCompony = [
+{id:1 , svg:"public/svg/logo-facebook.svg" , alt:"FaceBook"},
+]
+export default {BuildFlexibleCardsData , BuildFlexibleCardsCompony};
