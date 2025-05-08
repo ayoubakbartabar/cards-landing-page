@@ -1,5 +1,6 @@
 import React from "react";
 import "./BuyCardPage.css";
+import BuildFlexibleCards from "./BuildFlexibleCards/BuildFlexibleCards";
 export default function BuyCardPage() {
   return (
     <>
@@ -28,7 +29,9 @@ export default function BuyCardPage() {
           </svg>
         </div>
 
-        <div className="buy-card-page-bottom-side"></div>
+        <div className="buy-card-page-bottom-side">
+          <BuildFlexibleCards/>
+        </div>
       </section>
     </>
   );
