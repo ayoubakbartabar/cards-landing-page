@@ -5,7 +5,7 @@ export default function BuyCardPage() {
     <>
       <section className="buy-card-page-section">
         <div className="buy-card-page-top-side fade-up delay-1">
-          <div className="header-top fade-up delay-1">
+          
             <svg
               className="card-svg"
               width="30"
@@ -28,7 +28,7 @@ export default function BuyCardPage() {
               </g>
             </svg>
           </div>
-        </div>
+        
         <div className="buy-card-page-bottom-side"></div>
       </section>
     </>
