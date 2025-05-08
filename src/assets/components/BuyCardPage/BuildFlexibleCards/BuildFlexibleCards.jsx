@@ -1,7 +1,6 @@
 import React from "react";
 import "./BuildFlexibleCards.css";
-import BuildFlexibleCardsData from "./BuildFlexibleCardsData";
-import BuildFlexibleCardsCompony from "./BuildFlexibleCardsData.js";
+import { BuildFlexibleCardsData, BuildFlexibleCardsCompony } from "./BuildFlexibleCardsData"
 export default function BuildFlexibleCards() {
   return (
     <section className="build-flexible-card-section">
