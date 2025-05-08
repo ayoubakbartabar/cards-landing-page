@@ -1,4 +1,4 @@
-const BuildFlexibleCardsData = [
+export const BuildFlexibleCardsData = [
   {
     id: 1,
     svg: "public/svg/blue-Check.svg",
@@ -15,10 +15,10 @@ const BuildFlexibleCardsData = [
     paragraph: "Make real-time decisions on charges and spendings.",
   },
 ];
-const BuildFlexibleCardsCompony = [
+
+export const BuildFlexibleCardsCompony = [
   { id: 1, svg: "public/svg/logo-facebook.svg", alt: "FaceBook" },
   { id: 2, svg: "public/svg/logo-nike.svg", alt: "Nike" },
   { id: 3, svg: "public/svg/logo-samsung.svg", alt: "Samsung" },
   { id: 4, svg: "public/svg/logo-disney.svg", alt: "Disney" },
 ];
-export default { BuildFlexibleCardsData, BuildFlexibleCardsCompony };
