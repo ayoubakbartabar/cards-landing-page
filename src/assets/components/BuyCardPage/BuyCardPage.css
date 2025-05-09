@@ -1,12 +1,44 @@
-.buy-card-page-section{
+.buy-card-page-section {
     margin: 0 auto;
     max-width: 1300px;
 }
-.buy-card-page-top-side{
+
+.buy-card-page-top-side {
     margin: 5rem 0;
     width: 100%;
 }
-.buy-card-page-bottom-side{
+
+.buy-card-page-bottom-side {
     display: flex;
-    
+    flex-direction: row;
+    justify-content: center;
+}
+
+.build-flexible-card-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.build-flexible-card-title {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.build-flexible-card-box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.build-flexible-card-box {
+    display: flex;
+    width: 100%;
+    gap: 0.8rem;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-bottom: 0.8rem;
 }
