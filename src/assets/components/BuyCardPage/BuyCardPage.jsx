@@ -1,6 +1,7 @@
 import React from "react";
 import "./BuyCardPage.css";
 import BuildFlexibleCards from "./BuildFlexibleCards/BuildFlexibleCards";
+import BuyCardForm from "./BuyCardForm/BuyCardForm";
 export default function BuyCardPage() {
   return (
     <>
@@ -31,6 +32,7 @@ export default function BuyCardPage() {
 
         <div className="buy-card-page-bottom-side">
           <BuildFlexibleCards/>
+          <BuyCardForm/>
         </div>
       </section>
     </>
