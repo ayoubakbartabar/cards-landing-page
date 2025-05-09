@@ -19,6 +19,12 @@ export default function BuyCardForm() {
               </label>
               <input className="last-name-input" type="text" />
             </div>
+            <div className="work-email-input-box">
+              <label className="work-email-label" htmlFor="">
+                Work email
+              </label>
+              <input className="work-email-input" type="text" />
+            </div>
           </form>
         </div>
       </div>
