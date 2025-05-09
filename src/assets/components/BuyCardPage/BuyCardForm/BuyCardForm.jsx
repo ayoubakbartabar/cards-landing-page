@@ -31,6 +31,18 @@ export default function BuyCardForm() {
               </label>
               <input className="website-input" type="text" />
             </div>
+            <div className="compony-size-select-box">
+              <label className="compony-size" htmlFor="">
+              Compony size
+              </label>
+              <select className="compony-size-select" name="" id="">
+                <option value="Less than 10">Less than 10</option>
+                <option value="Less than 10">Less than 10</option>
+                <option value="Less than 10">Less than 10</option>
+                <option value="Less than 10">Less than 10</option>
+              </select>
+            </div>
+
           </form>
         </div>
       </div>
