@@ -57,7 +57,11 @@ export default function BuyCardForm() {
               <label className="anything-else-label" htmlFor="">
                 Country
               </label>
-                <textarea className="anything-else-textarea" name="" id=""></textarea>
+              <textarea
+                className="anything-else-textarea"
+                name=""
+                id=""
+              ></textarea>
             </div>
 
             <button className=""></button>
