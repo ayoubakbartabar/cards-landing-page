@@ -13,6 +13,12 @@ export default function BuyCardForm() {
               </label>
               <input className="first-name-input" type="text" />
             </div>
+            <div className="last-name-input-box">
+              <label className="last-name-label" htmlFor="">
+                Last name
+              </label>
+              <input className="last-name-input" type="text" />
+            </div>
           </form>
         </div>
       </div>
