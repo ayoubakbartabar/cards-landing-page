@@ -49,7 +49,7 @@ export default function BuyCardForm() {
               <select className="country-select" name="" id="">
                 <option value="United States">United states</option>
                 <option value="United Kingdom">United Kingdom</option>
-                <option value="More than 20">More than 20</option>
+                <option value="Germany">Germany</option>
                 <option value="More than 50">More than 50</option>
               </select>
             </div>
