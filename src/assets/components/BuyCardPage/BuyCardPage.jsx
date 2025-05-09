@@ -14,13 +14,13 @@ export default function BuyCardPage() {
             xmlns="http://www.w3.org/2000/svg"
           >
             <g fill-rule="nonzero" fill="#3b82f6">
-              <g  transform="translate(3 3)">
+              <g transform="translate(3 3)">
                 <circle cx="5" cy="5" r="5"></circle>
                 <circle cx="19" cy="5" r="5"></circle>
                 <circle cx="5" cy="19" r="5"></circle>
                 <circle cx="19" cy="19" r="5"></circle>
               </g>
-              <g  fill="#7dd3fc">
+              <g fill="#7dd3fc">
                 <circle cx="15" cy="5" r="5"></circle>
                 <circle cx="25" cy="15" r="5"></circle>
                 <circle cx="15" cy="25" r="5"></circle>
@@ -31,8 +31,8 @@ export default function BuyCardPage() {
         </div>
 
         <div className="buy-card-page-bottom-side">
-          <BuildFlexibleCards/>
-          <BuyCardForm/>
+          <BuildFlexibleCards />
+          <BuyCardForm />
         </div>
       </section>
     </>
