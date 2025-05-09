@@ -32,7 +32,7 @@ export default function BuyCardForm() {
               <input className="website-input" type="text" />
             </div>
             <div className="compony-size-select-box">
-              <label className="compony-size" htmlFor="">
+              <label className="compony-size-label" htmlFor="">
                 Compony size
               </label>
               <select className="compony-size-select" name="" id="">
@@ -43,16 +43,24 @@ export default function BuyCardForm() {
               </select>
             </div>
             <div className="country-select-box">
-              <label className="country" htmlFor="">
+              <label className="country-label" htmlFor="">
                 Country
               </label>
               <select className="country-select" name="" id="">
                 <option value="United States">United states</option>
                 <option value="United Kingdom">United Kingdom</option>
                 <option value="Germany">Germany</option>
-                <option value="More than 50">More than 50</option>
+                <option value="Italy">Italy</option>
               </select>
             </div>
+            <div className="anything-else-box">
+              <label className="anything-else-label" htmlFor="">
+                Country
+              </label>
+                <textarea className="anything-else-textarea" name="" id=""></textarea>
+            </div>
+
+            <button className=""></button>
           </form>
         </div>
       </div>
