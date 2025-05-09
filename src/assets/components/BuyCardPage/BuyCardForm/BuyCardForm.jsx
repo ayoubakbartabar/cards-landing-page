@@ -42,6 +42,17 @@ export default function BuyCardForm() {
                 <option value="More than 50">More than 50</option>
               </select>
             </div>
+            <div className="country-select-box">
+              <label className="country" htmlFor="">
+                Country
+              </label>
+              <select className="country-select" name="" id="">
+                <option value="Less than 10">Less than 10</option>
+                <option value="More than 10">More than 10</option>
+                <option value="More than 20">More than 20</option>
+                <option value="More than 50">More than 50</option>
+              </select>
+            </div>
           </form>
         </div>
       </div>
