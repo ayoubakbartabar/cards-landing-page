@@ -33,16 +33,15 @@ export default function BuyCardForm() {
             </div>
             <div className="compony-size-select-box">
               <label className="compony-size" htmlFor="">
-              Compony size
+                Compony size
               </label>
               <select className="compony-size-select" name="" id="">
                 <option value="Less than 10">Less than 10</option>
-                <option value="Less than 10">Less than 10</option>
-                <option value="Less than 10">Less than 10</option>
-                <option value="Less than 10">Less than 10</option>
+                <option value="More than 10">More than 10</option>
+                <option value="More than 20">More than 20</option>
+                <option value="More than 50">More than 50</option>
               </select>
             </div>
-
           </form>
         </div>
       </div>
