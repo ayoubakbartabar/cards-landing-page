@@ -1,3 +1,4 @@
 .buy-card-page-top-side{
-    
+    display: flex;
+    max-width: 1300px;
 }
