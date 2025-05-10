@@ -16,6 +16,7 @@ export default function BuildFlexibleCards() {
         <TypeAnimation
           sequence={[
             "Build flexible cards for your business",
+            1000,
             () => {
               setShowCursor(false);
             },
