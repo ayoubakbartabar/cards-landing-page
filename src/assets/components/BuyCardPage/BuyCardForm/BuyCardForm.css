@@ -45,21 +45,24 @@
 .country-label,
 .anything-else-label {
     font-size: 1.2rem;
-        width: 50%;
+    width: 30%;
 
 }
-.anything-else-textarea{
-    max-width: 450px;
+
+.anything-else-textarea {
+    max-width: 450px !important;
 }
+
 .first-name-input,
 .last-name-input,
 .work-email-input,
 .website-input,
 .compony-size-select,
-.country-select ,
+.country-select,
 .anything-else-textarea {
     padding: 0.5rem;
+    margin-right: 1rem;
     width: 80%;
-    border: 1px solid rgba(128, 128, 128 , 0.5);
+    border: 1px solid rgba(128, 128, 128, 0.5);
     border-radius: 5px;
 }
