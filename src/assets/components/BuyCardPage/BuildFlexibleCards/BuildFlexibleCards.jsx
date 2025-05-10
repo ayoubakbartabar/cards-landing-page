@@ -1,11 +1,20 @@
 import React from "react";
 import "./BuildFlexibleCards.css";
-import { BuildFlexibleCardsData, BuildFlexibleCardsCompony } from "./BuildFlexibleCardsData"
+import {
+  BuildFlexibleCardsData,
+  BuildFlexibleCardsCompony,
+} from "./BuildFlexibleCardsData";
+import { TypeAnimation } from "react-type-animation";
+
 export default function BuildFlexibleCards() {
   return (
     <section className="build-flexible-card-section">
       <h1 className="build-flexible-card-title">
-        Build flexible cards for your business
+        <TypeAnimation
+          sequence={["Build flexible cards for your business", 1000]}
+          speed={70}
+          repeat={0}
+        />
       </h1>
       <div className="build-flexible-card-box-container">
         {BuildFlexibleCardsData.map((item) => (
