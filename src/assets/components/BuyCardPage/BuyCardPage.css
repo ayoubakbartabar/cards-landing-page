@@ -73,5 +73,6 @@
 
 .buy-card-form-container{
     background-color: var(--header-background);
+    border-bottom-left-radius: 10rem;
 }
 
