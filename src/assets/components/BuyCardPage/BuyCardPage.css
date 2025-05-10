@@ -53,3 +53,7 @@
     align-items: flex-start;
     gap: 1rem;
 }
+.build-flexible-card-company-title{
+    color: var(--build-card-paragraph-color);
+    text-transform: uppercase;
+}
