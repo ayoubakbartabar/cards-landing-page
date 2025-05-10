@@ -11,7 +11,7 @@
 .buy-card-page-bottom-side {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .build-flexible-card-section {
@@ -21,9 +21,11 @@
 }
 
 .build-flexible-card-title {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 800;
+    line-height: 40px;
     margin-bottom: 1rem;
+    width: 80%;
 }
 
 .build-flexible-card-box-container {
