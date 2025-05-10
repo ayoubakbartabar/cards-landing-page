@@ -68,16 +68,10 @@
 }
 
 .buy-card-submit-btn-container {
-     
+    padding-right: 1rem;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-}
-
-.buy-card-submit-btn {
-    margin-right: 1rem;
-    padding: 1rem;
-    width: 50%;
 }

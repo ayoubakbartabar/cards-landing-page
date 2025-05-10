@@ -64,7 +64,7 @@ export default function BuyCardForm() {
               ></textarea>
             </div>
             <div className="buy-card-submit-btn-container">
-              <button className="buy-card-submit-btn">Submit the form</button>
+              <button className="getYourCard-blue-btn ">Submit the form</button>
             </div>
           </form>
         </div>
