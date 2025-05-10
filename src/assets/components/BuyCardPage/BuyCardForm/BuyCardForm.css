@@ -18,4 +18,20 @@
     width: 100%;
     align-items: flex-start;
     justify-content: center;
+    padding: 1rem;
+}
+
+.first-name-input-box,
+.last-name-input-box,
+.work-email-input-box,
+.website-input-box,
+.compony-size-select-box,
+.country-select-box,
+.anything-else-box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 3rem;
 }
