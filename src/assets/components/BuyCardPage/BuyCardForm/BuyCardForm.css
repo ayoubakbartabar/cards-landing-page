@@ -65,6 +65,12 @@
     width: 80%;
     border: 1px solid rgba(128, 128, 128, 0.5);
     border-radius: 5px;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+select {
+    -moz-appearance: none;
+    appearance: none;
 }
 
 .first-name-input:focus,
@@ -75,9 +81,10 @@
 .country-select:focus,
 .anything-else-textarea:focus {
     border: 1px solid #007bff;
-    outline: none; 
-    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25); 
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
 }
+
 .buy-card-submit-btn-container {
     padding-right: 1rem;
     width: 100%;
