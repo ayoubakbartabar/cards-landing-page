@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./BuildFlexibleCards.css";
 import {
   BuildFlexibleCardsData,
@@ -7,15 +7,26 @@ import {
 import { TypeAnimation } from "react-type-animation";
 
 export default function BuildFlexibleCards() {
+  const [showCursor, setShowCursor] = useState(true);
+  const [typingDone, setTypingDone] = useState(false);
+
   return (
     <section className="build-flexible-card-section">
-      <h1 className="build-flexible-card-title">
+      <h1
+        className={`build-flexible-card-title ${
+          typingDone ? "hide-cursor" : ""
+        }`}
+      >
         <TypeAnimation
-          sequence={["Build flexible cards for your business", 1000]}
+          sequence={[
+            "Build flexible cards for your business",
+            () => setTypingDone(true),
+          ]}
           speed={70}
           repeat={0}
         />
       </h1>
+
       <div className="build-flexible-card-box-container">
         {BuildFlexibleCardsData.map((item) => (
           <div key={item.id} className="build-flexible-card-box">
@@ -31,7 +42,7 @@ export default function BuildFlexibleCards() {
         ))}
         <div className="build-flexible-card-company-container">
           <p className="build-flexible-card-company-title">
-            Trusted bt the best
+            Trusted by the best
           </p>
           <div className="build-flexible-card-companies">
             {BuildFlexibleCardsCompony.map((item) => (
