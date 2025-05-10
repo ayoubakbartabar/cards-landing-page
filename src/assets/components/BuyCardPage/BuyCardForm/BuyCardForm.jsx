@@ -11,25 +11,25 @@ export default function BuyCardForm() {
               <label className="first-name-label" htmlFor="">
                 First name
               </label>
-              <input className="first-name-input" type="text" />
+              <input  placeholder="Ayoub" className="first-name-input" type="text" />
             </div>
             <div className="last-name-input-box">
               <label className="last-name-label" htmlFor="">
                 Last name
               </label>
-              <input className="last-name-input" type="text" />
+              <input placeholder="Akbartabar Kami" className="last-name-input" type="text" />
             </div>
             <div className="work-email-input-box">
               <label className="work-email-label" htmlFor="">
                 Work email
               </label>
-              <input className="work-email-input" type="text" />
+              <input placeholder="ayoub@example.com" className="work-email-input" type="text" />
             </div>
             <div className="website-input-box">
               <label className="website-label" htmlFor="">
                 Website
               </label>
-              <input className="website-input" type="text" />
+              <input placeholder="example.com" className="website-input" type="text" />
             </div>
             <div className="compony-size-select-box">
               <label className="compony-size-label" htmlFor="">
