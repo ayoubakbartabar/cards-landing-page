@@ -1,0 +1,13 @@
+.buy-card-form-bg {
+    background-color: var(--header-background);
+    border-bottom-left-radius: 10rem;
+}
+
+.buy-card-form-box {
+    background-color: var(--text-white-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
