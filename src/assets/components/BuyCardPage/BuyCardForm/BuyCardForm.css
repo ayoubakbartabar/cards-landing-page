@@ -29,12 +29,13 @@
 .compony-size-select-box,
 .country-select-box,
 .anything-else-box {
-    width: 100%;
-    display: flex;
+       width: 100%;
+    display: flex
+;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-start;
-    gap: 3rem;
+    gap: 1rem;
+    justify-content: space-around;
 }
 
 .first-name-label,
@@ -45,4 +46,15 @@
 .country-label,
 .anything-else-label {
     font-size: 1.2rem;
+}
+
+.first-name-input,
+.last-name-input,
+.work-email-input,
+.website-input,
+.compony-size-select,
+.country-select {
+    padding: 0.5rem;
+    width: 50%;
+    border
 }
