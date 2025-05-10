@@ -60,20 +60,24 @@
 .compony-size-select,
 .country-select,
 .anything-else-textarea {
-    padding: 0.8rem 0;
+    padding: 0.8rem;
     margin-right: 1rem;
     width: 80%;
     border: 1px solid rgba(128, 128, 128, 0.5);
     border-radius: 5px;
 }
 
-.first-name-input,
-.last-name-input,
-.work-email-input,
-.website-input {
-    padding-left: 0.8rem;
+.first-name-input:focus,
+.last-name-input:focus,
+.work-email-input:focus,
+.website-input:focus,
+.compony-size-select:focus,
+.country-select:focus,
+.anything-else-textarea:focus {
+    border: 1px solid #007bff;
+    outline: none; 
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25); 
 }
-
 .buy-card-submit-btn-container {
     padding-right: 1rem;
     width: 100%;
