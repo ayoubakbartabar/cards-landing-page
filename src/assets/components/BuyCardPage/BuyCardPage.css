@@ -33,6 +33,7 @@
     flex-direction: column;
     align-items: flex-start;
     flex-wrap: wrap;
+    margin-top: 2.5rem;
 }
 
 .build-flexible-card-box {
@@ -43,4 +44,12 @@
     justify-content: flex-start;
     flex-direction: row;
     margin-bottom: 0.8rem;
+}
+
+.build-flexible-card-company-container {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
 }
