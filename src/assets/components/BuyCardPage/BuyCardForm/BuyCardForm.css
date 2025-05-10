@@ -19,6 +19,7 @@
     align-items: flex-start;
     justify-content: center;
     padding: 1rem;
+    gap: 1rem;
 }
 
 .first-name-input-box,
@@ -34,4 +35,14 @@
     align-items: center;
     justify-content: flex-start;
     gap: 3rem;
+}
+
+.first-name-label,
+.last-name-label,
+.work-email-label,
+.website-label,
+.compony-size-label,
+.country-label,
+.anything-else-label {
+    font-size: 1.2rem;
 }
