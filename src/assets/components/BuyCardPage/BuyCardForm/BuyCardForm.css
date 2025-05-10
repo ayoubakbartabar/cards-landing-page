@@ -67,6 +67,13 @@
     border-radius: 5px;
 }
 
+.first-name-input,
+.last-name-input,
+.work-email-input,
+.website-input {
+    padding-left: 0.8rem;
+}
+
 .buy-card-submit-btn-container {
     padding-right: 1rem;
     width: 100%;
