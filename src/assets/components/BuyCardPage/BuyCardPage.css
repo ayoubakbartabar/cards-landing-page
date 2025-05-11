@@ -29,7 +29,7 @@ body,
 
 .build-flexible-card-section {
     flex: 1;
-    max-width: 50%;
+    width: 90%;
 }
 
 
@@ -81,15 +81,4 @@ body,
     align-items: center;
     gap: 1rem;
 
-}
-
-@media (max-width: 1024px) {
-    .buy-card-page-bottom-side {
-        flex-direction: column;
-    }
-
-    .build-flexible-card-section,
-    .buy-card-form-container {
-        max-width: 100%;
-    }
 }
