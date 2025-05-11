@@ -1,19 +1,18 @@
 .buy-card-form-container {
-    position: relative;
     flex: 1;
-    max-width: 50%;
-
+    display: flex;
 }
 
 .buy-card-form-bg {
-    position: relative;
-    padding: 2rem;
-    border-bottom-left-radius: 10rem;
+    flex: 1;
+    height: 100%;
     background-color: var(--header-background);
+    border-bottom-left-radius: 10rem;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-} 
+    padding: 2rem;
+}
 
 .form-background-image {
     position: absolute;
