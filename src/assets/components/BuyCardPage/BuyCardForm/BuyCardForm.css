@@ -18,16 +18,11 @@
     padding-right: 65rem;
 }
 
-
-
-
 .form-background-image {
     position: absolute;
-    top: -50px;
-    right: -50px;
-    width: 300px;
     opacity: 0.2;
     z-index: 0;
+    transform: translate(0%, 0%);
 }
 
 .buy-card-form-box {
