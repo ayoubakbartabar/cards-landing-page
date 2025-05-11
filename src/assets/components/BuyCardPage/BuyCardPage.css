@@ -11,16 +11,17 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 8rem;
+    align-items: flex-start;
+    gap: 3rem;
+    padding-top: 5rem;
 }
 
+
 .build-flexible-card-section {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 80%;
-    padding-right: 2rem;
+    flex: 1;
+    max-width: 50%;
 }
+
 
 .build-flexible-card-title {
     font-size: 3rem;

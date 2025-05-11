@@ -1,6 +1,7 @@
 .buy-card-form-container {
     position: relative;
-    width: 100%;
+    flex: 1;
+    max-width: 50%;
 
 }
 
