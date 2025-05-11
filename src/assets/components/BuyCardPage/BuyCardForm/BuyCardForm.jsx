@@ -4,7 +4,11 @@ export default function BuyCardForm() {
   return (
     <div className="buy-card-form-container">
       <div className="buy-card-form-bg">
-        <img className="form-background-image" src="public\svg\cards-illustration.svg" alt="svg" />
+        <img
+          className="form-background-image"
+          src="public\svg\cards-illustration.svg"
+          alt="svg"
+        />
         <div className="buy-card-form-box">
           <form className="buy-card-form">
             <div className="first-name-input-box">
