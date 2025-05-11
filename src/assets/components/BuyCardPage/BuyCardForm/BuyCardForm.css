@@ -14,22 +14,27 @@
     justify-content: center;
 }
 
+
+
+
 .form-background-image {
     position: absolute;
-    transform: translate(-10%, -10%);
-    z-index: -1;
-    pointer-events: none;
+    top: -50px;
+    right: -50px;
+    width: 300px;
+    opacity: 0.2;
+    z-index: 0;
 }
 
 .buy-card-form-box {
     background-color: var(--text-white-color);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 80%;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+    z-index: 2;
 }
-
 .buy-card-form {
     display: flex;
     flex-direction: column;
