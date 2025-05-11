@@ -10,7 +10,8 @@
 
 .form-background-image {
     position: absolute;
-    transform: translate(-50%, -10%);
+    transform: translate(-10%, -10%);
+    z-index: -1;
 }
 
 .buy-card-form-box {
