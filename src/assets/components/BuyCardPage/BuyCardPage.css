@@ -72,3 +72,14 @@
     gap: 1rem;
 
 }
+
+@media (max-width: 1024px) {
+    .buy-card-page-bottom-side {
+        flex-direction: column;
+    }
+
+    .build-flexible-card-section,
+    .buy-card-form-container {
+        max-width: 100%;
+    }
+}
