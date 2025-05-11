@@ -5,8 +5,13 @@
 }
 
 .buy-card-form-bg {
-    background-color: var(--header-background);
+    position: relative;
+    padding: 2rem;
     border-bottom-left-radius: 10rem;
+    background-color: var(--header-background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .form-background-image {
@@ -106,9 +111,9 @@ select {
     justify-content: flex-end;
     align-items: center;
 }
+
 /* @media (min-width: 1024px) {
     .buy-card-form-bg {
         margin-top: 9px;
     }
 } */
- 
