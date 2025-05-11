@@ -12,6 +12,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: -181px;
+    padding-top: 5rem;
+    margin-right: -999px;
+    padding-right: 65rem;
 }
 
 
@@ -35,6 +39,7 @@
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
     z-index: 2;
 }
+
 .buy-card-form {
     display: flex;
     flex-direction: column;
