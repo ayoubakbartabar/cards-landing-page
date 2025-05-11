@@ -16,8 +16,8 @@
     border-bottom-left-radius: 10rem;
     background-color: var(--header-background);
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
+    justify-content: flex-start;
+    flex-direction: row;
 }
 
 .form-background-image {
