@@ -1,14 +1,14 @@
 .buy-card-form-container {
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
-    width: 45vw;
+    width: 48vw;
     height: 100vh;
     z-index: 10;
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    overflow-y: auto;
+
 }
 
 .buy-card-form-bg {
@@ -34,7 +34,7 @@
     border-radius: 1rem;
     width: 100%;
     max-width: 620px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
     z-index: 2;
     transform: translate(0%, 20%);
 }
