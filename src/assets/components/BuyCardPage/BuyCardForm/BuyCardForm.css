@@ -1,8 +1,15 @@
 .buy-card-form-container {
-    flex: 1;
-    display: flex;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 45vw; 
+  height: 100vh; 
+  z-index: 10;
+  display: flex;
+  align-items: flex-start; 
+  justify-content: center;
+  background-color: var(--header-background); 
 }
-
 .buy-card-form-bg {
     flex: 1;
     height: 100%;
