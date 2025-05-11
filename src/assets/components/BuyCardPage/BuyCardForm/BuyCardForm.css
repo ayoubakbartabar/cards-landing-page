@@ -24,7 +24,7 @@
     position: absolute;
     opacity: 0.2;
     z-index: 0;
-    transform: translate(0%, 0%);
+    transform: translate(-10%, -20%);
 }
 
 .buy-card-form-box {
