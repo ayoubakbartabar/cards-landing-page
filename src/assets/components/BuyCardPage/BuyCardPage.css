@@ -1,3 +1,10 @@
+html,
+body,
+.buy-card-page-section,
+.buy-card-page-bottom-side {
+    height: 100%;
+}
+
 .buy-card-page-section {
     margin: 0 auto;
     max-width: 1300px;
