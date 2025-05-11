@@ -8,10 +8,10 @@
 }
 
 .buy-card-page-bottom-side {
+
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
+    align-items: stretch;
     gap: 3rem;
     padding-top: 5rem;
 }
