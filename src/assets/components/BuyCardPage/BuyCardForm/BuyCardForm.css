@@ -173,4 +173,15 @@ select {
     .anything-else-textarea {
         width: 100%;
     }
+
+    .first-name-label,
+    .last-name-label,
+    .work-email-label,
+    .website-label,
+    .compony-size-label,
+    .country-label,
+    .anything-else-label {
+        
+        width: 100%;
+    }
 }
