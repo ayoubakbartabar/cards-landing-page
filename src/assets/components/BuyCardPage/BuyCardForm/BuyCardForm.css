@@ -184,3 +184,8 @@ select {
         width: 100%;
     }
 }
+@media (max-width:600px) {
+    .buy-card-form-box {
+        width: 100%;
+    }
+}
