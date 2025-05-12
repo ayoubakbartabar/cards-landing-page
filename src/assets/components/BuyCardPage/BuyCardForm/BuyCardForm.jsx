@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import "./BuyCardForm.css";
 export default function BuyCardForm() {
+  // set Hook
+  const [emailInputVal, setEmailInputVal] = useState("");
+  const [isValid, setIsValid] = useState(true);
+
   return (
     <div className="buy-card-form-container">
       <div className="buy-card-form-bg">
