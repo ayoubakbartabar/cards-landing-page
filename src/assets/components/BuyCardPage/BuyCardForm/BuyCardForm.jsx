@@ -85,6 +85,7 @@ export default function BuyCardForm() {
                 className="anything-else-textarea"
                 name=""
                 id=""
+                required
               ></textarea>
             </div>
             <div className="buy-card-submit-btn-container">
