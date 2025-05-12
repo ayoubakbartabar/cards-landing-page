@@ -117,8 +117,11 @@ select {
 }
 
 @media (min-width:1024px) {
-    /* .buy-card-form-container {
-        margin-right: 5rem;
-    } */
+    .buy-card-form-container {
+        width: 100%;
+        position: relative;
+        height: 790px;
+
+    }
 
 }
