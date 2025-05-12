@@ -52,6 +52,7 @@ export default function BuyCardForm() {
                 placeholder="example.com"
                 className="website-input"
                 type="text"
+                required
               />
             </div>
             <div className="compony-size-select-box">
