@@ -118,11 +118,12 @@ select {
 
 @media (max-width:1400px) {
     .buy-card-form-container {
-        width: 100%;
+        width: 100vw;
         position: relative;
         height: 790px;
 
     }
+
 
     .buy-card-form-bg {
         width: 100%;
