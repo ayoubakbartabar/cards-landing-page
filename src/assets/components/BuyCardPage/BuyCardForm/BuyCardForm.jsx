@@ -41,6 +41,7 @@ export default function BuyCardForm() {
                 placeholder="ayoub@example.com"
                 className="work-email-input"
                 type="text"
+                required
               />
             </div>
             <div className="website-input-box">
