@@ -92,17 +92,4 @@ body,
         justify-content: center;
     }
 
-
-    .buy-card-form-box {
-        transform: none !important;
-        margin-top: 2rem;
-        padding: 1.5rem;
-        max-width: 100%;
-        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.08);
-    }
-
-    .form-background-image {
-        display: none;
-
-    }
 }
