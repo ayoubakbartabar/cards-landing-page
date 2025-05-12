@@ -7,14 +7,14 @@ export default function BuyCardForm() {
 
   // const valid handler
   const validateEmail = (value) => {
-    const emailRegex = "/^[^s@]+@(gmail.com|email.com)$/";
+    const emailRegex = /^[^s@]+@(gmail.com|email.com)$/;
     return emailRegex.test(value);
   };
+  // email input handler
   const handleChange = (event) => {
     const value = event.target.value;
-    // set useState
     setEmailInputVal(value);
-    setIsValid(setEmailInputVal(value));
+    setIsValid(validateEmail(value));
   };
   return (
     <div className="buy-card-form-container">
@@ -49,16 +49,20 @@ export default function BuyCardForm() {
               />
             </div>
             <div className="work-email-input-box">
-              <label className="work-email-label" htmlFor="">
+              <label className="work-email-label" htmlFor="email">
                 Work email
               </label>
               <input
-                placeholder="ayoub@example.com"
-                className="work-email-input"
+                id="email"
+                placeholder="example@gmail.com"
+                className={isValid ? "work-email-input" : "is-not-valid"}
                 type="text"
+                value={emailInputVal}
+                onChange={handleChange}
                 required
               />
             </div>
+
             <div className="website-input-box">
               <label className="website-label" htmlFor="">
                 Website

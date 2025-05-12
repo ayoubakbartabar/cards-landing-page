@@ -59,6 +59,7 @@
     justify-content: space-around;
 }
 
+
 .first-name-label,
 .last-name-label,
 .work-email-label,
@@ -89,7 +90,15 @@
     border-radius: 5px;
     transition: border 0.3s ease, box-shadow 0.3s ease;
 }
-
+.is-not-valid{
+    display: flex;
+     padding: 0.8rem;
+    margin-right: 1rem;
+    width: 80%;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    border-radius: 5px;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}
 select {
     -moz-appearance: none;
     appearance: none;
