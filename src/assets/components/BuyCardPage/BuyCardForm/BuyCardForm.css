@@ -146,3 +146,31 @@ select {
     }
 
 }
+
+@media (max-width:990px) {
+
+    .first-name-input-box,
+    .last-name-input-box,
+    .work-email-input-box,
+    .website-input-box,
+    .compony-size-select-box,
+    .country-select-box,
+    .anything-else-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        justify-content: space-around;
+    }
+
+    .first-name-input,
+    .last-name-input,
+    .work-email-input,
+    .website-input,
+    .compony-size-select,
+    .country-select,
+    .anything-else-textarea {
+        width: 100%;
+    }
+}
