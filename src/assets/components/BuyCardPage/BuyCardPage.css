@@ -82,7 +82,7 @@ body,
 
 }
 
-@media (max-width: 1424px) {
+@media (max-width: 1400px) {
     .buy-card-page-bottom-side {
         display: flex;
         flex-direction: column;

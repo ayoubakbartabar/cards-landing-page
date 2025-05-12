@@ -116,7 +116,7 @@ select {
     align-items: center;
 }
 
-@media (min-width:1024px) {
+@media (max-width:1024px) {
     .buy-card-form-container {
         width: 100%;
         position: relative;
