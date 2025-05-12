@@ -19,6 +19,7 @@ export default function BuyCardForm() {
                 placeholder="Ayoub"
                 className="first-name-input"
                 type="text"
+                required
               />
             </div>
             <div className="last-name-input-box">
