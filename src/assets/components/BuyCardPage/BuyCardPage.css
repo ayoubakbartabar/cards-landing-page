@@ -93,22 +93,10 @@ body,
         justify-content: center;
     }
 
-    html,
-    body,
-    #root,
-    .buy-card-page-section,
-    .buy-card-page-bottom-side {
-        height: 0;
-    }
-
     .buy-card-form-container {
         width: 100%;
         position: relative;
-        height: auto;
-    }
-
-    .buy-card-form-bg {
-        display: none;
+        height: 790px;
     }
 
     .buy-card-form-box {
