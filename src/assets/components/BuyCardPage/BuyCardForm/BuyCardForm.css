@@ -123,7 +123,11 @@ select {
         height: 790px;
 
     }
-    
+
+    .buy-card-form-bg {
+        width: 100%;
+    }
+
     .buy-card-form-box {
         transform: none !important;
         margin-top: 2rem;
