@@ -4,13 +4,18 @@ export default function BuyCardForm() {
   // set Hook
   const [emailInputVal, setEmailInputVal] = useState("");
   const [isValid, setIsValid] = useState(true);
-  
+
   // const valid handler
   const validateEmail = (value) => {
     const emailRegex = "/^[^s@]+@(gmail.com|email.com)$/";
     return emailRegex.test(value);
   };
-
+  const handleChange = (event) => {
+    const value = event.target.value;
+    // set useState
+    setEmailInputVal(value);
+    setIsValid(setEmailInputVal(value));
+  };
   return (
     <div className="buy-card-form-container">
       <div className="buy-card-form-bg">
