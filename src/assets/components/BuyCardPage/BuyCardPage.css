@@ -91,7 +91,8 @@ body,
         align-items: center;
         justify-content: center;
     }
-    .buy-card-page-top-side{
-        padding-left:1rem;
+
+    .buy-card-page-top-side {
+        padding-left: 1rem;
     }
 }
