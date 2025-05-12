@@ -30,6 +30,7 @@ export default function BuyCardForm() {
                 placeholder="Akbartabar Kami"
                 className="last-name-input"
                 type="text"
+                required
               />
             </div>
             <div className="work-email-input-box">
