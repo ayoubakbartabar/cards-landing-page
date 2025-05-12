@@ -55,7 +55,7 @@ export default function BuyCardForm() {
               <input
                 id="email"
                 placeholder="example@gmail.com"
-                className={isValid ? "work-email-input" : "is-not-valid"}
+                className={`work-email-input ${!isValid ? "is-not-valid" : ""}`}
                 type="text"
                 value={emailInputVal}
                 onChange={handleChange}
