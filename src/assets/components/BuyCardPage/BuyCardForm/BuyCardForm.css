@@ -129,6 +129,7 @@ select {
     }
 
     .buy-card-form-box {
+        width: 50%;
         transform: none !important;
         margin-top: 2rem;
         padding: 1.5rem;
