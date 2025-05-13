@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./BuyCardForm.css";
-
+import { IoIosArrowDown } from "react-icons/io";
 export default function BuyCardForm() {
   // set Hooks
   const [inputs, setInputs] = useState({
@@ -23,7 +23,7 @@ export default function BuyCardForm() {
   const handleInputChange = (field) => (e) => {
     const value = e.target.value;
     setInputs((prev) => ({ ...prev, [field]: value }));
-    
+
     // If input is empty, remove invalid styling (treat as neutral)
     if (value === "") {
       setValidity((prev) => ({ ...prev, [field]: true }));
@@ -97,12 +97,15 @@ export default function BuyCardForm() {
 
             <div className="compony-size-select-box">
               <label className="compony-size-label">Company size</label>
-              <select className="compony-size-select" required>
-                <option value="Less than 10">Less than 10</option>
-                <option value="More than 10">More than 10</option>
-                <option value="More than 20">More than 20</option>
-                <option value="More than 50">More than 50</option>
-              </select>
+              <div className="custom-select-wrapper">
+                <select className="compony-size-select" required>
+                  <option value="Less than 10">Less than 10</option>
+                  <option value="More than 10">More than 10</option>
+                  <option value="More than 20">More than 20</option>
+                  <option value="More than 50">More than 50</option>
+                </select>
+                <IoIosArrowDown className="custom-select-arrow" />
+              </div>
             </div>
 
             <div className="country-select-box">
