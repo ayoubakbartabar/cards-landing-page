@@ -44,6 +44,33 @@
     gap: 1rem;
 }
 
+/* .custom-select-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.compony-size-select {
+    width: 100%;
+    padding-right: 30px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: white;
+    border: 1px solid #ccc;
+    height: 40px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.custom-select-arrow {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #555;
+} */
 .first-name-input-box,
 .last-name-input-box,
 .work-email-input-box,
