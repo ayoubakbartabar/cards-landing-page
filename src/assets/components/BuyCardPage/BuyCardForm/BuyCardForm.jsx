@@ -5,7 +5,10 @@ export default function BuyCardForm() {
   const [emailInputVal, setEmailInputVal] = useState("");
   const [isValid, setIsValid] = useState(true);
   const [isFocused, setIsFocused] = useState(false);
-  // const valid handler
+  const [websiteInputVal, setWebsiteInputVal] = useState("");
+  const [isWebsiteValid, setIsWebsiteValid] = useState(true);
+
+  // const valid handler for email input
   const validateEmail = (value) => {
     const emailRegex = /^[^s@]+@(gmail.com|email.com)$/;
     return emailRegex.test(value);
@@ -16,6 +19,18 @@ export default function BuyCardForm() {
     setEmailInputVal(value);
     setIsValid(validateEmail(value));
   };
+
+  // web site input validation
+  const validateWebsite = (value) => {
+    const websiteRegex = /^(https?:\/\/)?(www\.)?[a-zA-Z0-9-]+\.[a-zA-Z]{2,}$/;
+    return websiteRegex.test(value);
+  };
+  const handleWebsiteChange = (event) => {
+    const value = event.target.value;
+    setWebsiteInputVal(value);
+    setIsWebsiteValid(validateWebsite(value));
+  };
+
   return (
     <div className="buy-card-form-container">
       <div className="buy-card-form-bg">
@@ -66,13 +81,18 @@ export default function BuyCardForm() {
             </div>
 
             <div className="website-input-box">
-              <label className="website-label" htmlFor="">
+              <label className="website-label" htmlFor="website">
                 Website
               </label>
               <input
+                id="website"
                 placeholder="example.com"
-                className="website-input"
+                className={`website-input ${
+                  !isWebsiteValid ? "is-not-valid" : ""
+                }`}
                 type="text"
+                value={websiteInputVal}
+                onChange={handleWebsiteChange}
                 required
               />
             </div>

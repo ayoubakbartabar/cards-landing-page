@@ -118,6 +118,11 @@ select {
     box-shadow: 0 0 0 2px rgba(255, 0, 0, 0.2);
 }
 
+.website-input.is-not-valid:focus {
+    border: 1px solid red !important;
+    box-shadow: 0 0 0 2px rgba(255, 0, 0, 0.2);
+}
+
 .buy-card-submit-btn-container {
     padding-right: 1rem;
     width: 100%;
