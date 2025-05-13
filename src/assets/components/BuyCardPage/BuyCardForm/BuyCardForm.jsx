@@ -4,7 +4,7 @@ export default function BuyCardForm() {
   // set Hook
   const [emailInputVal, setEmailInputVal] = useState("");
   const [isValid, setIsValid] = useState(true);
-
+  const [isFocused, setIsFocused] = useState(false);
   // const valid handler
   const validateEmail = (value) => {
     const emailRegex = /^[^s@]+@(gmail.com|email.com)$/;
@@ -59,6 +59,8 @@ export default function BuyCardForm() {
                 type="text"
                 value={emailInputVal}
                 onChange={handleChange}
+                onFocus={() => setIsFocused(true)}
+                onBlur={() => setIsFocused(false)}
                 required
               />
             </div>
