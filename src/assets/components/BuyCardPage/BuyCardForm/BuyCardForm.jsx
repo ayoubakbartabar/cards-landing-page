@@ -19,11 +19,12 @@ export default function BuyCardForm() {
         value
       ),
   };
-
+  // Input change handler for both email and website fields
   const handleInputChange = (field) => (e) => {
     const value = e.target.value;
     setInputs((prev) => ({ ...prev, [field]: value }));
-
+    
+    // If input is empty, remove invalid styling (treat as neutral)
     if (value === "") {
       setValidity((prev) => ({ ...prev, [field]: true }));
     } else {
