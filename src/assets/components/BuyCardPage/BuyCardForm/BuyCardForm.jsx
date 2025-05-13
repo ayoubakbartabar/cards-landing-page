@@ -22,7 +22,8 @@ export default function BuyCardForm() {
 
   // web site input validation
   const validateWebsite = (value) => {
-    const websiteRegex = /^(https?:\/\/)?(www\.)?[a-zA-Z0-9-]+\.[a-zA-Z]{2,}$/;
+    const websiteRegex =
+      /^(https?:\/\/)?(www\.)?[a-zA-Z0-9-]+\.(com|ir|org|net|co|io|dev|app)$/;
     return websiteRegex.test(value);
   };
   const handleWebsiteChange = (event) => {
