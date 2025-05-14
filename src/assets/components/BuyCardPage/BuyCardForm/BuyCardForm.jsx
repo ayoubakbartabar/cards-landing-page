@@ -1,35 +1,34 @@
 import React, { useState } from "react";
 import "./BuyCardForm.css";
 import { IoIosArrowDown } from "react-icons/io";
+
 export default function BuyCardForm() {
-  // set Hooks
-  const [inputs, setInputs] = useState({
+  // set Hook fir Inputs
+  const [formData, setFormData] = useState({
+    firstName: "",
+    lastName: "",
     email: "",
     website: "",
+    companySize: "",
+    country: "",
+    anythingElse: "",
   });
-  const [validity, setValidity] = useState({
-    email: true,
-    website: true,
-  });
-  // Validation functions for each input field
-  const validate = {
-    email: (value) => /^[^\s@]+@(gmail\.com|email\.com)$/.test(value),
-    website: (value) =>
-      /^(https?:\/\/)?(www\.)?[a-zA-Z0-9-]+\.(com|ir|org|net|co|io|dev|app)$/.test(
-        value
-      ),
-  };
-  // Input change handler for both email and website fields
-  const handleInputChange = (field) => (e) => {
-    const value = e.target.value;
-    setInputs((prev) => ({ ...prev, [field]: value }));
 
-    // If input is empty, remove invalid styling (treat as neutral)
-    if (value === "") {
-      setValidity((prev) => ({ ...prev, [field]: true }));
-    } else {
-      setValidity((prev) => ({ ...prev, [field]: validate[field](value) }));
-    }
+  const [formErrors, setFormErrors] = useState({});
+
+  // Validation functions for each input field
+  const validateEmail = (email) =>
+    /^[^\s@]+@(gmail\.com|email\.com)$/.test(email);
+  const validateWebsite = (website) =>
+    /^(https?:\/\/)?(www\.)?[a-zA-Z0-9-]+\.(com|ir|org|net|co|io|dev|app)$/.test(
+      website
+    );
+
+  // Input change handler for both email and website fields
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+    setFormErrors((prev) => ({ ...prev, [name]: false }));
   };
 
   return (
@@ -41,24 +40,32 @@ export default function BuyCardForm() {
           alt="svg"
         />
         <div className="buy-card-form-box">
-          <form className="buy-card-form">
+          <form className="buy-card-form" onSubmit={handleSubmit}>
             <div className="first-name-input-box">
               <label className="first-name-label">First name</label>
               <input
+                name="firstName"
                 placeholder="Ayoub"
-                className="first-name-input"
+                className={`first-name-input ${
+                  formErrors.firstName ? "is-not-valid" : ""
+                }`}
                 type="text"
-                required
+                value={formData.firstName}
+                onChange={handleChange}
               />
             </div>
 
             <div className="last-name-input-box">
               <label className="last-name-label">Last name</label>
               <input
+                name="lastName"
                 placeholder="Akbartabar Kami"
-                className="last-name-input"
+                className={`last-name-input ${
+                  formErrors.lastName ? "is-not-valid" : ""
+                }`}
                 type="text"
-                required
+                value={formData.lastName}
+                onChange={handleChange}
               />
             </div>
 
@@ -67,15 +74,15 @@ export default function BuyCardForm() {
                 Work email
               </label>
               <input
+                name="email"
                 id="email"
                 placeholder="example@gmail.com"
                 className={`work-email-input ${
-                  !validity.email ? "is-not-valid" : ""
+                  formErrors.email ? "is-not-valid" : ""
                 }`}
                 type="text"
-                value={inputs.email}
-                onChange={handleInputChange("email")}
-                required
+                value={formData.email}
+                onChange={handleChange}
               />
             </div>
 
@@ -84,21 +91,30 @@ export default function BuyCardForm() {
                 Website
               </label>
               <input
+                name="website"
                 id="website"
                 placeholder="example.com"
                 className={`website-input ${
-                  !validity.website ? "is-not-valid" : ""
+                  formErrors.website ? "is-not-valid" : ""
                 }`}
                 type="text"
-                value={inputs.website}
-                onChange={handleInputChange("website")}
+                value={formData.website}
+                onChange={handleChange}
               />
             </div>
 
             <div className="compony-size-select-box">
               <label className="compony-size-label">Company size</label>
               <div className="custom-select-wrapper">
-                <select className="compony-size-select">
+                <select
+                  name="companySize"
+                  className={`compony-size-select ${
+                    formErrors.companySize ? "is-not-valid" : ""
+                  }`}
+                  value={formData.companySize}
+                  onChange={handleChange}
+                >
+                  <option value="">Select...</option>
                   <option value="Less than 10">Less than 10</option>
                   <option value="More than 10">More than 10</option>
                   <option value="More than 20">More than 20</option>
@@ -111,7 +127,15 @@ export default function BuyCardForm() {
             <div className="country-select-box">
               <label className="country-label">Country</label>
               <div className="custom-select-wrapper">
-                <select className="compony-size-select">
+                <select
+                  name="country"
+                  className={`country-select ${
+                    formErrors.country ? "is-not-valid" : ""
+                  }`}
+                  value={formData.country}
+                  onChange={handleChange}
+                >
+                  <option value="">Select...</option>
                   <option value="United States">United States</option>
                   <option value="United Kingdom">United Kingdom</option>
                   <option value="Germany">Germany</option>
@@ -123,7 +147,14 @@ export default function BuyCardForm() {
 
             <div className="anything-else-box">
               <label className="anything-else-label">Anything else?</label>
-              <textarea className="anything-else-textarea" required></textarea>
+              <textarea
+                name="anythingElse"
+                className={`anything-else-textarea ${
+                  formErrors.anythingElse ? "is-not-valid" : ""
+                }`}
+                value={formData.anythingElse}
+                onChange={handleChange}
+              />
             </div>
 
             <div className="buy-card-submit-btn-container">
