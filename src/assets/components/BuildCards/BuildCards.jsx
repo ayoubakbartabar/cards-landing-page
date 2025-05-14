@@ -24,7 +24,7 @@ export default function BuildCards() {
           <div className="build-cards-left-side-description-container">
             <img
               className="build-cards-left-side-img"
-              src="public/image/quote-author-01.jpg"
+              src="/image/quote-author-01.jpg"
               alt="quote-author"
             />
             <p className="build-cards-left-side-description">
@@ -67,7 +67,7 @@ export default function BuildCards() {
           </svg>
           <img
             className="build-cards-img"
-            src="public/image/features-02.png"
+            src="/image/features-02.png"
             alt="features-image"
           />
         </div>
