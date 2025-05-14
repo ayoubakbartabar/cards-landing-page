@@ -25,8 +25,8 @@ export default function BusinessCard() {
   const businessCardsArray = [
     {
       id: 1,
-      image: "public/image/testimonial-01.jpg",
-      svg: "public/svg/testimonial-sign-01.svg",
+      image: "/image/testimonial-01.jpg",
+      svg: "/svg/testimonial-sign-01.svg",
       detail:
         "“ This card is awesome. The app lets me link foreign cards with a new one which makes everything 100 times easier. Like Apple Pay, online shopping without useless phone confirmation. I wish I knew this earlier. ”",
       name: "Elisa Koeppel",
@@ -34,8 +34,8 @@ export default function BusinessCard() {
     },
     {
       id: 2,
-      image: "public/image/testimonial-02.jpg",
-      svg: "public/svg/testimonial-sign-02.svg",
+      image: "/image/testimonial-02.jpg",
+      svg: "/svg/testimonial-sign-02.svg",
       detail:
         "“ This card allows us to achieve compliance with minimal effort, spend practically no time on payments-related customer support, and keep the user experience on our platform. “",
       name: "Maria Gress",
@@ -174,7 +174,7 @@ export default function BusinessCard() {
               <li key={i} className="business-card-item-container">
                 <img
                   className="blue-check"
-                  src="public/svg/blue-Check.svg"
+                  src="/svg/blue-Check.svg"
                   alt="check"
                 />
                 <span className="business-card-item">{item}</span>
