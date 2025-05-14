@@ -49,7 +49,7 @@ export default function CustomSuperCards() {
                 {item.features.map((feature, index) => (
                   <li key={index} className="custom-super-cards-item-container">
                     <img
-                      src="public/svg/green-Check.svg"
+                      src="/svg/green-Check.svg"
                       alt="green check"
                       className="custom-super-cards-item-svg"
                     />

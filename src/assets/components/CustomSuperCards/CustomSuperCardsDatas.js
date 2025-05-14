@@ -3,7 +3,7 @@ const CustomSuperCardsArray = [
   {
     id: 1,
     cardType: "Starter",
-    image: "public/image/pricing-01.png",
+    image: "/image/pricing-01.png",
     price: "$0/m",
     buttonTitle: "get starter",
     buttonStyle: "blue-btn",
@@ -20,7 +20,7 @@ const CustomSuperCardsArray = [
   {
     id: 2,
     cardType: "Smart",
-    image: "public/image/pricing-02.png",
+    image: "/image/pricing-02.png",
     price: "$12/m",
     buttonTitle: "get smart",
     buttonStyle: "black-btn",
@@ -39,7 +39,7 @@ const CustomSuperCardsArray = [
   {
     id: 3,
     cardType: "You",
-    image: "public/image/pricing-03.png",
+    image: "/image/pricing-03.png",
     price: "$24/m",
     buttonTitle: "get you",
     buttonStyle: "blue-btn",
@@ -56,7 +56,7 @@ const CustomSuperCardsArray = [
   {
     id: 4,
     cardType: "Black",
-    image: "public/image/pricing-04.png",
+    image: "/image/pricing-04.png",
     price: "$49/m",
     buttonTitle: "get black",
     buttonStyle: "blue-btn",
