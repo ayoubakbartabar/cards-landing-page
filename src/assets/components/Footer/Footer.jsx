@@ -139,7 +139,7 @@ export default function Footer() {
 
           {/* Background illustration image */}
           <img
-            src="public/svg/footer-illustration.svg"
+            src="/svg/footer-illustration.svg"
             alt=""
             className="footer-bottom-image"
           />
