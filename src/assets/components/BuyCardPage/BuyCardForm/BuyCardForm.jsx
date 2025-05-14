@@ -31,6 +31,30 @@ export default function BuyCardForm() {
     setFormErrors((prev) => ({ ...prev, [name]: false }));
   };
 
+  // Handle form submission
+  const handleSubmit = (e) => {
+    e.preventDefault(); // Prevent default form submission (page reload)
+
+    const errors = {}; // Object to store field-specific validation errors
+
+    // Validate each field and set error flags if invalid
+    if (!formData.firstName.trim()) errors.firstName = true;
+    if (!formData.lastName.trim()) errors.lastName = true;
+    if (!validateEmail(formData.email)) errors.email = true;
+    if (!validateWebsite(formData.website)) errors.website = true;
+    if (!formData.companySize) errors.companySize = true;
+    if (!formData.country) errors.country = true;
+    if (!formData.anythingElse.trim()) errors.anythingElse = true;
+
+    // If any error exists, update error state and stop submission
+    if (Object.keys(errors).length > 0) {
+      setFormErrors(errors);
+      return;
+    }
+
+    // If all inputs are valid, proceed with submission
+    console.log("✅ Form submitted successfully:", formData);
+  };
   return (
     <div className="buy-card-form-container">
       <div className="buy-card-form-bg">
