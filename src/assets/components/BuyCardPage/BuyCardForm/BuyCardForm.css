@@ -210,6 +210,10 @@ select {
         justify-content: space-around;
     }
 
+    .custom-select-wrapper {
+        width: 100%;
+    }
+
     .first-name-input,
     .last-name-input,
     .work-email-input,
