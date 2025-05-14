@@ -57,7 +57,7 @@ const HeaderSection = () => {
                     {animationDone && (
                       <img
                         className="circle-bg fade-in"
-                        src="public/svg/background-circle.svg"
+                        src="/svg/background-circle.svg"
                         alt="circle-bg"
                       />
                     )}
@@ -82,12 +82,12 @@ const HeaderSection = () => {
           <div className="header-image-wrapper">
             <img
               className="header-transparent-img"
-              src="public/svg/logos-illustration.svg"
+              src="/svg/logos-illustration.svg"
               alt=""
             />
             <img
               className="header-img"
-              src="public/image/hero-image.png"
+              src="/image/hero-image.png"
               alt="hero-image"
             />
           </div>
