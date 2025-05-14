@@ -60,7 +60,7 @@ export default function BuyCardForm() {
       <div className="buy-card-form-bg">
         <img
           className="form-background-image"
-          src="public/svg/cards-illustration.svg"
+          src="/svg/cards-illustration.svg"
           alt="svg"
         />
         <div className="buy-card-form-box">
