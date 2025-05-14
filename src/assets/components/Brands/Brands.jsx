@@ -46,7 +46,7 @@ export default function Brands() {
                 <div className="physical-stores-item-container" key={index + 1}>
                   <img
                     className="blue-check"
-                    src="public/svg/blue-Check.svg"
+                    src="/svg/blue-Check.svg"
                     alt="blue-Check"
                   />
                   <li className="physical-stores-item">{item}</li>
@@ -59,7 +59,7 @@ export default function Brands() {
                 <div className="online-stores-item-container" key={index + 1}>
                   <img
                     className="blue-check"
-                    src="public/svg/blue-Check.svg"
+                    src="/svg/blue-Check.svg"
                     alt="blue-Check"
                   />
                   <li className="online-stores-item">{item}</li>
@@ -74,7 +74,7 @@ export default function Brands() {
         </div>
         <img
           className="brand-right-side  fade-in-up"
-          src="public/image/features-04.png"
+          src="/image/features-04.png"
           alt="features-04"
         />
       </div>
