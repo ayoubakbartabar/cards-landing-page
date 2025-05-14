@@ -11,7 +11,7 @@ export default function MoneyTransfer() {
     <section className="money-transfer-container" ref={ref}>
       <div className="money-transfer-section">
         <img
-          src="public/image/features-03.png"
+          src="/image/features-03.png"
           alt="features-img"
           className="money-transfer-left-side fade-in-up"
         />
@@ -32,7 +32,7 @@ export default function MoneyTransfer() {
           <div className="money-transfer-left-side-description-container fade-in-up">
             <img
               className="money-transfer-left-side-img"
-              src="public/image/quote-author-02.jpg"
+              src="/image/quote-author-02.jpg"
               alt="quote-author"
             />
             <p className="money-transfer-left-side-description">
