@@ -98,7 +98,7 @@ export default function BuyCardForm() {
             <div className="compony-size-select-box">
               <label className="compony-size-label">Company size</label>
               <div className="custom-select-wrapper">
-                <select className="compony-size-select" required>
+                <select className="compony-size-select">
                   <option value="Less than 10">Less than 10</option>
                   <option value="More than 10">More than 10</option>
                   <option value="More than 20">More than 20</option>
@@ -107,15 +107,18 @@ export default function BuyCardForm() {
                 <IoIosArrowDown className="custom-select-arrow" />
               </div>
             </div>
-            
+
             <div className="country-select-box">
               <label className="country-label">Country</label>
-              <select className="country-select" required>
-                <option value="United States">United States</option>
-                <option value="United Kingdom">United Kingdom</option>
-                <option value="Germany">Germany</option>
-                <option value="Italy">Italy</option>
-              </select>
+              <div className="custom-select-wrapper">
+                <select className="compony-size-select">
+                  <option value="United States">United States</option>
+                  <option value="United Kingdom">United Kingdom</option>
+                  <option value="Germany">Germany</option>
+                  <option value="Italy">Italy</option>
+                </select>
+                <IoIosArrowDown className="custom-select-arrow" />
+              </div>
             </div>
 
             <div className="anything-else-box">
