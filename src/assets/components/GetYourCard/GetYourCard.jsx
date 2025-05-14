@@ -105,7 +105,7 @@ export default function GetYourCard() {
             </g>
           </svg>
           <img
-            src="public/image/logos.png"
+            src="/image/logos.png"
             alt="logos"
             className="getyourcart-img"
           />
