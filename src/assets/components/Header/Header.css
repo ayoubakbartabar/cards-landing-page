@@ -247,7 +247,7 @@
 
 }
 
-@media (max-width: 775px) {
+@media (max-width: 1000px) {
     .header-bottom {
         display: flex;
         flex-direction: column;
