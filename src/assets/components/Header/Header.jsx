@@ -78,7 +78,7 @@ const HeaderSection = () => {
               <GetYourCardBtn onClick={() => BuyCardBtnHandler()} />
 
               <button className="read-doc-btn">
-                <a href="https://github.com/ayoubakbartabar/cards-landing-page">
+                <a className="read-doc-link" href="https://github.com/ayoubakbartabar/cards-landing-page">
                   Read documentation
                 </a>
               </button>
