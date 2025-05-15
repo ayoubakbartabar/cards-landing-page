@@ -55,6 +55,15 @@ export default function BuyCardForm() {
     // If all inputs are valid, proceed with submission
     console.log("✅ Form submitted successfully:", formData);
     setShowModal(true);
+    setFormData({
+      firstName: "",
+      lastName: "",
+      email: "",
+      website: "",
+      companySize: "",
+      country: "",
+      anythingElse: "",
+    });
   };
   return (
     <div className="buy-card-form-container">
@@ -195,8 +204,8 @@ export default function BuyCardForm() {
       {showModal && (
         <div className="modal-overlay">
           <div className="modal-content">
-            <h2>✅ Your information has been successfully submitted.</h2>
-            <button onClick={() => setShowModal(false)}>Close</button>
+            <h2>Your information has been successfully submitted.</h2>
+            <button className="modal-content-button" onClick={() => setShowModal(false)}>Close</button>
           </div>
         </div>
       )}
