@@ -161,12 +161,18 @@
     border: 0;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    color: #ffffff;
     font-weight: 700;
     text-transform: capitalize;
     font-family: inherit;
     z-index: 0;
     overflow: hidden;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.read-doc-btn:visited {
+    color: white;
+    text-decoration: none;
 }
 
 .read-doc-btn-text {
