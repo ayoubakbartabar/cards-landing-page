@@ -1,4 +1,4 @@
-.fqa-section{
+.fqa-section {
     max-width: 1300px;
     padding: 4rem 4.5rem;
     margin: 5rem auto;
@@ -6,6 +6,7 @@
     flex-direction: column;
     gap: 2rem;
 }
+
 .fqa-title {
     font-size: 3rem;
     text-align: center;
@@ -45,7 +46,7 @@
     transform-origin: top left;
     transition: transform 1200ms ease;
     z-index: 0;
-    
+
 }
 
 .fqa-box:hover::before {
@@ -65,9 +66,8 @@
 
 
 @media (max-width: 1024px) {
-    .fqa-section{
+    .fqa-section {
         padding: 3rem 2rem;
-        margin: 0 2rem;
     }
 
     .fqa-title {
@@ -80,7 +80,8 @@
         font-size: 2rem;
     }
 
+
     .fqa-box {
-        padding: 1rem;
+        width: 100%;
     }
 }
