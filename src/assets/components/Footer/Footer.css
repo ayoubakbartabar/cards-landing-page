@@ -249,4 +249,12 @@
         gap: 2rem;
         width: 100%;
     }
+
+    .footer-top-left-side {
+        text-align: center;
+    }
+
+    .footer-top-title {
+        max-width: 100%;
+    }
 }
