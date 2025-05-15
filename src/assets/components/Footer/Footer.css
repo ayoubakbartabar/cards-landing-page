@@ -241,9 +241,7 @@
 
 @media (max-width: 768px) {
     .footer-bottom-image {
-        width: 120px;
-        right: 2rem;
-        bottom: 2rem;
+        display: none;
     }
 
     .footer-bottom-section {
