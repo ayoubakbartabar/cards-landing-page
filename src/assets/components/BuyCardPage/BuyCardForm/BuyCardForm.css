@@ -187,6 +187,21 @@ select {
     animation: slideDownFade 0.3s ease;
 }
 
+.modal-content-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.modal-content-button:hover {
+    background-color: #0056b3;
+}
+
 @keyframes slideDownFade {
     from {
         opacity: 0;
