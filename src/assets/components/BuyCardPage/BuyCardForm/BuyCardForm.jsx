@@ -15,7 +15,7 @@ export default function BuyCardForm() {
   });
 
   const [formErrors, setFormErrors] = useState({});
-
+  const [showModal, setShowModal] = useState(false);
   // Validation functions for each input field
   const validateEmail = (email) =>
     /^[^\s@]+@(gmail\.com|email\.com)$/.test(email);
@@ -54,6 +54,7 @@ export default function BuyCardForm() {
 
     // If all inputs are valid, proceed with submission
     console.log("✅ Form submitted successfully:", formData);
+    setShowModal(true);
   };
   return (
     <div className="buy-card-form-container">
@@ -189,6 +190,16 @@ export default function BuyCardForm() {
           </form>
         </div>
       </div>
+
+      {/* Modal */}
+      {showModal && (
+        <div className="modal-overlay">
+          <div className="modal-content">
+            <h2>✅ Your information has been successfully submitted.</h2>
+            <button onClick={() => setShowModal(false)}>Close</button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
