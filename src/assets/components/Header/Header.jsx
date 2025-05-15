@@ -77,7 +77,11 @@ const HeaderSection = () => {
             <div className="header-left-side-btns">
               <GetYourCardBtn onClick={() => BuyCardBtnHandler()} />
 
-              <button className="read-doc-btn">Read documentation</button>
+              <button className="read-doc-btn">
+                <a href="https://github.com/ayoubakbartabar/cards-landing-page">
+                  Read documentation
+                </a>
+              </button>
             </div>
           </div>
 
