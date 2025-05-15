@@ -162,6 +162,43 @@ select {
     align-items: center;
 }
 
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    z-index: 9999;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 1.5rem 2rem;
+    border-radius: 8px;
+    max-width: 300px;
+    text-align: left;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    animation: slideDownFade 0.3s ease;
+}
+
+@keyframes slideDownFade {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 @media (max-width:1400px) {
     .buy-card-form-container {
         width: 100vw;
