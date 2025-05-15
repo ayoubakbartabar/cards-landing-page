@@ -109,6 +109,7 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    align-content: center;
 }
 
 /* .read-doc-btn {
@@ -150,7 +151,7 @@
 .read-doc-btn {
     position: relative;
     margin: 0;
-    padding: 1rem;
+    padding: 0.9rem 1rem;
     outline: none;
     text-decoration: none;
     display: flex;
@@ -161,9 +162,10 @@
     border: 0;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    font-weight: 700;
     text-transform: capitalize;
-    font-family: inherit;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.7px;
     z-index: 0;
     overflow: hidden;
     color: #ffffff;
@@ -173,15 +175,6 @@
 .read-doc-btn:visited {
     color: white;
     text-decoration: none;
-}
-
-.read-doc-btn-text {
-    text-transform: capitalize;
-    position: relative;
-    z-index: 2;
-    font-size: 0.9rem;
-    font-weight: 700;
-    letter-spacing: 0.7px;
 }
 
 .read-doc-btn:after {
