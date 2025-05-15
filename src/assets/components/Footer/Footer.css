@@ -232,6 +232,13 @@
     }
 }
 
+@media (max-width: 970px) {
+    .footer-bottom-image {
+        left: -69%;
+        max-width: 200%;
+    }
+}
+
 @media (max-width: 768px) {
     .footer-bottom-image {
         width: 120px;
