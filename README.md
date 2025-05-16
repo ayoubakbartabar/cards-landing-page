@@ -45,3 +45,10 @@ To shift the perception of bank card design from a purely administrative task to
 </p>
 
 ---
+
+## 🤝 Contribution & Contact
+
+Feedback, suggestions, and contributions are always welcome.  
+Feel free to reach out if you’re interested in collaborating or have any questions.
+
+---
