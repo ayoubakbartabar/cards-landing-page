@@ -263,3 +263,14 @@
         max-width: 100%;
     }
 }
+
+@media (max-width: 405px) {
+    .footer-top-section {
+        margin: 0;
+        width: 100%;
+    }
+
+    .index-module_type__E-SaG {
+        font-size: 0.9rem;
+    }
+}
