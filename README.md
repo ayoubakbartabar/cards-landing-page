@@ -1,3 +1,5 @@
+<img src="public\image\web-template.png" alt="web-template">
+
 # 💳 CardCraft – Design Your Own Bank Card with Precision & Style
 
 [🔗 Live Demo](https://custom-cards-landingpage.netlify.app)
