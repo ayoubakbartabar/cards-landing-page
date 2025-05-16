@@ -19,8 +19,18 @@
 - Minimalist and attractive UI
 
 ---
+
 ## 🎯 Project Goal
 
 To shift the perception of bank card design from a purely administrative task to a personal and delightful experience. This project gives users the power to build their financial cards uniquely, fostering a sense of ownership and distinction.
+
+---
+
+## 🌐 Use Cases
+
+- A professional portfolio piece for UI/UX developers  
+- An educational tool for practicing responsive design and input validation  
+- A foundation for building personalized bank or credit card apps  
+- An inspirational project for creativity in interactive form design  
 
 ---
