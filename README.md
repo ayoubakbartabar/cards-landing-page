@@ -2,6 +2,9 @@
 
 # 💳 CardCraft – Design Your Own Bank Card with Precision & Style
 
+🌐 Live Demo
+🎨 Experience real-time design and customization of your own bank and visa cards! Simply visit the site and create your unique card instantly.
+
 [🔗 Live Demo](https://custom-cards-landingpage.netlify.app)
 
 ---
@@ -47,23 +50,24 @@ To shift the perception of bank card design from a purely administrative task to
 </p>
 
 ---
+
 ### 🚀 **Getting Started**
 
 Wanna run this project locally? Follow these simple steps to get started in no time!
 
-1. **Clone the repository:**  
+1. **Clone the repository:**
    ```sh
    git clone https://github.com/ayoubakbartabar/cards-landing-page.git
    ```
-2. **Navigate to the project directory:**  
+2. **Navigate to the project directory:**
    ```sh
    cd CUSTOM-CARD-PROJECT
    ```
-3. **Install dependencies:**  
+3. **Install dependencies:**
    ```sh
    npm install
    ```
-4. **Run the development server:**  
+4. **Run the development server:**
    ```sh
    npm run dev
    ```
@@ -76,10 +80,12 @@ Feedback, suggestions, and contributions are always welcome.
 Feel free to reach out if you’re interested in collaborating or have any questions.
 
 ---
+
 ## 👤 About the Developer
 
 Crafted with passion by **[Ayoub Akbartabar](ayoubakbartabar1887@gmail.com)** – a developer who believes digital experiences should feel magical.  
 If this project sparks your interest or you have any questions, feel free to reach out! ✉️
+
 <p align="left">
   <a href="https://www.linkedin.com/in/ayoub-akbartabar-bb78b2212/" target="_blank">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg" alt="LinkedIn" width="50" height="50" style="display: inline-block;"/>
