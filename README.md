@@ -45,6 +45,28 @@ To shift the perception of bank card design from a purely administrative task to
 </p>
 
 ---
+### 🚀 **Getting Started**
+
+Wanna run this project locally? Follow these simple steps to get started in no time!
+
+1. **Clone the repository:**  
+   ```sh
+   git clone https://github.com/ayoubakbartabar/cards-landing-page.git
+   ```
+2. **Navigate to the project directory:**  
+   ```sh
+   cd CUSTOM-CARD-PROJECT
+   ```
+3. **Install dependencies:**  
+   ```sh
+   npm install
+   ```
+4. **Run the development server:**  
+   ```sh
+   npm run dev
+   ```
+
+---
 
 ## 🤝 Contribution & Contact
 
