@@ -42,7 +42,8 @@ To shift the perception of bank card design from a purely administrative task to
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS3" width="50" height="50" style="display: inline-block;"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="50" height="50" style="display: inline-block;"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="50" height="50" style="display: inline-block;"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Regex_Logo.svg" alt="Regex" width="50" height="50" style="display: inline-block;"/>
+  <img src="https://cdn-icons-png.flaticon.com/512/1234/1234321.png" alt="Regex" width="50" height="50" style="display: inline-block;" />
+
 </p>
 
 ---
