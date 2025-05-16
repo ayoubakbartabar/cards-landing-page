@@ -276,7 +276,17 @@
         padding: 4rem 0;
     }
 
-    .index-module_type__E-SaG {
-        font-size: 0.9rem;
+    .footer-top-title {
+        font-size: 1.2rem;
+    }
+
+    .footer-top-text {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .footer-top-right-side {
+        padding: 0 10px;
+        flex-direction: column;
     }
 }
