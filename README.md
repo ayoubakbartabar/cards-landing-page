@@ -28,9 +28,21 @@ To shift the perception of bank card design from a purely administrative task to
 
 ## 🌐 Use Cases
 
-- A professional portfolio piece for UI/UX developers  
-- An educational tool for practicing responsive design and input validation  
-- A foundation for building personalized bank or credit card apps  
-- An inspirational project for creativity in interactive form design  
+- A professional portfolio piece for UI/UX developers
+- An educational tool for practicing responsive design and input validation
+- A foundation for building personalized bank or credit card apps
+- An inspirational project for creativity in interactive form design
+
+---
+
+## 🚀 Technologies Used
+
+<p align="left">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="50" height="50" style="display: inline-block;"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS3" width="50" height="50" style="display: inline-block;"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="50" height="50" style="display: inline-block;"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="50" height="50" style="display: inline-block;"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Regex_Logo.svg" alt="Regex" width="50" height="50" style="display: inline-block;"/>
+</p>
 
 ---
