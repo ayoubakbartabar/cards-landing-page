@@ -178,9 +178,13 @@
         text-align: center;
     }
 
-    .business-card-left-side-title,
+    .business-card-left-side-title{
+        font-size: 2rem;
+        width: 100%;
+    }
     .business-card-left-side-paragraph {
         width: 100%;
+        font-size: 1rem;
     }
 
     .business-card-box {
