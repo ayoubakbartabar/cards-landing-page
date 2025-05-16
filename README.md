@@ -14,7 +14,7 @@
 
 - Instant live preview of card changes
 - Responsive and user-friendly design
-- Precise input validation and control
+- Precise input validation and control using **Regular Expressions (Regex)**
 - Smooth, hassle-free user experience
 - Minimalist and attractive UI
 
